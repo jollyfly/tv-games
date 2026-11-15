@@ -1,0 +1,6041 @@
+{
+  "version": 4,
+  "title": "数字岛大冒险",
+  "levels": [
+    {
+      "id": "forest-1",
+      "number": 1,
+      "world": "forest",
+      "title": "播种",
+      "skill": "数感启蒙",
+      "kind": "count",
+      "guardian": "squirrel",
+      "intro": "第一站，青芽森林。果果的花开了，帮它数一数，一共有几朵花。",
+      "rounds": [
+        {
+          "target": 3,
+          "object": "flower",
+          "options": [
+            2,
+            3,
+            4
+          ],
+          "prompt": "数一数，有几朵花？"
+        },
+        {
+          "target": 5,
+          "object": "flower",
+          "options": [
+            6,
+            5,
+            4
+          ],
+          "prompt": "花园里又开了几朵。数一数，一共有几朵？"
+        },
+        {
+          "target": 4,
+          "object": "flower",
+          "options": [
+            4,
+            3,
+            5
+          ],
+          "prompt": "最后一朵花也开了。现在有几朵花？"
+        }
+      ]
+    },
+    {
+      "id": "forest-2",
+      "number": 2,
+      "world": "forest",
+      "title": "浇水",
+      "skill": "容量与目标",
+      "kind": "quantity",
+      "guardian": "squirrel",
+      "intro": "小刺猬来到果果的花园，它饿啦。看清木牌上的数字，找到正好数量的草莓。",
+      "rounds": [
+        {
+          "target": 2,
+          "object": "strawberry",
+          "options": [
+            2,
+            5,
+            3
+          ],
+          "prompt": "小刺猬想要两颗草莓。哪一盘是两颗？"
+        },
+        {
+          "target": 5,
+          "object": "strawberry",
+          "options": [
+            3,
+            5,
+            2
+          ],
+          "prompt": "这次要五颗草莓。哪一盘正好是五颗？"
+        },
+        {
+          "target": 3,
+          "object": "strawberry",
+          "options": [
+            4,
+            2,
+            3
+          ],
+          "prompt": "最后要三颗草莓。找一找，是哪一盘？"
+        }
+      ]
+    },
+    {
+      "id": "forest-3",
+      "number": 3,
+      "world": "forest",
+      "title": "数字石桥",
+      "skill": "数字顺序",
+      "kind": "sequence",
+      "guardian": "squirrel",
+      "intro": "小溪上的数字桥少了一块。按左右选数字，帮点点过河。",
+      "rounds": [
+        {
+          "sequence": [
+            1,
+            2,
+            null,
+            4,
+            5
+          ],
+          "answer": 3,
+          "options": [
+            3,
+            2,
+            4
+          ],
+          "prompt": "桥中间少了一块。应该放上数字几？"
+        },
+        {
+          "sequence": [
+            1,
+            null,
+            3,
+            4,
+            5
+          ],
+          "answer": 2,
+          "options": [
+            1,
+            2,
+            3
+          ],
+          "prompt": "这次前面的桥板不见了。是数字几？"
+        },
+        {
+          "sequence": [
+            1,
+            2,
+            3,
+            4,
+            null
+          ],
+          "answer": 5,
+          "options": [
+            5,
+            4,
+            6
+          ],
+          "prompt": "最后一块桥板也缺了。补上数字几？"
+        }
+      ]
+    },
+    {
+      "id": "forest-x4",
+      "number": 4,
+      "world": "forest",
+      "title": "萤火虫网",
+      "skill": "观察与目标",
+      "kind": "compare",
+      "guardian": "squirrel",
+      "intro": "来到青芽森林的第 4 站。哪边花更多开始啦，和果果一起看清楚再选。",
+      "rounds": [
+        {
+          "left": 2,
+          "right": 3,
+          "ask": "fewer",
+          "object": "flower",
+          "prompt": "哪边更少？"
+        },
+        {
+          "left": 6,
+          "right": 3,
+          "ask": "fewer",
+          "object": "flower",
+          "prompt": "哪边更少？"
+        },
+        {
+          "left": 2,
+          "right": 5,
+          "ask": "more",
+          "object": "flower",
+          "prompt": "哪边更多？"
+        }
+      ]
+    },
+    {
+      "id": "forest-x5",
+      "number": 5,
+      "world": "forest",
+      "title": "落叶分拣",
+      "skill": "数量分类",
+      "kind": "pattern",
+      "guardian": "squirrel",
+      "intro": "来到青芽森林的第 5 站。叶子规律开始啦，和果果一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "3",
+            "sun",
+            "3",
+            "sun",
+            "3"
+          ],
+          "answer": "sun",
+          "options": [
+            "sun",
+            "star",
+            "3"
+          ],
+          "prompt": "看一看，3、sun、3、sun、3，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "shell",
+            "3",
+            "shell",
+            "3",
+            "shell"
+          ],
+          "answer": "3",
+          "options": [
+            "3",
+            "1"
+          ],
+          "prompt": "看一看，shell、3、shell、3、shell，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "moon",
+            "shell",
+            "moon",
+            "shell",
+            "moon"
+          ],
+          "answer": "shell",
+          "options": [
+            "shell",
+            "fish",
+            "sun"
+          ],
+          "prompt": "看一看，moon、shell、moon、shell、moon，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "forest-x6",
+      "number": 6,
+      "world": "forest",
+      "title": "爬树",
+      "skill": "序数与空间",
+      "kind": "count",
+      "guardian": "squirrel",
+      "intro": "来到青芽森林的第 6 站。花园数一数开始啦，和果果一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 8,
+          "object": "flower",
+          "options": [
+            10,
+            9,
+            8
+          ],
+          "prompt": "数一数，这里有几朵花？"
+        },
+        {
+          "target": 9,
+          "object": "flower",
+          "options": [
+            9,
+            7,
+            4
+          ],
+          "prompt": "数一数，这里有几朵花？"
+        },
+        {
+          "target": 9,
+          "object": "flower",
+          "options": [
+            9,
+            2,
+            3
+          ],
+          "prompt": "数一数，这里有几朵花？"
+        }
+      ]
+    },
+    {
+      "id": "forest-x7",
+      "number": 7,
+      "world": "forest",
+      "title": "蘑菇记忆",
+      "skill": "记忆与配对",
+      "kind": "quantity",
+      "guardian": "squirrel",
+      "intro": "来到青芽森林的第 7 站。一篮草莓开始啦，和果果一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 4,
+          "object": "flower",
+          "options": [
+            4,
+            8,
+            7
+          ],
+          "prompt": "看清目标，要 4朵花。哪一组正好？"
+        },
+        {
+          "target": 3,
+          "object": "flower",
+          "options": [
+            4,
+            2,
+            3
+          ],
+          "prompt": "看清目标，要 3朵花。哪一组正好？"
+        },
+        {
+          "target": 7,
+          "object": "flower",
+          "options": [
+            7,
+            8,
+            3
+          ],
+          "prompt": "看清目标，要 7朵花。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "forest-x8",
+      "number": 8,
+      "world": "forest",
+      "title": "接雨",
+      "skill": "目标与反应",
+      "kind": "maze",
+      "guardian": "squirrel",
+      "intro": "来到青芽森林的第 8 站。树根数字迷宫开始啦，和果果一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            3,
+            2,
+            1,
+            7,
+            7,
+            8,
+            8,
+            9,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            9,
+            8,
+            9,
+            8,
+            1,
+            7,
+            3,
+            2
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            3,
+            2,
+            1,
+            9,
+            9,
+            8,
+            7,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "forest-x9",
+      "number": 9,
+      "world": "forest",
+      "title": "蜜蜂授粉",
+      "skill": "空间移动",
+      "kind": "relation",
+      "guardian": "squirrel",
+      "intro": "来到青芽森林的第 9 站。多一朵少一朵开始啦，和果果一起看清楚再选。",
+      "rounds": [
+        {
+          "base": 6,
+          "delta": -1,
+          "answer": 5,
+          "options": [
+            10,
+            4,
+            5
+          ],
+          "prompt": "少了 1 个。6 − 1 等于几？"
+        },
+        {
+          "base": 7,
+          "delta": 1,
+          "answer": 8,
+          "options": [
+            7,
+            8,
+            1
+          ],
+          "prompt": "又多了 1 个。7 + 1 等于几？"
+        },
+        {
+          "base": 7,
+          "delta": 2,
+          "answer": 9,
+          "options": [
+            9,
+            3,
+            5
+          ],
+          "prompt": "又多了 2 个。7 + 2 等于几？"
+        }
+      ]
+    },
+    {
+      "id": "forest-x10",
+      "number": 10,
+      "world": "forest",
+      "title": "树根迷宫",
+      "skill": "数字迷宫",
+      "kind": "maze",
+      "guardian": "squirrel",
+      "intro": "来到青芽森林的第 10 站。森林星光小路开始啦，和果果一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            7,
+            9,
+            8,
+            8,
+            7,
+            7,
+            9,
+            7,
+            8,
+            7,
+            9,
+            1,
+            9,
+            7,
+            9,
+            5,
+            2,
+            8,
+            9,
+            8,
+            4,
+            3,
+            9,
+            7,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            7,
+            9,
+            7,
+            8,
+            7,
+            7,
+            8,
+            8,
+            1,
+            9,
+            8,
+            9,
+            8,
+            2,
+            9,
+            7,
+            8,
+            4,
+            3,
+            8,
+            8,
+            9,
+            5,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            9,
+            9,
+            9,
+            8,
+            5,
+            4,
+            3,
+            2,
+            1,
+            7,
+            9,
+            8,
+            7,
+            9,
+            7,
+            8,
+            7,
+            9,
+            7,
+            9,
+            8,
+            7,
+            8,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "candy-1",
+      "number": 11,
+      "world": "candy",
+      "title": "糖果传送带",
+      "skill": "数字识别",
+      "kind": "count",
+      "guardian": "bear",
+      "intro": "糖果镇的糖果罐装满了。数一数，罐子里有几颗糖果。",
+      "rounds": [
+        {
+          "target": 6,
+          "object": "candy",
+          "options": [
+            7,
+            6,
+            8
+          ],
+          "prompt": "数一数，罐子里有几颗糖果？"
+        },
+        {
+          "target": 8,
+          "object": "candy",
+          "options": [
+            8,
+            9,
+            7
+          ],
+          "prompt": "糖糖又装了一罐。这次有几颗糖果？"
+        },
+        {
+          "target": 10,
+          "object": "candy",
+          "options": [
+            9,
+            8,
+            10
+          ],
+          "prompt": "最后一罐满满的。数一数，有几颗？"
+        }
+      ]
+    },
+    {
+      "id": "candy-2",
+      "number": 12,
+      "world": "candy",
+      "title": "糖果天平",
+      "skill": "数量平衡",
+      "kind": "quantity",
+      "guardian": "bear",
+      "intro": "糖糖要打包糖果。看清木牌上的数字，找到正好数量的一盘。",
+      "rounds": [
+        {
+          "target": 7,
+          "object": "candy",
+          "options": [
+            6,
+            7,
+            9
+          ],
+          "prompt": "糖糖要七颗糖果。哪一盘正好是七颗？"
+        },
+        {
+          "target": 9,
+          "object": "candy",
+          "options": [
+            9,
+            8,
+            7
+          ],
+          "prompt": "这次要九颗糖果。找一找，是哪一盘？"
+        },
+        {
+          "target": 6,
+          "object": "candy",
+          "options": [
+            7,
+            6,
+            8
+          ],
+          "prompt": "最后一包要六颗。是哪一盘呢？"
+        }
+      ]
+    },
+    {
+      "id": "candy-3",
+      "number": 13,
+      "world": "candy",
+      "title": "糖纸包装",
+      "skill": "颜色顺序",
+      "kind": "sequence",
+      "guardian": "bear",
+      "intro": "糖果小火车要出发了，有一节车厢的数字被云朵遮住了。",
+      "rounds": [
+        {
+          "sequence": [
+            5,
+            6,
+            null,
+            8,
+            9
+          ],
+          "answer": 7,
+          "options": [
+            7,
+            6,
+            8
+          ],
+          "prompt": "小火车少了一节。这里是数字几？"
+        },
+        {
+          "sequence": [
+            6,
+            7,
+            8,
+            null,
+            10
+          ],
+          "answer": 9,
+          "options": [
+            8,
+            9,
+            10
+          ],
+          "prompt": "云朵又遮住了一节。数字是几？"
+        },
+        {
+          "sequence": [
+            4,
+            5,
+            null,
+            7,
+            8
+          ],
+          "answer": 6,
+          "options": [
+            7,
+            5,
+            6
+          ],
+          "prompt": "最后一节车厢。补上数字几？"
+        }
+      ]
+    },
+    {
+      "id": "candy-x4",
+      "number": 14,
+      "world": "candy",
+      "title": "夹糖机",
+      "skill": "目标与手眼协调",
+      "kind": "compare",
+      "guardian": "bear",
+      "intro": "来到糖果镇的第 4 站。哪条传送带更多开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "left": 4,
+          "right": 8,
+          "ask": "fewer",
+          "object": "candy",
+          "prompt": "哪边更少？"
+        },
+        {
+          "left": 6,
+          "right": 7,
+          "ask": "more",
+          "object": "candy",
+          "prompt": "哪边更多？"
+        },
+        {
+          "left": 8,
+          "right": 3,
+          "ask": "more",
+          "object": "candy",
+          "prompt": "哪边更多？"
+        }
+      ]
+    },
+    {
+      "id": "candy-x5",
+      "number": 15,
+      "world": "candy",
+      "title": "糖果电梯",
+      "skill": "序数与楼层",
+      "kind": "pattern",
+      "guardian": "bear",
+      "intro": "来到糖果镇的第 5 站。糖纸规律开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "2",
+            "shell",
+            "2",
+            "shell",
+            "2"
+          ],
+          "answer": "shell",
+          "options": [
+            "shell",
+            "3",
+            "1"
+          ],
+          "prompt": "看一看，2、shell、2、shell、2，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "1",
+            "shell",
+            "1",
+            "shell",
+            "1"
+          ],
+          "answer": "shell",
+          "options": [
+            "shell",
+            "3"
+          ],
+          "prompt": "看一看，1、shell、1、shell、1，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "2",
+            "sun",
+            "2",
+            "sun",
+            "2"
+          ],
+          "answer": "sun",
+          "options": [
+            "sun",
+            "1",
+            "fish"
+          ],
+          "prompt": "看一看，2、sun、2、sun、2，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "candy-x6",
+      "number": 16,
+      "world": "candy",
+      "title": "糖果托盘",
+      "skill": "数量控制",
+      "kind": "quantity",
+      "guardian": "bear",
+      "intro": "来到糖果镇的第 6 站。糖果工厂开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 9,
+          "object": "candy",
+          "options": [
+            7,
+            10,
+            9
+          ],
+          "prompt": "看清目标，要 9颗糖。哪一组正好？"
+        },
+        {
+          "target": 8,
+          "object": "candy",
+          "options": [
+            2,
+            7,
+            8
+          ],
+          "prompt": "看清目标，要 8颗糖。哪一组正好？"
+        },
+        {
+          "target": 4,
+          "object": "candy",
+          "options": [
+            4,
+            8,
+            7
+          ],
+          "prompt": "看清目标，要 4颗糖。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "candy-x7",
+      "number": 17,
+      "world": "candy",
+      "title": "糖果罐",
+      "skill": "连续装取",
+      "kind": "count",
+      "guardian": "bear",
+      "intro": "来到糖果镇的第 7 站。一盒糖果开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 7,
+          "object": "candy",
+          "options": [
+            7,
+            10,
+            1
+          ],
+          "prompt": "数一数，这里有几颗糖？"
+        },
+        {
+          "target": 4,
+          "object": "candy",
+          "options": [
+            8,
+            2,
+            4
+          ],
+          "prompt": "数一数，这里有几颗糖？"
+        },
+        {
+          "target": 4,
+          "object": "candy",
+          "options": [
+            4,
+            1,
+            6
+          ],
+          "prompt": "数一数，这里有几颗糖？"
+        }
+      ]
+    },
+    {
+      "id": "candy-x8",
+      "number": 18,
+      "world": "candy",
+      "title": "糖果管道",
+      "skill": "空间旋转",
+      "kind": "maze",
+      "guardian": "bear",
+      "intro": "来到糖果镇的第 8 站。糖果迷宫开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            2,
+            1,
+            8,
+            3,
+            8,
+            9,
+            8,
+            8,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            3,
+            8,
+            7,
+            2,
+            8,
+            9,
+            1,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            2,
+            1,
+            8,
+            3,
+            8,
+            9,
+            8,
+            7,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "candy-x9",
+      "number": 19,
+      "world": "candy",
+      "title": "糖果拉霸",
+      "skill": "时机与配对",
+      "kind": "relation",
+      "guardian": "bear",
+      "intro": "来到糖果镇的第 9 站。糖果数量关系开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "base": 6,
+          "delta": 1,
+          "answer": 7,
+          "options": [
+            4,
+            7,
+            2
+          ],
+          "prompt": "又多了 1 个。6 + 1 等于几？"
+        },
+        {
+          "base": 6,
+          "delta": 1,
+          "answer": 7,
+          "options": [
+            3,
+            7,
+            9
+          ],
+          "prompt": "又多了 1 个。6 + 1 等于几？"
+        },
+        {
+          "base": 7,
+          "delta": -1,
+          "answer": 6,
+          "options": [
+            9,
+            2,
+            6
+          ],
+          "prompt": "少了 1 个。7 − 1 等于几？"
+        }
+      ]
+    },
+    {
+      "id": "candy-x10",
+      "number": 20,
+      "world": "candy",
+      "title": "糖果弹珠",
+      "skill": "目标投掷",
+      "kind": "maze",
+      "guardian": "bear",
+      "intro": "来到糖果镇的第 10 站。糖果镇夜灯开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            7,
+            8,
+            7,
+            8,
+            7,
+            8,
+            7,
+            8,
+            7,
+            8,
+            8,
+            8,
+            9,
+            8,
+            9,
+            9,
+            1,
+            2,
+            7,
+            9,
+            5,
+            4,
+            3,
+            7,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            9,
+            9,
+            8,
+            8,
+            9,
+            8,
+            2,
+            1,
+            9,
+            9,
+            9,
+            3,
+            4,
+            5,
+            9,
+            9,
+            8,
+            7,
+            7,
+            7,
+            9,
+            7,
+            7,
+            8,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            9,
+            7,
+            7,
+            9,
+            8,
+            8,
+            8,
+            7,
+            7,
+            9,
+            9,
+            9,
+            8,
+            8,
+            5,
+            7,
+            7,
+            9,
+            7,
+            4,
+            8,
+            9,
+            1,
+            2,
+            3
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "castle-x1",
+      "number": 21,
+      "world": "castle",
+      "title": "镜面点灯",
+      "skill": "镜像与观察",
+      "kind": "count",
+      "guardian": "owl",
+      "intro": "来到星光城堡的第 1 站。城门数字开始啦，和星宝一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 7,
+          "object": "star",
+          "options": [
+            10,
+            7,
+            8
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 6,
+          "object": "star",
+          "options": [
+            6,
+            3,
+            2
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 6,
+          "object": "star",
+          "options": [
+            6,
+            1,
+            10
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        }
+      ]
+    },
+    {
+      "id": "castle-x2",
+      "number": 22,
+      "world": "castle",
+      "title": "星座连线",
+      "skill": "数字顺序",
+      "kind": "quantity",
+      "guardian": "owl",
+      "intro": "来到星光城堡的第 2 站。星星的数量开始啦，和星宝一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 3,
+          "object": "star",
+          "options": [
+            1,
+            2,
+            3
+          ],
+          "prompt": "看清目标，要 3颗星星。哪一组正好？"
+        },
+        {
+          "target": 8,
+          "object": "star",
+          "options": [
+            7,
+            4,
+            8
+          ],
+          "prompt": "看清目标，要 8颗星星。哪一组正好？"
+        },
+        {
+          "target": 6,
+          "object": "star",
+          "options": [
+            6,
+            9,
+            10
+          ],
+          "prompt": "看清目标，要 6颗星星。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "castle-x3",
+      "number": 23,
+      "world": "castle",
+      "title": "烛台计数",
+      "skill": "数量控制",
+      "kind": "sequence",
+      "guardian": "owl",
+      "intro": "来到星光城堡的第 3 站。数字台阶开始啦，和星宝一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            3,
+            4,
+            5,
+            null
+          ],
+          "answer": 6,
+          "options": [
+            5,
+            8,
+            6
+          ],
+          "prompt": "数字在排队，3、4、5，下一个是几？"
+        },
+        {
+          "sequence": [
+            4,
+            5,
+            6,
+            null
+          ],
+          "answer": 7,
+          "options": [
+            9,
+            5,
+            7
+          ],
+          "prompt": "数字在排队，4、5、6，下一个是几？"
+        },
+        {
+          "sequence": [
+            1,
+            2,
+            3,
+            null
+          ],
+          "answer": 4,
+          "options": [
+            2,
+            1,
+            4
+          ],
+          "prompt": "数字在排队，1、2、3，下一个是几？"
+        }
+      ]
+    },
+    {
+      "id": "castle-1",
+      "number": 24,
+      "world": "castle",
+      "title": "钟楼指针",
+      "skill": "钟面与数字",
+      "kind": "compare",
+      "guardian": "owl",
+      "intro": "星光城堡的星星落到了两朵云上。比一比，哪边更多，哪边更少。",
+      "rounds": [
+        {
+          "left": 5,
+          "right": 7,
+          "ask": "more",
+          "object": "star",
+          "prompt": "哪边的星星更多？"
+        },
+        {
+          "left": 4,
+          "right": 6,
+          "ask": "fewer",
+          "object": "star",
+          "prompt": "这一次，哪边的星星更少？"
+        },
+        {
+          "left": 8,
+          "right": 7,
+          "ask": "more",
+          "object": "star",
+          "prompt": "最后一组星星。哪边更多？"
+        }
+      ]
+    },
+    {
+      "id": "castle-2",
+      "number": 25,
+      "world": "castle",
+      "title": "吊桥蓄力",
+      "skill": "力度控制",
+      "kind": "pattern",
+      "guardian": "owl",
+      "intro": "星光小径上有规律，月亮、星星排着队。接下来该谁了？",
+      "rounds": [
+        {
+          "sequence": [
+            "moon",
+            "star",
+            "moon",
+            "star"
+          ],
+          "answer": "moon",
+          "options": [
+            "moon",
+            "star",
+            "cloud"
+          ],
+          "prompt": "月亮、星星、月亮、星星，接下来是什么？"
+        },
+        {
+          "sequence": [
+            "star",
+            "star",
+            "moon",
+            "star",
+            "star",
+            "moon"
+          ],
+          "answer": "star",
+          "options": [
+            "moon",
+            "star",
+            "cloud"
+          ],
+          "prompt": "这个队伍更长。接下来应该是什么？"
+        },
+        {
+          "sequence": [
+            "1",
+            "2",
+            "1",
+            "2"
+          ],
+          "answer": "1",
+          "options": [
+            "2",
+            "1",
+            "3"
+          ],
+          "prompt": "数字也来排队啦。1、2、1、2，接下来是几？"
+        }
+      ]
+    },
+    {
+      "id": "castle-3",
+      "number": 26,
+      "world": "castle",
+      "title": "城门齿轮",
+      "skill": "旋转对齐",
+      "kind": "ordinal",
+      "guardian": "owl",
+      "intro": "小动物们在星光城堡排队，小旗在队伍最左边。",
+      "rounds": [
+        {
+          "lineup": [
+            "squirrel",
+            "bear",
+            "owl",
+            "fox",
+            "firefly"
+          ],
+          "position": 2,
+          "answer": "bear",
+          "options": [
+            "owl",
+            "bear",
+            "fox"
+          ],
+          "prompt": "从小旗这边数，谁排在第二个？"
+        },
+        {
+          "lineup": [
+            "squirrel",
+            "bear",
+            "owl",
+            "fox",
+            "firefly"
+          ],
+          "position": 4,
+          "answer": "fox",
+          "options": [
+            "fox",
+            "owl",
+            "bear"
+          ],
+          "prompt": "谁排在第四个？"
+        },
+        {
+          "lineup": [
+            "squirrel",
+            "bear",
+            "owl",
+            "fox",
+            "firefly"
+          ],
+          "position": 1,
+          "answer": "squirrel",
+          "options": [
+            "firefly",
+            "bear",
+            "squirrel"
+          ],
+          "prompt": "最后一个问题。谁排在第一个？"
+        }
+      ]
+    },
+    {
+      "id": "castle-x7",
+      "number": 27,
+      "world": "castle",
+      "title": "骑士巡城",
+      "skill": "数字迷宫",
+      "kind": "maze",
+      "guardian": "owl",
+      "intro": "来到星光城堡的第 7 站。塔内小路开始啦，和星宝一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            9,
+            8,
+            1,
+            7,
+            3,
+            2,
+            8,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            3,
+            9,
+            7,
+            2,
+            1,
+            8,
+            7,
+            7,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            9,
+            3,
+            8,
+            8,
+            2,
+            9,
+            9,
+            1
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "castle-x8",
+      "number": 28,
+      "world": "castle",
+      "title": "塔楼寻窗",
+      "skill": "观察与目标",
+      "kind": "relation",
+      "guardian": "owl",
+      "intro": "来到星光城堡的第 8 站。多一颗少一颗开始啦，和星宝一起看清楚再选。",
+      "rounds": [
+        {
+          "base": 6,
+          "delta": -1,
+          "answer": 5,
+          "options": [
+            5,
+            6,
+            9
+          ],
+          "prompt": "少了 1 个。6 − 1 等于几？"
+        },
+        {
+          "base": 7,
+          "delta": 1,
+          "answer": 8,
+          "options": [
+            2,
+            8,
+            9
+          ],
+          "prompt": "又多了 1 个。7 + 1 等于几？"
+        },
+        {
+          "base": 6,
+          "delta": 1,
+          "answer": 7,
+          "options": [
+            7,
+            10,
+            3
+          ],
+          "prompt": "又多了 1 个。6 + 1 等于几？"
+        }
+      ]
+    },
+    {
+      "id": "castle-x9",
+      "number": 29,
+      "world": "castle",
+      "title": "王座归位",
+      "skill": "顺序排列",
+      "kind": "maze",
+      "guardian": "owl",
+      "intro": "来到星光城堡的第 9 站。塔顶数字迷宫开始啦，和星宝一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            8,
+            7,
+            8,
+            9,
+            8,
+            7,
+            7,
+            8,
+            8,
+            8,
+            8,
+            7,
+            7,
+            5,
+            4,
+            8,
+            7,
+            8,
+            9,
+            3,
+            8,
+            9,
+            8,
+            1,
+            2
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            8,
+            9,
+            8,
+            8,
+            9,
+            8,
+            9,
+            7,
+            9,
+            7,
+            3,
+            4,
+            8,
+            7,
+            1,
+            2,
+            5,
+            8,
+            7,
+            9,
+            9,
+            8,
+            9,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            8,
+            3,
+            4,
+            5,
+            8,
+            7,
+            2,
+            8,
+            7,
+            8,
+            9,
+            1,
+            9,
+            8,
+            9,
+            8,
+            7,
+            7,
+            7,
+            8,
+            8,
+            9,
+            9,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "castle-x10",
+      "number": 30,
+      "world": "castle",
+      "title": "舞会舞步",
+      "skill": "动作记忆",
+      "kind": "pattern",
+      "guardian": "owl",
+      "intro": "来到星光城堡的第 10 站。星光城堡庆典开始啦，和星宝一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "2",
+            "fish",
+            "2",
+            "fish",
+            "2"
+          ],
+          "answer": "fish",
+          "options": [
+            "fish",
+            "cloud"
+          ],
+          "prompt": "看一看，2、fish、2、fish、2，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "sun",
+            "3",
+            "sun",
+            "3",
+            "sun"
+          ],
+          "answer": "3",
+          "options": [
+            "3",
+            "moon"
+          ],
+          "prompt": "看一看，sun、3、sun、3、sun，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "1",
+            "fish",
+            "1",
+            "fish",
+            "1"
+          ],
+          "answer": "fish",
+          "options": [
+            "fish",
+            "2",
+            "cloud"
+          ],
+          "prompt": "看一看，1、fish、1、fish、1，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "sky-x1",
+      "number": 31,
+      "world": "sky",
+      "title": "飞机大战",
+      "skill": "目标与射击",
+      "kind": "count",
+      "guardian": "firefly",
+      "intro": "来到云上天空的第 1 站。云朵数一数开始啦，和萤萤一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 5,
+          "object": "star",
+          "options": [
+            6,
+            5,
+            10
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 7,
+          "object": "star",
+          "options": [
+            6,
+            7,
+            1
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 8,
+          "object": "star",
+          "options": [
+            2,
+            8,
+            5
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        }
+      ]
+    },
+    {
+      "id": "sky-x2",
+      "number": 32,
+      "world": "sky",
+      "title": "云门穿越",
+      "skill": "时机与数字",
+      "kind": "quantity",
+      "guardian": "firefly",
+      "intro": "来到云上天空的第 2 站。云朵星星罐开始啦，和萤萤一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 6,
+          "object": "star",
+          "options": [
+            7,
+            5,
+            6
+          ],
+          "prompt": "看清目标，要 6颗星星。哪一组正好？"
+        },
+        {
+          "target": 4,
+          "object": "star",
+          "options": [
+            6,
+            4,
+            3
+          ],
+          "prompt": "看清目标，要 4颗星星。哪一组正好？"
+        },
+        {
+          "target": 6,
+          "object": "star",
+          "options": [
+            6,
+            10,
+            8
+          ],
+          "prompt": "看清目标，要 6颗星星。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "sky-x3",
+      "number": 33,
+      "world": "sky",
+      "title": "热气球",
+      "skill": "高度控制",
+      "kind": "sequence",
+      "guardian": "firefly",
+      "intro": "来到云上天空的第 3 站。云上数字桥开始啦，和萤萤一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            1,
+            2,
+            3,
+            null
+          ],
+          "answer": 4,
+          "options": [
+            8,
+            4,
+            3
+          ],
+          "prompt": "数字在排队，1、2、3，下一个是几？"
+        },
+        {
+          "sequence": [
+            4,
+            6,
+            8,
+            null
+          ],
+          "answer": 10,
+          "options": [
+            12,
+            7,
+            10
+          ],
+          "prompt": "数字在排队，4、6、8，下一个是几？"
+        },
+        {
+          "sequence": [
+            2,
+            4,
+            6,
+            null
+          ],
+          "answer": 8,
+          "options": [
+            11,
+            8,
+            6
+          ],
+          "prompt": "数字在排队，2、4、6，下一个是几？"
+        }
+      ]
+    },
+    {
+      "id": "sky-x4",
+      "number": 34,
+      "world": "sky",
+      "title": "空中接星",
+      "skill": "移动接取",
+      "kind": "compare",
+      "guardian": "firefly",
+      "intro": "来到云上天空的第 4 站。哪片云更多开始啦，和萤萤一起看清楚再选。",
+      "rounds": [
+        {
+          "left": 4,
+          "right": 6,
+          "ask": "more",
+          "object": "star",
+          "prompt": "哪边更多？"
+        },
+        {
+          "left": 3,
+          "right": 2,
+          "ask": "fewer",
+          "object": "star",
+          "prompt": "哪边更少？"
+        },
+        {
+          "left": 8,
+          "right": 3,
+          "ask": "fewer",
+          "object": "star",
+          "prompt": "哪边更少？"
+        }
+      ]
+    },
+    {
+      "id": "sky-1",
+      "number": 35,
+      "world": "sky",
+      "title": "云朵跳台",
+      "skill": "节奏起跳",
+      "kind": "plane",
+      "guardian": "firefly",
+      "intro": "城堡上空来了一群数字敌机。坐上点点号飞机，瞄准正确的数字，把它们变成星星。",
+      "rounds": [
+        {
+          "target": 6,
+          "options": [
+            3,
+            6,
+            9
+          ],
+          "mode": "number",
+          "prompt": "敌机来啦！击落写着 6 的那一架。"
+        },
+        {
+          "target": 4,
+          "options": [
+            4,
+            6,
+            3
+          ],
+          "mode": "quantity",
+          "prompt": "看清星星！击落带着 4 颗星星的飞机。"
+        },
+        {
+          "target": 8,
+          "options": [
+            8,
+            6,
+            9
+          ],
+          "mode": "number",
+          "prompt": "最后一架！击落写着 8 的飞机。"
+        }
+      ]
+    },
+    {
+      "id": "sky-2",
+      "number": 36,
+      "world": "sky",
+      "title": "雷暴闪避",
+      "skill": "躲闪与目标",
+      "kind": "quantity",
+      "guardian": "firefly",
+      "intro": "云朵里藏着星星罐。看清木牌上的数字，找到正好数量的那一罐。",
+      "rounds": [
+        {
+          "target": 3,
+          "object": "star",
+          "options": [
+            3,
+            5,
+            6
+          ],
+          "prompt": "找到有 3 颗星星的云朵罐。"
+        },
+        {
+          "target": 6,
+          "object": "star",
+          "options": [
+            6,
+            4,
+            5
+          ],
+          "prompt": "这次要 6 颗星星。哪一罐正好？"
+        },
+        {
+          "target": 5,
+          "object": "star",
+          "options": [
+            5,
+            3,
+            6
+          ],
+          "prompt": "最后一罐，找到正好 5 颗的。"
+        }
+      ]
+    },
+    {
+      "id": "sky-3",
+      "number": 37,
+      "world": "sky",
+      "title": "风向标",
+      "skill": "方向序列",
+      "kind": "pattern",
+      "guardian": "firefly",
+      "intro": "云朵、太阳和星星在排队，它们有自己的节奏。找出下一个是谁。",
+      "rounds": [
+        {
+          "sequence": [
+            "cloud",
+            "sun",
+            "cloud",
+            "sun",
+            "cloud"
+          ],
+          "answer": "sun",
+          "options": [
+            "sun",
+            "cloud",
+            "star"
+          ],
+          "prompt": "云朵、太阳、云朵、太阳、云朵，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "star",
+            "star",
+            "cloud",
+            "star",
+            "star"
+          ],
+          "answer": "cloud",
+          "options": [
+            "moon",
+            "cloud",
+            "sun"
+          ],
+          "prompt": "两颗星星一朵云，接下来该谁啦？"
+        },
+        {
+          "sequence": [
+            "1",
+            "2",
+            "1",
+            "2",
+            "1"
+          ],
+          "answer": "2",
+          "options": [
+            "2",
+            "1",
+            "3"
+          ],
+          "prompt": "数字也在排队。1、2、1、2、1，下一个是几？"
+        }
+      ]
+    },
+    {
+      "id": "sky-4",
+      "number": 38,
+      "world": "sky",
+      "title": "候鸟排队",
+      "skill": "数字顺序",
+      "kind": "maze",
+      "guardian": "firefly",
+      "intro": "云上有一座数字迷宫。按 1、2、3、4、5 的顺序穿过云朵，找到云朵城堡。",
+      "rounds": [
+        {
+          "grid": [
+            7,
+            8,
+            6,
+            9,
+            7,
+            9,
+            6,
+            8,
+            7,
+            6,
+            8,
+            4,
+            5,
+            9,
+            7,
+            2,
+            3,
+            8,
+            6,
+            9,
+            1,
+            7,
+            6,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "云朵城堡",
+          "prompt": "先找到 1，再按顺序走到 5，找到云朵城堡。"
+        },
+        {
+          "grid": [
+            7,
+            8,
+            6,
+            9,
+            1,
+            6,
+            9,
+            7,
+            3,
+            2,
+            8,
+            6,
+            7,
+            4,
+            5,
+            9,
+            7,
+            8,
+            6,
+            9,
+            6,
+            8,
+            7,
+            9,
+            6
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "云朵城堡",
+          "prompt": "这次的 1 在右上角。按顺序走到 5。"
+        },
+        {
+          "grid": [
+            1,
+            7,
+            8,
+            9,
+            7,
+            2,
+            5,
+            6,
+            7,
+            8,
+            3,
+            4,
+            9,
+            8,
+            9,
+            7,
+            8,
+            9,
+            7,
+            8,
+            8,
+            7,
+            9,
+            8,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "cols": 5,
+          "goalLabel": "云朵城堡",
+          "prompt": "最长的云路，从 1 一直走到 6。慢慢来。"
+        }
+      ]
+    },
+    {
+      "id": "sky-5",
+      "number": 39,
+      "world": "sky",
+      "title": "彩虹涂色",
+      "skill": "颜色顺序",
+      "kind": "relation",
+      "guardian": "firefly",
+      "intro": "云朵在变魔术：有时候多一个，有时候少一个。算一算，选出正确的数字。",
+      "rounds": [
+        {
+          "base": 4,
+          "delta": 1,
+          "answer": 5,
+          "options": [
+            4,
+            5,
+            6
+          ],
+          "prompt": "云朵上有 4 颗星星，又飘来 1 颗。现在一共有几颗？"
+        },
+        {
+          "base": 7,
+          "delta": -1,
+          "answer": 6,
+          "options": [
+            6,
+            7,
+            8
+          ],
+          "prompt": "7 颗星星被风吹走 1 颗。还剩几颗？"
+        },
+        {
+          "base": 5,
+          "delta": 2,
+          "answer": 7,
+          "options": [
+            6,
+            7,
+            8
+          ],
+          "prompt": "左边 5 颗，右边 2 颗，合起来一共几颗？"
+        }
+      ]
+    },
+    {
+      "id": "lighthouse-1",
+      "number": 40,
+      "world": "sky",
+      "title": "云上灯塔",
+      "skill": "数字迷宫",
+      "kind": "maze",
+      "guardian": "owl",
+      "intro": "星光灯塔亮了。海面下浮起一条发光的小路，新的海底冒险要开始啦！",
+      "rounds": [
+        {
+          "grid": [
+            1,
+            2,
+            7,
+            4,
+            3,
+            5,
+            6,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "prompt": "先找到 1，然后按方向键走到 2、3。",
+          "goalLabel": "灯塔"
+        },
+        {
+          "grid": [
+            1,
+            2,
+            3,
+            8,
+            9,
+            4,
+            7,
+            6,
+            5
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "cols": 3,
+          "prompt": "这次要走到 4。按方向键，找下一个数字。",
+          "goalLabel": "灯塔"
+        },
+        {
+          "grid": [
+            1,
+            2,
+            9,
+            4,
+            3,
+            8,
+            5,
+            6,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "cols": 3,
+          "prompt": "最后一条路，从 1 一直走到 6。慢慢来。",
+          "goalLabel": "灯塔"
+        }
+      ]
+    },
+    {
+      "id": "ocean-1",
+      "number": 41,
+      "world": "ocean",
+      "title": "数字捕鱼",
+      "skill": "目标与手眼协调",
+      "kind": "plane",
+      "guardian": "turtle",
+      "intro": "海底鱼群游来啦。坐上点点号潜水艇，用数字泡泡网捕到正确的鱼。",
+      "rounds": [
+        {
+          "target": 7,
+          "options": [
+            5,
+            7,
+            9
+          ],
+          "mode": "number",
+          "theme": "ocean",
+          "prompt": "鱼群游来啦！捕到写着 7 的那条鱼。"
+        },
+        {
+          "target": 4,
+          "options": [
+            4,
+            6,
+            3
+          ],
+          "mode": "quantity",
+          "theme": "ocean",
+          "prompt": "看清鱼泡泡里的星星。捕到带 4 颗星星的鱼。"
+        },
+        {
+          "target": 9,
+          "options": [
+            9,
+            6,
+            8
+          ],
+          "mode": "number",
+          "theme": "ocean",
+          "prompt": "最后一条！捕到写着 9 的鱼。"
+        }
+      ]
+    },
+    {
+      "id": "ocean-2",
+      "number": 42,
+      "world": "ocean",
+      "title": "海星采集",
+      "skill": "数量控制",
+      "kind": "count",
+      "guardian": "turtle",
+      "intro": "海底沙地上有好多海星。用小手点着，数一数一共有几个。",
+      "rounds": [
+        {
+          "target": 4,
+          "object": "starfish",
+          "options": [
+            4,
+            6,
+            3
+          ],
+          "prompt": "数一数，有几只海星？"
+        },
+        {
+          "target": 6,
+          "object": "starfish",
+          "options": [
+            5,
+            6,
+            7
+          ],
+          "prompt": "珊瑚边又来了几只海星。现在有几只？"
+        },
+        {
+          "target": 3,
+          "object": "starfish",
+          "options": [
+            3,
+            4,
+            2
+          ],
+          "prompt": "最后数一数，这一堆海星有几只？"
+        }
+      ]
+    },
+    {
+      "id": "ocean-3",
+      "number": 43,
+      "world": "ocean",
+      "title": "珍珠下潜",
+      "skill": "深度控制",
+      "kind": "quantity",
+      "guardian": "turtle",
+      "intro": "小海龟收集了三盒珍珠。看清木牌上的数字，找到正好数量的宝盒。",
+      "rounds": [
+        {
+          "target": 5,
+          "object": "pearl",
+          "options": [
+            5,
+            7,
+            4
+          ],
+          "prompt": "找到有 5 颗珍珠的宝盒。"
+        },
+        {
+          "target": 7,
+          "object": "pearl",
+          "options": [
+            6,
+            7,
+            8
+          ],
+          "prompt": "这次要 7 颗珍珠。哪一盒正好？"
+        },
+        {
+          "target": 4,
+          "object": "pearl",
+          "options": [
+            4,
+            6,
+            5
+          ],
+          "prompt": "最后一盒，找到正好 4 颗的。"
+        }
+      ]
+    },
+    {
+      "id": "ocean-4",
+      "number": 44,
+      "world": "ocean",
+      "title": "珊瑚种植",
+      "skill": "目标种植",
+      "kind": "pattern",
+      "guardian": "turtle",
+      "intro": "小鱼、贝壳和海星在排队。跟着它们的节奏，找出下一个。",
+      "rounds": [
+        {
+          "sequence": [
+            "fish",
+            "shell",
+            "fish",
+            "shell",
+            "fish"
+          ],
+          "answer": "shell",
+          "options": [
+            "shell",
+            "fish",
+            "star"
+          ],
+          "prompt": "小鱼、贝壳、小鱼、贝壳、小鱼，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "star",
+            "star",
+            "fish",
+            "star",
+            "star"
+          ],
+          "answer": "fish",
+          "options": [
+            "fish",
+            "shell",
+            "star"
+          ],
+          "prompt": "两颗海星一条鱼，接下来该谁啦？"
+        },
+        {
+          "sequence": [
+            "1",
+            "3",
+            "1",
+            "3",
+            "1"
+          ],
+          "answer": "3",
+          "options": [
+            "3",
+            "1",
+            "5"
+          ],
+          "prompt": "数字也在排队。1、3、1、3、1，下一个是几？"
+        }
+      ]
+    },
+    {
+      "id": "ocean-5",
+      "number": 45,
+      "world": "ocean",
+      "title": "潜艇迷宫",
+      "skill": "数字迷宫",
+      "kind": "maze",
+      "guardian": "turtle",
+      "intro": "珊瑚礁里有一座数字迷宫。按 1、2、3、4、5 的顺序穿过珊瑚，找到珊瑚城堡。",
+      "rounds": [
+        {
+          "grid": [
+            7,
+            8,
+            6,
+            9,
+            7,
+            9,
+            6,
+            8,
+            7,
+            6,
+            8,
+            4,
+            5,
+            9,
+            7,
+            2,
+            3,
+            8,
+            6,
+            9,
+            1,
+            7,
+            6,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "珊瑚城堡",
+          "prompt": "先找到 1，再按顺序走到 5，找到珊瑚城堡。"
+        },
+        {
+          "grid": [
+            7,
+            8,
+            6,
+            9,
+            1,
+            6,
+            9,
+            7,
+            3,
+            2,
+            8,
+            6,
+            7,
+            4,
+            5,
+            9,
+            7,
+            8,
+            6,
+            9,
+            6,
+            8,
+            7,
+            9,
+            6
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "珊瑚城堡",
+          "prompt": "这次的 1 在小礁石上面。按顺序走到 5。"
+        },
+        {
+          "grid": [
+            1,
+            7,
+            8,
+            9,
+            7,
+            2,
+            5,
+            6,
+            7,
+            8,
+            3,
+            4,
+            9,
+            8,
+            9,
+            7,
+            8,
+            9,
+            7,
+            8,
+            8,
+            7,
+            9,
+            8,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "cols": 5,
+          "goalLabel": "珊瑚城堡",
+          "prompt": "最长的珊瑚路，从 1 走到 6。慢慢来。"
+        }
+      ]
+    },
+    {
+      "id": "ocean-6",
+      "number": 46,
+      "world": "ocean",
+      "title": "水母灯",
+      "skill": "顺序记忆",
+      "kind": "compare",
+      "guardian": "turtle",
+      "intro": "两群小鱼游过来了。看清哪边更多、哪边更少，帮点点选一选。",
+      "rounds": [
+        {
+          "left": 5,
+          "right": 3,
+          "ask": "more",
+          "object": "fish",
+          "prompt": "哪边的小鱼更多？"
+        },
+        {
+          "left": 2,
+          "right": 6,
+          "ask": "fewer",
+          "object": "fish",
+          "prompt": "哪边的小鱼更少？"
+        },
+        {
+          "left": 7,
+          "right": 4,
+          "ask": "more",
+          "object": "fish",
+          "prompt": "最后一组，哪边的小鱼更多？"
+        }
+      ]
+    },
+    {
+      "id": "ocean-7",
+      "number": 47,
+      "world": "ocean",
+      "title": "螃蟹赛跑",
+      "skill": "交替节奏",
+      "kind": "sequence",
+      "guardian": "turtle",
+      "intro": "潜水艇的路线图上少了一个数字。补齐它，路线就能继续前进。",
+      "rounds": [
+        {
+          "sequence": [
+            1,
+            2,
+            null,
+            4
+          ],
+          "answer": 3,
+          "options": [
+            3,
+            5,
+            2
+          ],
+          "prompt": "潜水艇路线少了一个数字。1、2、?、4，补上几？"
+        },
+        {
+          "sequence": [
+            5,
+            null,
+            7,
+            8
+          ],
+          "answer": 6,
+          "options": [
+            4,
+            6,
+            9
+          ],
+          "prompt": "这次是 5、?、7、8。中间应该是几？"
+        },
+        {
+          "sequence": [
+            2,
+            4,
+            6,
+            null
+          ],
+          "answer": 8,
+          "options": [
+            7,
+            8,
+            9
+          ],
+          "prompt": "2、4、6、?，潜水艇下一站是几？"
+        }
+      ]
+    },
+    {
+      "id": "ocean-8",
+      "number": 48,
+      "world": "ocean",
+      "title": "数字泡泡",
+      "skill": "接取目标",
+      "kind": "relation",
+      "guardian": "turtle",
+      "intro": "海底泡泡在变魔术：有时候多一个，有时候少一个。算一算，选出正确数字。",
+      "rounds": [
+        {
+          "base": 6,
+          "delta": 1,
+          "answer": 7,
+          "options": [
+            6,
+            7,
+            8
+          ],
+          "prompt": "泡泡里有 6 颗珍珠，又漂来 1 颗。现在有几颗？"
+        },
+        {
+          "base": 8,
+          "delta": -1,
+          "answer": 7,
+          "options": [
+            6,
+            7,
+            8
+          ],
+          "prompt": "8 颗珍珠被小鱼带走 1 颗。还剩几颗？"
+        },
+        {
+          "base": 4,
+          "delta": 2,
+          "answer": 6,
+          "options": [
+            5,
+            6,
+            7
+          ],
+          "prompt": "左边 4 颗，右边 2 颗，合起来一共几颗？"
+        }
+      ]
+    },
+    {
+      "id": "ocean-9",
+      "number": 49,
+      "world": "ocean",
+      "title": "藏宝图",
+      "skill": "行列坐标",
+      "kind": "plane",
+      "guardian": "turtle",
+      "intro": "水母灯在水里一闪一闪。看清目标，捕到正确的那一盏。",
+      "rounds": [
+        {
+          "target": 5,
+          "options": [
+            4,
+            5,
+            7
+          ],
+          "mode": "number",
+          "theme": "ocean",
+          "prompt": "捕到写着 5 的水母灯。"
+        },
+        {
+          "target": 8,
+          "options": [
+            6,
+            8,
+            9
+          ],
+          "mode": "quantity",
+          "theme": "ocean",
+          "prompt": "看泡泡！捕到带 8 颗星星的水母灯。"
+        },
+        {
+          "target": 6,
+          "options": [
+            6,
+            4,
+            8
+          ],
+          "mode": "number",
+          "theme": "ocean",
+          "prompt": "最后一盏，捕到写着 6 的水母灯。"
+        }
+      ]
+    },
+    {
+      "id": "ocean-10",
+      "number": 50,
+      "world": "ocean",
+      "title": "珍珠宫",
+      "skill": "数字迷宫",
+      "kind": "maze",
+      "guardian": "turtle",
+      "intro": "海底最深处有一座珍珠宫。穿过两层珊瑚迷宫，找到珍珠宫。",
+      "rounds": [
+        {
+          "grid": [
+            7,
+            8,
+            6,
+            9,
+            1,
+            6,
+            9,
+            7,
+            3,
+            2,
+            8,
+            6,
+            7,
+            4,
+            5,
+            9,
+            7,
+            8,
+            6,
+            9,
+            6,
+            8,
+            7,
+            9,
+            6
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "珍珠宫",
+          "prompt": "先穿过珊瑚路。找到 1，再走到 5。"
+        },
+        {
+          "grid": [
+            1,
+            7,
+            8,
+            9,
+            7,
+            2,
+            5,
+            6,
+            7,
+            8,
+            3,
+            4,
+            9,
+            8,
+            9,
+            7,
+            8,
+            9,
+            7,
+            8,
+            8,
+            7,
+            9,
+            8,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "cols": 5,
+          "goalLabel": "珍珠宫",
+          "prompt": "第二层要走到 6。看清楚下一个数字。"
+        },
+        {
+          "grid": [
+            9,
+            8,
+            9,
+            8,
+            9,
+            8,
+            8,
+            9,
+            8,
+            9,
+            8,
+            9,
+            9,
+            8,
+            6,
+            7,
+            8,
+            9,
+            8,
+            4,
+            5,
+            9,
+            8,
+            9,
+            2,
+            3,
+            8,
+            9,
+            8,
+            9,
+            1,
+            8,
+            9,
+            8,
+            9,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "cols": 6,
+          "goalLabel": "珍珠宫",
+          "prompt": "最后一层是 6×6 大迷宫。从 1 一直走到 7，珍珠宫就在前面。"
+        }
+      ]
+    },
+    {
+      "id": "dino-x1",
+      "number": 51,
+      "world": "dino",
+      "title": "化石挖掘",
+      "skill": "观察与发现",
+      "kind": "count",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 1 站。恐龙蛋数一数开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 9,
+          "object": "fossil",
+          "options": [
+            6,
+            9,
+            8
+          ],
+          "prompt": "数一数，这里有几块化石？"
+        },
+        {
+          "target": 9,
+          "object": "fossil",
+          "options": [
+            9,
+            2,
+            7
+          ],
+          "prompt": "数一数，这里有几块化石？"
+        },
+        {
+          "target": 5,
+          "object": "fossil",
+          "options": [
+            5,
+            8,
+            6
+          ],
+          "prompt": "数一数，这里有几块化石？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x2",
+      "number": 52,
+      "world": "dino",
+      "title": "恐龙蛋配对",
+      "skill": "数字识别",
+      "kind": "odd",
+      "guardian": "dino",
+      "intro": "欢迎来到化石找不同。和turtle一起看清楚，再选出答案。",
+      "rounds": [
+        {
+          "items": [
+            4,
+            4,
+            1
+          ],
+          "oddIndex": 2,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            2,
+            1,
+            2
+          ],
+          "oddIndex": 1,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            3,
+            4,
+            3
+          ],
+          "oddIndex": 1,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x3",
+      "number": 53,
+      "world": "dino",
+      "title": "骨架拼接",
+      "skill": "数字顺序",
+      "kind": "sequence",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 3 站。小小考古队开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            1,
+            2,
+            3,
+            null
+          ],
+          "answer": 4,
+          "options": [
+            6,
+            1,
+            4
+          ],
+          "prompt": "数字在排队，1、2、3，下一个是几？"
+        },
+        {
+          "sequence": [
+            1,
+            3,
+            5,
+            null
+          ],
+          "answer": 7,
+          "options": [
+            11,
+            7,
+            6
+          ],
+          "prompt": "数字在排队，1、3、5，下一个是几？"
+        },
+        {
+          "sequence": [
+            3,
+            4,
+            5,
+            null
+          ],
+          "answer": 6,
+          "options": [
+            6,
+            5,
+            4
+          ],
+          "prompt": "数字在排队，3、4、5，下一个是几？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x4",
+      "number": 54,
+      "world": "dino",
+      "title": "火山跳石",
+      "skill": "数字迷宫",
+      "kind": "compare",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 4 站。哪堆骨头更多开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "left": 4,
+          "right": 6,
+          "ask": "more",
+          "object": "fossil",
+          "prompt": "哪边更多？"
+        },
+        {
+          "left": 3,
+          "right": 8,
+          "ask": "more",
+          "object": "fossil",
+          "prompt": "哪边更多？"
+        },
+        {
+          "left": 2,
+          "right": 7,
+          "ask": "more",
+          "object": "fossil",
+          "prompt": "哪边更多？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x5",
+      "number": 55,
+      "world": "dino",
+      "title": "脚印舞步",
+      "skill": "动作顺序",
+      "kind": "pattern",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 5 站。恐龙脚印规律开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "moon",
+            "2",
+            "moon",
+            "2",
+            "moon"
+          ],
+          "answer": "2",
+          "options": [
+            "2",
+            "star",
+            "3"
+          ],
+          "prompt": "看一看，moon、2、moon、2、moon，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "star",
+            "fish",
+            "star",
+            "fish",
+            "star"
+          ],
+          "answer": "fish",
+          "options": [
+            "fish",
+            "3",
+            "shell"
+          ],
+          "prompt": "看一看，star、fish、star、fish、star，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "star",
+            "3",
+            "star",
+            "3",
+            "star"
+          ],
+          "answer": "3",
+          "options": [
+            "3",
+            "sun",
+            "star"
+          ],
+          "prompt": "看一看，star、3、star、3、star，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x6",
+      "number": 56,
+      "world": "dino",
+      "title": "孵化保温",
+      "skill": "温度控制",
+      "kind": "count",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 6 站。恐龙蛋数量开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 4,
+          "object": "fossil",
+          "options": [
+            10,
+            3,
+            4
+          ],
+          "prompt": "数一数，这里有几块化石？"
+        },
+        {
+          "target": 4,
+          "object": "fossil",
+          "options": [
+            8,
+            4,
+            1
+          ],
+          "prompt": "数一数，这里有几块化石？"
+        },
+        {
+          "target": 5,
+          "object": "fossil",
+          "options": [
+            8,
+            4,
+            5
+          ],
+          "prompt": "数一数，这里有几块化石？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x7",
+      "number": 57,
+      "world": "dino",
+      "title": "喂小恐龙",
+      "skill": "数量控制",
+      "kind": "quantity",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 7 站。化石层数开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 5,
+          "object": "fossil",
+          "options": [
+            5,
+            7,
+            4
+          ],
+          "prompt": "看清目标，要 5块化石。哪一组正好？"
+        },
+        {
+          "target": 4,
+          "object": "fossil",
+          "options": [
+            6,
+            3,
+            4
+          ],
+          "prompt": "看清目标，要 4块化石。哪一组正好？"
+        },
+        {
+          "target": 4,
+          "object": "fossil",
+          "options": [
+            4,
+            8,
+            3
+          ],
+          "prompt": "看清目标，要 4块化石。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x8",
+      "number": 58,
+      "world": "dino",
+      "title": "化石分拣",
+      "skill": "数量分类",
+      "kind": "maze",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 8 站。火山数字小路开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            9,
+            3,
+            2,
+            8,
+            8,
+            1,
+            8,
+            7,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            9,
+            3,
+            2,
+            9,
+            8,
+            1,
+            7,
+            7,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            9,
+            7,
+            9,
+            3,
+            2,
+            7,
+            7,
+            1,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "dino-x9",
+      "number": 59,
+      "world": "dino",
+      "title": "恐龙迷宫",
+      "skill": "数字迷宫",
+      "kind": "odd",
+      "guardian": "dino",
+      "intro": "欢迎来到恐龙蛋找不同。和turtle一起看清楚，再选出答案。",
+      "rounds": [
+        {
+          "items": [
+            2,
+            2,
+            3
+          ],
+          "oddIndex": 2,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            5,
+            5,
+            4
+          ],
+          "oddIndex": 2,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            4,
+            1,
+            4
+          ],
+          "oddIndex": 1,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        }
+      ]
+    },
+    {
+      "id": "dino-x10",
+      "number": 60,
+      "world": "dino",
+      "title": "博物馆之夜",
+      "skill": "顺序排列",
+      "kind": "maze",
+      "guardian": "dino",
+      "intro": "来到恐龙化石谷的第 10 站。恐龙谷之夜开始啦，和小恐龙隆隆一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            7,
+            7,
+            8,
+            4,
+            5,
+            8,
+            9,
+            8,
+            3,
+            8,
+            8,
+            9,
+            9,
+            2,
+            1,
+            9,
+            8,
+            7,
+            8,
+            9,
+            9,
+            9,
+            7,
+            9,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            7,
+            9,
+            8,
+            8,
+            8,
+            7,
+            7,
+            8,
+            7,
+            7,
+            9,
+            8,
+            8,
+            5,
+            8,
+            9,
+            7,
+            1,
+            4,
+            9,
+            9,
+            7,
+            2,
+            3
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            8,
+            8,
+            8,
+            8,
+            7,
+            9,
+            7,
+            9,
+            9,
+            7,
+            5,
+            4,
+            8,
+            7,
+            7,
+            7,
+            3,
+            2,
+            1,
+            8,
+            8,
+            9,
+            9,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "space-x1",
+      "number": 61,
+      "world": "space",
+      "title": "轨道对接",
+      "skill": "时机与角度",
+      "kind": "coord",
+      "guardian": "firefly",
+      "intro": "欢迎来到星门坐标。和firefly一起看清楚，再选出答案。",
+      "rounds": [
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 3,
+          "targetCol": 3,
+          "prompt": "第 3 行、第 3 列是什么图案？"
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 1,
+          "targetCol": 2,
+          "prompt": "第 1 行、第 2 列是什么图案？"
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 3,
+          "targetCol": 3,
+          "prompt": "第 3 行、第 3 列是什么图案？"
+        }
+      ]
+    },
+    {
+      "id": "space-x2",
+      "number": 62,
+      "world": "space",
+      "title": "陨石闪避",
+      "skill": "躲闪与收集",
+      "kind": "count",
+      "guardian": "firefly",
+      "intro": "来到星际数字站的第 2 站。太空舱数量开始啦，和星仔一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 5,
+          "object": "planet",
+          "options": [
+            5,
+            6,
+            8
+          ],
+          "prompt": "数一数，这里有几颗星球？"
+        },
+        {
+          "target": 9,
+          "object": "planet",
+          "options": [
+            3,
+            2,
+            9
+          ],
+          "prompt": "数一数，这里有几颗星球？"
+        },
+        {
+          "target": 9,
+          "object": "planet",
+          "options": [
+            3,
+            4,
+            9
+          ],
+          "prompt": "数一数，这里有几颗星球？"
+        }
+      ]
+    },
+    {
+      "id": "space-x3",
+      "number": 63,
+      "world": "space",
+      "title": "星图坐标",
+      "skill": "行列坐标",
+      "kind": "sequence",
+      "guardian": "firefly",
+      "intro": "来到星际数字站的第 3 站。火箭倒计时开始啦，和星仔一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            3,
+            5,
+            7,
+            null
+          ],
+          "answer": 9,
+          "options": [
+            6,
+            9,
+            13
+          ],
+          "prompt": "数字在排队，3、5、7，下一个是几？"
+        },
+        {
+          "sequence": [
+            2,
+            3,
+            4,
+            null
+          ],
+          "answer": 5,
+          "options": [
+            1,
+            5,
+            6
+          ],
+          "prompt": "数字在排队，2、3、4，下一个是几？"
+        },
+        {
+          "sequence": [
+            1,
+            2,
+            3,
+            null
+          ],
+          "answer": 4,
+          "options": [
+            1,
+            3,
+            4
+          ],
+          "prompt": "数字在排队，1、2、3，下一个是几？"
+        }
+      ]
+    },
+    {
+      "id": "space-x4",
+      "number": 64,
+      "world": "space",
+      "title": "舱门密码",
+      "skill": "方向序列",
+      "kind": "coord",
+      "guardian": "firefly",
+      "intro": "欢迎来到星图寻宝。和firefly一起看清楚，再选出答案。",
+      "rounds": [
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 1,
+          "targetCol": 3,
+          "prompt": "第 1 行、第 3 列是什么图案？"
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 1,
+          "targetCol": 2,
+          "prompt": "第 1 行、第 2 列是什么图案？"
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 1,
+          "targetCol": 3,
+          "prompt": "第 1 行、第 3 列是什么图案？"
+        }
+      ]
+    },
+    {
+      "id": "space-x5",
+      "number": 65,
+      "world": "space",
+      "title": "卫星维修",
+      "skill": "旋转对齐",
+      "kind": "quantity",
+      "guardian": "firefly",
+      "intro": "来到星际数字站的第 5 站。星图规律开始啦，和星仔一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 9,
+          "object": "planet",
+          "options": [
+            1,
+            9,
+            7
+          ],
+          "prompt": "看清目标，要 9颗星球。哪一组正好？"
+        },
+        {
+          "target": 9,
+          "object": "planet",
+          "options": [
+            2,
+            5,
+            9
+          ],
+          "prompt": "看清目标，要 9颗星球。哪一组正好？"
+        },
+        {
+          "target": 5,
+          "object": "planet",
+          "options": [
+            4,
+            6,
+            5
+          ],
+          "prompt": "看清目标，要 5颗星球。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "space-x6",
+      "number": 66,
+      "world": "space",
+      "title": "重力选择",
+      "skill": "方向判断",
+      "kind": "pattern",
+      "guardian": "firefly",
+      "intro": "来到星际数字站的第 6 站。舱门密码开始啦，和星仔一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "3",
+            "moon",
+            "3",
+            "moon",
+            "3"
+          ],
+          "answer": "moon",
+          "options": [
+            "moon",
+            "cloud",
+            "sun"
+          ],
+          "prompt": "看一看，3、moon、3、moon、3，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "shell",
+            "fish",
+            "shell",
+            "fish",
+            "shell"
+          ],
+          "answer": "fish",
+          "options": [
+            "fish",
+            "moon",
+            "3"
+          ],
+          "prompt": "看一看，shell、fish、shell、fish、shell，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "star",
+            "1",
+            "star",
+            "1",
+            "star"
+          ],
+          "answer": "1",
+          "options": [
+            "1",
+            "sun",
+            "moon"
+          ],
+          "prompt": "看一看，star、1、star、1、star，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "space-x7",
+      "number": 67,
+      "world": "space",
+      "title": "外星记忆",
+      "skill": "记忆配对",
+      "kind": "relation",
+      "guardian": "firefly",
+      "intro": "来到星际数字站的第 7 站。燃料舱数量开始啦，和星仔一起看清楚再选。",
+      "rounds": [
+        {
+          "base": 5,
+          "delta": 1,
+          "answer": 6,
+          "options": [
+            6,
+            3,
+            5
+          ],
+          "prompt": "又多了 1 个。5 + 1 等于几？"
+        },
+        {
+          "base": 7,
+          "delta": 1,
+          "answer": 8,
+          "options": [
+            7,
+            6,
+            8
+          ],
+          "prompt": "又多了 1 个。7 + 1 等于几？"
+        },
+        {
+          "base": 6,
+          "delta": 1,
+          "answer": 7,
+          "options": [
+            7,
+            3,
+            4
+          ],
+          "prompt": "又多了 1 个。6 + 1 等于几？"
+        }
+      ]
+    },
+    {
+      "id": "space-x8",
+      "number": 68,
+      "world": "space",
+      "title": "燃料加注",
+      "skill": "刻度控制",
+      "kind": "coord",
+      "guardian": "firefly",
+      "intro": "欢迎来到舱门密码。和firefly一起看清楚，再选出答案。",
+      "rounds": [
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 1,
+          "targetCol": 3,
+          "prompt": "第 1 行、第 3 列是什么图案？"
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 3,
+          "targetCol": 3,
+          "prompt": "第 3 行、第 3 列是什么图案？"
+        },
+        {
+          "rows": 3,
+          "cols": 3,
+          "items": [
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet",
+            "star",
+            "moon",
+            "sun",
+            "planet"
+          ],
+          "targetRow": 1,
+          "targetCol": 2,
+          "prompt": "第 1 行、第 2 列是什么图案？"
+        }
+      ]
+    },
+    {
+      "id": "space-x9",
+      "number": 69,
+      "world": "space",
+      "title": "星门迷宫",
+      "skill": "数字迷宫",
+      "kind": "maze",
+      "guardian": "firefly",
+      "intro": "来到星际数字站的第 9 站。多一颗少一颗开始啦，和星仔一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            8,
+            8,
+            1,
+            7,
+            3,
+            2,
+            7,
+            8,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            1,
+            2,
+            8,
+            8,
+            3,
+            8,
+            9,
+            8,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            3,
+            2,
+            1,
+            7,
+            9,
+            9,
+            8,
+            9,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "space-x10",
+      "number": 70,
+      "world": "space",
+      "title": "最终发射",
+      "skill": "顺序执行",
+      "kind": "maze",
+      "guardian": "firefly",
+      "intro": "来到星际数字站的第 10 站。星际数字站开始啦，和星仔一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            8,
+            9,
+            8,
+            7,
+            9,
+            7,
+            3,
+            2,
+            8,
+            9,
+            5,
+            4,
+            1,
+            9,
+            7,
+            8,
+            8,
+            9,
+            8,
+            8,
+            7,
+            9,
+            8,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            9,
+            9,
+            7,
+            7,
+            2,
+            3,
+            8,
+            8,
+            7,
+            1,
+            4,
+            9,
+            8,
+            9,
+            9,
+            5,
+            8,
+            7,
+            9,
+            7,
+            9,
+            7,
+            9,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            8,
+            9,
+            8,
+            8,
+            7,
+            9,
+            7,
+            7,
+            9,
+            7,
+            8,
+            7,
+            8,
+            8,
+            7,
+            7,
+            7,
+            9,
+            1,
+            8,
+            5,
+            4,
+            3,
+            2
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "music-x1",
+      "number": 71,
+      "world": "music",
+      "title": "节奏回声",
+      "skill": "听觉与顺序",
+      "kind": "pattern",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 1 站。音符数一数开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "note",
+            "star",
+            "note",
+            "star",
+            "note"
+          ],
+          "answer": "star",
+          "options": [
+            "star",
+            "note",
+            "cloud"
+          ],
+          "prompt": "看一看，star、cloud、star、cloud、star，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "note",
+            "note",
+            "cloud",
+            "note",
+            "note"
+          ],
+          "answer": "cloud",
+          "options": [
+            "cloud",
+            "note",
+            "star"
+          ],
+          "prompt": "看一看，1、shell、1、shell、1，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "note",
+            "star",
+            "note",
+            "star",
+            "note"
+          ],
+          "answer": "star",
+          "options": [
+            "star",
+            "note",
+            "sun"
+          ],
+          "prompt": "看一看，1、sun、1、sun、1，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "music-x2",
+      "number": 72,
+      "world": "music",
+      "title": "音符排队",
+      "skill": "数字顺序",
+      "kind": "count",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 2 站。泡泡数量开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 4,
+          "object": "note",
+          "options": [
+            1,
+            8,
+            4
+          ],
+          "prompt": "数一数，这里有几个音符？"
+        },
+        {
+          "target": 6,
+          "object": "note",
+          "options": [
+            8,
+            1,
+            6
+          ],
+          "prompt": "数一数，这里有几个音符？"
+        },
+        {
+          "target": 9,
+          "object": "note",
+          "options": [
+            9,
+            2,
+            3
+          ],
+          "prompt": "数一数，这里有几个音符？"
+        }
+      ]
+    },
+    {
+      "id": "music-x3",
+      "number": 73,
+      "world": "music",
+      "title": "乐器记忆",
+      "skill": "记忆配对",
+      "kind": "quantity",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 3 站。节拍排队开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 3,
+          "object": "note",
+          "options": [
+            8,
+            3,
+            2
+          ],
+          "prompt": "看清目标，要 3个音符。哪一组正好？"
+        },
+        {
+          "target": 3,
+          "object": "note",
+          "options": [
+            10,
+            3,
+            6
+          ],
+          "prompt": "看清目标，要 3个音符。哪一组正好？"
+        },
+        {
+          "target": 4,
+          "object": "note",
+          "options": [
+            2,
+            4,
+            5
+          ],
+          "prompt": "看清目标，要 4个音符。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "music-x4",
+      "number": 74,
+      "world": "music",
+      "title": "指挥棒",
+      "skill": "节奏时机",
+      "kind": "ordinal",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 4 站。第几个音符开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "lineup": [
+            "fox",
+            "owl",
+            "firefly",
+            "bear"
+          ],
+          "position": 4,
+          "answer": "bear",
+          "options": [
+            "bear",
+            "fox",
+            "owl"
+          ],
+          "prompt": "从小旗这边数，谁排第 4 个？"
+        },
+        {
+          "lineup": [
+            "firefly",
+            "bear",
+            "turtle",
+            "fox"
+          ],
+          "position": 2,
+          "answer": "bear",
+          "options": [
+            "bear",
+            "firefly",
+            "turtle"
+          ],
+          "prompt": "从小旗这边数，谁排第 2 个？"
+        },
+        {
+          "lineup": [
+            "firefly",
+            "bear",
+            "turtle",
+            "owl"
+          ],
+          "position": 4,
+          "answer": "owl",
+          "options": [
+            "owl",
+            "firefly",
+            "bear"
+          ],
+          "prompt": "从小旗这边数，谁排第 4 个？"
+        }
+      ]
+    },
+    {
+      "id": "music-x5",
+      "number": 75,
+      "world": "music",
+      "title": "音高滑梯",
+      "skill": "高低音",
+      "kind": "pattern",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 5 站。节拍规律开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "note",
+            "star",
+            "note",
+            "star",
+            "note"
+          ],
+          "answer": "star",
+          "options": [
+            "star",
+            "note",
+            "cloud"
+          ],
+          "prompt": "看一看，star、fish、star、fish、star，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "note",
+            "note",
+            "cloud",
+            "note",
+            "note"
+          ],
+          "answer": "cloud",
+          "options": [
+            "cloud",
+            "note",
+            "star"
+          ],
+          "prompt": "看一看，sun、2、sun、2、sun，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "note",
+            "star",
+            "note",
+            "star",
+            "note"
+          ],
+          "answer": "star",
+          "options": [
+            "star",
+            "note",
+            "sun"
+          ],
+          "prompt": "看一看，sun、2、sun、2、sun，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "music-x6",
+      "number": 76,
+      "world": "music",
+      "title": "泡泡节拍",
+      "skill": "时机判断",
+      "kind": "compare",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 6 站。哪边泡泡更多开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "left": 5,
+          "right": 6,
+          "ask": "more",
+          "object": "note",
+          "prompt": "哪边更多？"
+        },
+        {
+          "left": 4,
+          "right": 8,
+          "ask": "fewer",
+          "object": "note",
+          "prompt": "哪边更少？"
+        },
+        {
+          "left": 7,
+          "right": 4,
+          "ask": "fewer",
+          "object": "note",
+          "prompt": "哪边更少？"
+        }
+      ]
+    },
+    {
+      "id": "music-x7",
+      "number": 77,
+      "world": "music",
+      "title": "鼓点连击",
+      "skill": "节奏反应",
+      "kind": "sequence",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 7 站。小鼓手数字开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            3,
+            5,
+            7,
+            null
+          ],
+          "answer": 9,
+          "options": [
+            5,
+            11,
+            9
+          ],
+          "prompt": "数字在排队，3、5、7，下一个是几？"
+        },
+        {
+          "sequence": [
+            4,
+            5,
+            6,
+            null
+          ],
+          "answer": 7,
+          "options": [
+            9,
+            5,
+            7
+          ],
+          "prompt": "数字在排队，4、5、6，下一个是几？"
+        },
+        {
+          "sequence": [
+            2,
+            4,
+            6,
+            null
+          ],
+          "answer": 8,
+          "options": [
+            6,
+            7,
+            8
+          ],
+          "prompt": "数字在排队，2、4、6，下一个是几？"
+        }
+      ]
+    },
+    {
+      "id": "music-x8",
+      "number": 78,
+      "world": "music",
+      "title": "音乐迷宫",
+      "skill": "数字迷宫",
+      "kind": "maze",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 8 站。一段新旋律开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            8,
+            9,
+            8,
+            7,
+            2,
+            3,
+            9,
+            1,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            9,
+            7,
+            2,
+            3,
+            9,
+            1,
+            9,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            9,
+            9,
+            2,
+            1,
+            7,
+            3,
+            9,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "music-x9",
+      "number": 79,
+      "world": "music",
+      "title": "合唱顺序",
+      "skill": "顺序排列",
+      "kind": "relation",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 9 站。多一拍少一拍开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "base": 5,
+          "delta": -1,
+          "answer": 4,
+          "options": [
+            1,
+            4,
+            9
+          ],
+          "prompt": "少了 1 个。5 − 1 等于几？"
+        },
+        {
+          "base": 5,
+          "delta": 1,
+          "answer": 6,
+          "options": [
+            9,
+            10,
+            6
+          ],
+          "prompt": "又多了 1 个。5 + 1 等于几？"
+        },
+        {
+          "base": 7,
+          "delta": -1,
+          "answer": 6,
+          "options": [
+            6,
+            5,
+            10
+          ],
+          "prompt": "少了 1 个。7 − 1 等于几？"
+        }
+      ]
+    },
+    {
+      "id": "music-x10",
+      "number": 80,
+      "world": "music",
+      "title": "舞台终章",
+      "skill": "动作序列",
+      "kind": "pattern",
+      "guardian": "owl",
+      "intro": "来到音乐泡泡镇的第 10 站。音乐泡泡庆典开始啦，和哆哆一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "note",
+            "star",
+            "note",
+            "star",
+            "note"
+          ],
+          "answer": "star",
+          "options": [
+            "star",
+            "note",
+            "cloud"
+          ],
+          "prompt": "看一看，fish、1、fish、1、fish，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "note",
+            "note",
+            "cloud",
+            "note",
+            "note"
+          ],
+          "answer": "cloud",
+          "options": [
+            "cloud",
+            "note",
+            "star"
+          ],
+          "prompt": "看一看，2、sun、2、sun、2，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "note",
+            "star",
+            "note",
+            "star",
+            "note"
+          ],
+          "answer": "star",
+          "options": [
+            "star",
+            "note",
+            "sun"
+          ],
+          "prompt": "看一看，shell、cloud、shell、cloud、shell，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x1",
+      "number": 81,
+      "world": "donut",
+      "title": "甜甜圈装盒",
+      "skill": "数量控制",
+      "kind": "count",
+      "guardian": "bear",
+      "intro": "来到甜甜圈工厂的第 1 站。甜甜圈数一数开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 7,
+          "object": "donut",
+          "options": [
+            6,
+            3,
+            7
+          ],
+          "prompt": "数一数，这里有几个甜甜圈？"
+        },
+        {
+          "target": 6,
+          "object": "donut",
+          "options": [
+            6,
+            2,
+            10
+          ],
+          "prompt": "数一数，这里有几个甜甜圈？"
+        },
+        {
+          "target": 9,
+          "object": "donut",
+          "options": [
+            10,
+            6,
+            9
+          ],
+          "prompt": "数一数，这里有几个甜甜圈？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x2",
+      "number": 82,
+      "world": "donut",
+      "title": "传送带接糖",
+      "skill": "接取目标",
+      "kind": "quantity",
+      "guardian": "bear",
+      "intro": "来到甜甜圈工厂的第 2 站。装盒订单开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 9,
+          "object": "donut",
+          "options": [
+            9,
+            6,
+            2
+          ],
+          "prompt": "看清目标，要 9个甜甜圈。哪一组正好？"
+        },
+        {
+          "target": 2,
+          "object": "donut",
+          "options": [
+            8,
+            7,
+            2
+          ],
+          "prompt": "看清目标，要 2个甜甜圈。哪一组正好？"
+        },
+        {
+          "target": 8,
+          "object": "donut",
+          "options": [
+            8,
+            7,
+            1
+          ],
+          "prompt": "看清目标，要 8个甜甜圈。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x3",
+      "number": 83,
+      "world": "donut",
+      "title": "糖霜图案",
+      "skill": "颜色顺序",
+      "kind": "share",
+      "guardian": "bear",
+      "intro": "欢迎来到平分甜甜圈。看清订单，选出一样多的分法。",
+      "rounds": [
+        {
+          "total": 4,
+          "parts": 2,
+          "options": [
+            "2+2",
+            "3+1",
+            "1+3"
+          ],
+          "answer": "2+2",
+          "prompt": "把 4 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        },
+        {
+          "total": 6,
+          "parts": 2,
+          "options": [
+            "3+3",
+            "2+4",
+            "5+1"
+          ],
+          "answer": "3+3",
+          "prompt": "把 6 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        },
+        {
+          "total": 4,
+          "parts": 2,
+          "options": [
+            "2+2",
+            "3+1",
+            "1+3"
+          ],
+          "answer": "2+2",
+          "prompt": "把 4 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x4",
+      "number": 84,
+      "world": "donut",
+      "title": "平分甜甜圈",
+      "skill": "等分",
+      "kind": "share",
+      "guardian": "bear",
+      "intro": "欢迎来到两个盘子。看清订单，选出一样多的分法。",
+      "rounds": [
+        {
+          "total": 8,
+          "parts": 2,
+          "options": [
+            "4+4",
+            "2+6",
+            "5+3"
+          ],
+          "answer": "4+4",
+          "prompt": "把 8 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        },
+        {
+          "total": 6,
+          "parts": 2,
+          "options": [
+            "3+3",
+            "5+1",
+            "2+4"
+          ],
+          "answer": "3+3",
+          "prompt": "把 6 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        },
+        {
+          "total": 8,
+          "parts": 2,
+          "options": [
+            "4+4",
+            "7+1",
+            "5+3"
+          ],
+          "answer": "4+4",
+          "prompt": "把 8 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x5",
+      "number": 85,
+      "world": "donut",
+      "title": "烤箱计时",
+      "skill": "时机判断",
+      "kind": "compare",
+      "guardian": "bear",
+      "intro": "来到甜甜圈工厂的第 5 站。平分甜甜圈开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "left": 2,
+          "right": 4,
+          "ask": "fewer",
+          "object": "donut",
+          "prompt": "哪边更少？"
+        },
+        {
+          "left": 4,
+          "right": 3,
+          "ask": "fewer",
+          "object": "donut",
+          "prompt": "哪边更少？"
+        },
+        {
+          "left": 4,
+          "right": 3,
+          "ask": "more",
+          "object": "donut",
+          "prompt": "哪边更多？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x6",
+      "number": 86,
+      "world": "donut",
+      "title": "甜甜圈堆叠",
+      "skill": "时机与对齐",
+      "kind": "pattern",
+      "guardian": "bear",
+      "intro": "来到甜甜圈工厂的第 6 站。工厂数字开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "star",
+            "3",
+            "star",
+            "3",
+            "star"
+          ],
+          "answer": "3",
+          "options": [
+            "3",
+            "cloud"
+          ],
+          "prompt": "看一看，star、3、star、3、star，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "fish",
+            "3",
+            "fish",
+            "3",
+            "fish"
+          ],
+          "answer": "3",
+          "options": [
+            "3",
+            "shell",
+            "2"
+          ],
+          "prompt": "看一看，fish、3、fish、3、fish，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "2",
+            "sun",
+            "2",
+            "sun",
+            "2"
+          ],
+          "answer": "sun",
+          "options": [
+            "sun",
+            "2",
+            "moon"
+          ],
+          "prompt": "看一看，2、sun、2、sun、2，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x7",
+      "number": 87,
+      "world": "donut",
+      "title": "配料分拣",
+      "skill": "数量分类",
+      "kind": "relation",
+      "guardian": "bear",
+      "intro": "来到甜甜圈工厂的第 7 站。订单数量开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "base": 5,
+          "delta": 1,
+          "answer": 6,
+          "options": [
+            8,
+            6,
+            4
+          ],
+          "prompt": "又多了 1 个。5 + 1 等于几？"
+        },
+        {
+          "base": 5,
+          "delta": 1,
+          "answer": 6,
+          "options": [
+            3,
+            2,
+            6
+          ],
+          "prompt": "又多了 1 个。5 + 1 等于几？"
+        },
+        {
+          "base": 6,
+          "delta": 1,
+          "answer": 7,
+          "options": [
+            7,
+            8,
+            4
+          ],
+          "prompt": "又多了 1 个。6 + 1 等于几？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x8",
+      "number": 88,
+      "world": "donut",
+      "title": "甜甜圈迷宫",
+      "skill": "数字迷宫",
+      "kind": "share",
+      "guardian": "bear",
+      "intro": "欢迎来到公平分一分。看清订单，选出一样多的分法。",
+      "rounds": [
+        {
+          "total": 4,
+          "parts": 2,
+          "options": [
+            "2+2",
+            "3+1",
+            "1+3"
+          ],
+          "answer": "2+2",
+          "prompt": "把 4 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        },
+        {
+          "total": 8,
+          "parts": 2,
+          "options": [
+            "4+4",
+            "5+3",
+            "7+1"
+          ],
+          "answer": "4+4",
+          "prompt": "把 8 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        },
+        {
+          "total": 6,
+          "parts": 2,
+          "options": [
+            "3+3",
+            "1+5",
+            "4+2"
+          ],
+          "answer": "3+3",
+          "prompt": "把 6 个甜甜圈分给 2 个盘子，哪种分法一样多？"
+        }
+      ]
+    },
+    {
+      "id": "donut-x9",
+      "number": 89,
+      "world": "donut",
+      "title": "订单匹配",
+      "skill": "数字匹配",
+      "kind": "maze",
+      "guardian": "bear",
+      "intro": "来到甜甜圈工厂的第 9 站。甜甜圈迷宫开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            8,
+            3,
+            2,
+            9,
+            7,
+            1,
+            8,
+            7,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            8,
+            9,
+            9,
+            3,
+            9,
+            7,
+            2,
+            1
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            2,
+            1,
+            8,
+            3,
+            9,
+            8,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "donut-x10",
+      "number": 90,
+      "world": "donut",
+      "title": "工厂夜班",
+      "skill": "流程顺序",
+      "kind": "maze",
+      "guardian": "bear",
+      "intro": "来到甜甜圈工厂的第 10 站。工厂夜班开始啦，和糖糖一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            9,
+            7,
+            7,
+            9,
+            8,
+            8,
+            9,
+            9,
+            9,
+            8,
+            5,
+            9,
+            7,
+            8,
+            7,
+            4,
+            3,
+            7,
+            8,
+            7,
+            1,
+            2,
+            7,
+            9,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            9,
+            7,
+            7,
+            7,
+            9,
+            9,
+            9,
+            8,
+            9,
+            8,
+            8,
+            7,
+            8,
+            9,
+            8,
+            9,
+            5,
+            2,
+            1,
+            7,
+            7,
+            4,
+            3,
+            9,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            5,
+            7,
+            9,
+            9,
+            7,
+            4,
+            3,
+            7,
+            8,
+            8,
+            1,
+            2,
+            9,
+            9,
+            8,
+            7,
+            9,
+            7,
+            9,
+            8,
+            9,
+            7,
+            8,
+            7,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "magic-x1",
+      "number": 91,
+      "world": "magic",
+      "title": "魔法药水",
+      "skill": "颜色配方",
+      "kind": "count",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 1 站。花园数一数开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 9,
+          "object": "star",
+          "options": [
+            6,
+            8,
+            9
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 9,
+          "object": "star",
+          "options": [
+            2,
+            9,
+            10
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 4,
+          "object": "star",
+          "options": [
+            10,
+            6,
+            4
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x2",
+      "number": 92,
+      "world": "magic",
+      "title": "变形咒",
+      "skill": "形状变化",
+      "kind": "quantity",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 2 站。魔法材料开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 9,
+          "object": "star",
+          "options": [
+            10,
+            9,
+            8
+          ],
+          "prompt": "看清目标，要 9颗星星。哪一组正好？"
+        },
+        {
+          "target": 6,
+          "object": "star",
+          "options": [
+            3,
+            2,
+            6
+          ],
+          "prompt": "看清目标，要 6颗星星。哪一组正好？"
+        },
+        {
+          "target": 3,
+          "object": "star",
+          "options": [
+            5,
+            3,
+            2
+          ],
+          "prompt": "看清目标，要 3颗星星。哪一组正好？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x3",
+      "number": 93,
+      "world": "magic",
+      "title": "镜像花",
+      "skill": "镜像观察",
+      "kind": "odd",
+      "guardian": "fox",
+      "intro": "欢迎来到魔法找不同。和fox一起看清楚，再选出答案。",
+      "rounds": [
+        {
+          "items": [
+            5,
+            3,
+            5
+          ],
+          "oddIndex": 1,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            4,
+            1,
+            1
+          ],
+          "oddIndex": 0,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            2,
+            3,
+            2
+          ],
+          "oddIndex": 1,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x4",
+      "number": 94,
+      "world": "magic",
+      "title": "魔法阵",
+      "skill": "旋转对齐",
+      "kind": "pattern",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 4 站。哪边光更多开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "sequence": [
+            "shell",
+            "3",
+            "shell",
+            "3",
+            "shell"
+          ],
+          "answer": "3",
+          "options": [
+            "3",
+            "star"
+          ],
+          "prompt": "看一看，shell、3、shell、3、shell，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "2",
+            "shell",
+            "2",
+            "shell",
+            "2"
+          ],
+          "answer": "shell",
+          "options": [
+            "shell",
+            "2",
+            "3"
+          ],
+          "prompt": "看一看，2、shell、2、shell、2，下一个是什么？"
+        },
+        {
+          "sequence": [
+            "cloud",
+            "1",
+            "cloud",
+            "1",
+            "cloud"
+          ],
+          "answer": "1",
+          "options": [
+            "1",
+            "shell",
+            "cloud"
+          ],
+          "prompt": "看一看，cloud、1、cloud、1、cloud，下一个是什么？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x5",
+      "number": 95,
+      "world": "magic",
+      "title": "飞天扫帚",
+      "skill": "接取星星",
+      "kind": "relation",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 5 站。魔法规律开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "base": 4,
+          "delta": 1,
+          "answer": 5,
+          "options": [
+            9,
+            3,
+            5
+          ],
+          "prompt": "又多了 1 个。4 + 1 等于几？"
+        },
+        {
+          "base": 7,
+          "delta": 2,
+          "answer": 9,
+          "options": [
+            9,
+            2,
+            7
+          ],
+          "prompt": "又多了 2 个。7 + 2 等于几？"
+        },
+        {
+          "base": 4,
+          "delta": -1,
+          "answer": 3,
+          "options": [
+            3,
+            4,
+            9
+          ],
+          "prompt": "少了 1 个。4 − 1 等于几？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x6",
+      "number": 96,
+      "world": "magic",
+      "title": "魔法生物",
+      "skill": "记忆配对",
+      "kind": "compare",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 6 站。变形数字开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "left": 8,
+          "right": 2,
+          "ask": "more",
+          "object": "star",
+          "prompt": "哪边更多？"
+        },
+        {
+          "left": 7,
+          "right": 4,
+          "ask": "more",
+          "object": "star",
+          "prompt": "哪边更多？"
+        },
+        {
+          "left": 3,
+          "right": 6,
+          "ask": "fewer",
+          "object": "star",
+          "prompt": "哪边更少？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x7",
+      "number": 97,
+      "world": "magic",
+      "title": "花园迷宫",
+      "skill": "数字迷宫",
+      "kind": "count",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 7 站。多一个少一个开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "target": 9,
+          "object": "star",
+          "options": [
+            8,
+            7,
+            9
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 9,
+          "object": "star",
+          "options": [
+            9,
+            8,
+            4
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        },
+        {
+          "target": 7,
+          "object": "star",
+          "options": [
+            7,
+            5,
+            2
+          ],
+          "prompt": "数一数，这里有几颗星星？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x8",
+      "number": 98,
+      "world": "magic",
+      "title": "星星采集",
+      "skill": "数量控制",
+      "kind": "odd",
+      "guardian": "fox",
+      "intro": "欢迎来到镜子里的不同。和fox一起看清楚，再选出答案。",
+      "rounds": [
+        {
+          "items": [
+            3,
+            2,
+            2
+          ],
+          "oddIndex": 0,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            1,
+            2,
+            1
+          ],
+          "oddIndex": 1,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        },
+        {
+          "items": [
+            1,
+            5,
+            5
+          ],
+          "oddIndex": 0,
+          "prompt": "三个数字里，哪一个和大家不一样？"
+        }
+      ]
+    },
+    {
+      "id": "magic-x9",
+      "number": 99,
+      "world": "magic",
+      "title": "魔法天平",
+      "skill": "等量平衡",
+      "kind": "maze",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 9 站。花园迷宫开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            9,
+            3,
+            9,
+            1,
+            2,
+            7,
+            8,
+            9,
+            8
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            7,
+            7,
+            7,
+            7,
+            8,
+            9,
+            1,
+            2,
+            3
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            9,
+            8,
+            7,
+            3,
+            2,
+            9,
+            7,
+            1
+          ],
+          "path": [
+            1,
+            2,
+            3
+          ],
+          "cols": 3,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 3。走错就回起点。"
+        }
+      ]
+    },
+    {
+      "id": "magic-x10",
+      "number": 100,
+      "world": "magic",
+      "title": "花园庆典",
+      "skill": "动作序列",
+      "kind": "maze",
+      "guardian": "fox",
+      "intro": "来到魔法花园的第 10 站。魔法花园庆典开始啦，和点点一起看清楚再选。",
+      "rounds": [
+        {
+          "grid": [
+            4,
+            5,
+            8,
+            7,
+            8,
+            3,
+            7,
+            8,
+            7,
+            9,
+            2,
+            9,
+            8,
+            9,
+            7,
+            1,
+            8,
+            9,
+            8,
+            7,
+            9,
+            8,
+            8,
+            7,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            9,
+            1,
+            9,
+            7,
+            9,
+            9,
+            2,
+            9,
+            8,
+            7,
+            7,
+            3,
+            8,
+            9,
+            9,
+            7,
+            4,
+            9,
+            9,
+            9,
+            7,
+            5,
+            7,
+            8,
+            7
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        },
+        {
+          "grid": [
+            8,
+            8,
+            8,
+            8,
+            7,
+            8,
+            9,
+            9,
+            9,
+            7,
+            5,
+            9,
+            7,
+            9,
+            7,
+            4,
+            3,
+            9,
+            9,
+            8,
+            1,
+            2,
+            9,
+            8,
+            9
+          ],
+          "path": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cols": 5,
+          "goalLabel": "终点",
+          "prompt": "从 1 开始，按顺序走到 5。走错就回起点。"
+        }
+      ]
+    }
+  ],
+  "worlds": [
+    {
+      "id": "forest",
+      "name": "青芽森林",
+      "range": "第 1–10 关",
+      "guardian": "squirrel",
+      "guardianName": "果果",
+      "skill": "数感启蒙"
+    },
+    {
+      "id": "candy",
+      "name": "糖果镇",
+      "range": "第 11–20 关",
+      "guardian": "bear",
+      "guardianName": "糖糖",
+      "skill": "数量与分配"
+    },
+    {
+      "id": "castle",
+      "name": "星光城堡",
+      "range": "第 21–30 关",
+      "guardian": "owl",
+      "guardianName": "星宝",
+      "skill": "规律与序数"
+    },
+    {
+      "id": "sky",
+      "name": "云上天空",
+      "range": "第 31–40 关",
+      "guardian": "firefly",
+      "guardianName": "萤萤",
+      "skill": "观察与目标"
+    },
+    {
+      "id": "ocean",
+      "name": "海底奇遇",
+      "range": "第 41–50 关",
+      "guardian": "turtle",
+      "guardianName": "小龟",
+      "skill": "分类与数量"
+    },
+    {
+      "id": "dino",
+      "name": "恐龙化石谷",
+      "range": "第 51–60 关",
+      "guardian": "dino",
+      "guardianName": "小恐龙隆隆",
+      "skill": "大小、配对、排除"
+    },
+    {
+      "id": "space",
+      "name": "星际数字站",
+      "range": "第 61–70 关",
+      "guardian": "firefly",
+      "guardianName": "星仔",
+      "skill": "坐标与序列"
+    },
+    {
+      "id": "music",
+      "name": "音乐泡泡镇",
+      "range": "第 71–80 关",
+      "guardian": "owl",
+      "guardianName": "哆哆",
+      "skill": "节奏与序数"
+    },
+    {
+      "id": "donut",
+      "name": "甜甜圈工厂",
+      "range": "第 81–90 关",
+      "guardian": "bear",
+      "guardianName": "糖糖",
+      "skill": "等分与组合"
+    },
+    {
+      "id": "magic",
+      "name": "魔法花园",
+      "range": "第 91–100 关",
+      "guardian": "fox",
+      "guardianName": "点点",
+      "skill": "变换与逻辑"
+    }
+  ],
+  "voices": {
+    "welcome": "欢迎来到数字岛。按 OK，和点点一起出发吧。",
+    "tutorial-1": "先按左键或右键，让光圈跳到卡片上。",
+    "tutorial-2": "按 OK，选一选。",
+    "tutorial-3": "没听清，就按上键，再听一遍。",
+    "tutorial-done": "真棒，你学会用遥控器啦！按 OK，出发。",
+    "hint-count": "用小手点着，一个一个数。",
+    "hint-quantity": "先看清数字，再数一数盘子里的东西。",
+    "hint-sequence": "看看前面的数字，再想想后面是谁。",
+    "hint-compare": "把两边一个对一个配起来，看看哪边有剩下的。",
+    "hint-pattern": "拍着手，找一找重复的节奏。",
+    "hint-ordinal": "从小旗这边开始，第一个、第二个，慢慢数。",
+    "hint-maze": "找一找，下一个数字就在旁边。",
+    "hint-try": "没关系，再想一想。",
+    "hint-again": "我们再看仔细一点。",
+    "hint-answer": "没关系，答案是它。按 OK，我们继续。",
+    "praise-1": "答对啦！",
+    "praise-2": "你数得很仔细！",
+    "praise-3": "太棒啦！",
+    "praise-4": "就是它！",
+    "praise-count": "数得真仔细！",
+    "level-complete": "太棒了，你得到了一颗数字星！",
+    "level-complete-2": "数字星亮起来啦！",
+    "finale": "一百颗数字星都亮啦！十座数字岛连成一片，庆典开始啦！",
+    "locked": "先完成前面的关卡，再来这里吧。",
+    "pause": "休息一下。按左右选一选，按 OK 确定。",
+    "break": "让眼睛休息一下。眨眨眼，看看远处。",
+    "parent": "这里是家长区。",
+    "exit": "要离开数字岛吗？",
+    "next": "下一关，出发吧。",
+    "all-done": "所有关卡都完成啦！可以回到地图，再玩一次。",
+    "count-1": "一",
+    "count-2": "二",
+    "count-3": "三",
+    "count-4": "四",
+    "count-5": "五",
+    "count-6": "六",
+    "count-7": "七",
+    "count-8": "八",
+    "count-9": "九",
+    "count-10": "十",
+    "summary-2": "一共有两个，数得真仔细！",
+    "summary-3": "一共有三个，数得真仔细！",
+    "summary-4": "一共有四个，数得真仔细！",
+    "summary-5": "一共有五个，数得真仔细！",
+    "summary-6": "一共有六个，数得真仔细！",
+    "summary-7": "一共有七个，数得真仔细！",
+    "summary-8": "一共有八个，数得真仔细！",
+    "summary-9": "一共有九个，数得真仔细！",
+    "summary-10": "一共有十个，数得真仔细！",
+    "hint-plane": "瞄准正确的数字，按下 OK 发射！",
+    "hint-relation": "多一个就往前数一个，少一个就往前退一个。",
+    "micro-forest-1": "播种。用左右键换花圃，按确定键把种子一颗颗种进花圃。",
+    "micro-forest-2": "浇水。按住确定键蓄水，到刻度松手。",
+    "micro-forest-3": "数字石桥。左右选石头，按确定键踩上去。",
+    "micro-forest-x4": "萤火虫网。左右移动网兜，按确定键捕捉萤火虫。",
+    "micro-forest-x5": "落叶分拣。先选叶子，再选数字筐。用左右键选。按确定键拿起或放下。",
+    "micro-forest-x6": "爬树。用上下键移动，找到木牌上说的那根树枝，按确定键停在那里。",
+    "micro-forest-x7": "蘑菇记忆。翻牌配对，记住每张牌的位置。用方向键选。按确定键翻牌。",
+    "micro-forest-x8": "接雨。左右移动木桶，接住落下的雨滴。",
+    "micro-forest-x9": "蜜蜂授粉。用方向键在花田里飞，按确定键停在花上授粉，一共五朵。",
+    "micro-forest-x10": "树根迷宫。在树根迷宫里按数字顺序走到出口。用方向键选。",
+    "micro-candy-1": "糖果传送带。看准订单数字，在糖果经过扫描口时按确定键。",
+    "micro-candy-2": "糖果天平。用左右键往两边加糖，让天平一样重。",
+    "micro-candy-3": "糖纸包装。记住糖纸顺序，按颜色一格一格包好。用左右键选。按确定键包一格。",
+    "micro-candy-x4": "夹糖机。左右移动夹爪，按确定键放下夹糖。",
+    "micro-candy-x5": "糖果电梯。用上下键选楼层，按确定键停在正确的楼层。",
+    "micro-candy-x6": "糖果托盘。用方向键选格子，按确定键放糖或取糖。",
+    "micro-candy-x7": "糖果罐。按住确定键装糖，到目标数量松手。",
+    "micro-candy-x8": "糖果管道。用左右键选管道，按确定键转一下，把三节接成直线。",
+    "micro-candy-x9": "糖果拉霸。按确定键依次停住三个转轮，停出三颗一样的糖。",
+    "micro-candy-x10": "糖果弹珠。用左右键移动投糖口，按确定键把糖弹进目标数字杯。",
+    "micro-castle-x1": "镜面点灯。用方向键选镜子，按确定键翻转，让灯光和图案一样。",
+    "micro-castle-x2": "星座连线。按数字顺序连接星星。用左右键选。按确定键连接。",
+    "micro-castle-x3": "烛台计数。用左右键选蜡烛，按确定键点亮或熄灭。",
+    "micro-castle-1": "钟楼指针。转动指针，停到目标钟点。用左右键选。按确定键对时。",
+    "micro-castle-2": "吊桥蓄力。按住确定键放下吊桥，到标记松手。",
+    "micro-castle-3": "城门齿轮。转动三个齿轮，把标记都转到上方。用左右键选。按确定键转一下。",
+    "micro-castle-x7": "骑士巡城。在城墙迷宫里按一到五走到塔楼。用方向键选。",
+    "micro-castle-x8": "塔楼寻窗。用方向键移动望远镜，按确定键查看亮灯数量。",
+    "micro-castle-x9": "王座归位。用左右键选王座，按确定键交换，把 1、2、3 排好。",
+    "micro-castle-x10": "舞会舞步。记住四个舞步，用方向键按顺序跳一遍。",
+    "micro-sky-x1": "飞机大战。左右瞄准，按确定键击落正确数字的敌机。",
+    "micro-sky-x2": "云门穿越。左右飞到写着目标数字的云门前，按确定键穿过。",
+    "micro-sky-x3": "热气球。按住确定键升空，到目标高度松手。",
+    "micro-sky-x4": "空中接星。左右移动滑翔翼，接住落下的星星。",
+    "micro-sky-1": "云朵跳台。看准绿色云朵，按确定键起跳。",
+    "micro-sky-2": "雷暴闪避。左右躲开闪电，捡到三颗太阳。按确定键捡太阳。",
+    "micro-sky-3": "风向标。用方向键选风向，让云飘到目标点。",
+    "micro-sky-4": "候鸟排队。用左右键选鸟，按确定键让候鸟按一到五起飞。",
+    "micro-sky-5": "彩虹涂色。用左右键选颜色，按确定键涂出彩虹。",
+    "micro-lighthouse-1": "云上灯塔。在云海迷宫按一到五走到灯塔。用方向键选。",
+    "micro-ocean-1": "数字捕鱼。左右开船，按确定键下网捕鱼。",
+    "micro-ocean-2": "海星采集。用方向键在礁石间移动，按确定键采集正好数量的海星。",
+    "micro-ocean-3": "珍珠下潜。按住确定键下潜，到目标深度松手。",
+    "micro-ocean-4": "珊瑚种植。用左右键换位置，按确定键种下目标数量的珊瑚。",
+    "micro-ocean-5": "潜艇迷宫。用方向键开潜艇，按一到五穿过海底峡谷。",
+    "micro-ocean-6": "水母灯。用左右键选水母，按确定键按顺序点亮。",
+    "micro-ocean-7": "螃蟹赛跑。左右交替横着走，走到目标步数。",
+    "micro-ocean-8": "数字泡泡。左右移动网兜，接住目标数量的泡泡。",
+    "micro-ocean-9": "藏宝图。用方向键移动铁锹，按确定键挖宝，按行和列找到宝箱。",
+    "micro-ocean-10": "珍珠宫。在珍珠宫迷宫按一到四走到王座。用方向键选。",
+    "micro-dino-x1": "化石挖掘。用方向键移动刷子，按确定键刷开沙土，找齐四块化石。",
+    "micro-dino-x2": "恐龙蛋配对。用左右键选蛋，按确定键打开，找到写着目标数字的恐龙蛋。",
+    "micro-dino-x3": "骨架拼接。按一到五把骨头接起来。用左右键选。按确定键拼接。",
+    "micro-dino-x4": "火山跳石。按一到五踩石头过岩浆。用方向键选。",
+    "micro-dino-x5": "脚印舞步。按脚印方向走完四步。用方向键选。",
+    "micro-dino-x6": "孵化保温。按住确定键给蛋保温，到目标温度松手。",
+    "micro-dino-x7": "喂小恐龙。左右移动，喂够目标数量的叶子。按确定键喂叶子。",
+    "micro-dino-x8": "化石分拣。把化石按数量放进对应筐。用左右键选。按确定键拿起或放下。",
+    "micro-dino-x9": "恐龙迷宫。在 五乘五迷宫里按一到五走到巢穴。用方向键选。",
+    "micro-dino-x10": "博物馆之夜。用左右键选展品，按确定键交换，把 1、2、3 排好。",
+    "micro-space-x1": "轨道对接。等火箭转到绿色接口时按确定键对接。",
+    "micro-space-x2": "陨石闪避。左右移动飞船，躲陨石捡三颗星。按确定键捡星。",
+    "micro-space-x3": "星图坐标。用方向键按行和列找目标星球，按确定键定位。",
+    "micro-space-x4": "舱门密码。用方向键按顺序输入四向密码。",
+    "micro-space-x5": "卫星维修。用方向键选太阳能板，按确定键转一下，让标记朝上。",
+    "micro-space-x6": "重力选择。选一个重力方向，把星球吸到目标轨道。用方向键选。",
+    "micro-space-x7": "外星记忆。用方向键选牌，按确定键翻牌，找到三对星球朋友。",
+    "micro-space-x8": "燃料加注。按住确定键加燃料，到目标刻度松手。",
+    "micro-space-x9": "星门迷宫。五乘五星门迷宫按一到五走到出口。用方向键选。",
+    "micro-space-x10": "最终发射。用方向键选按钮，按确定键按下四个发射按钮。",
+    "micro-music-x1": "节奏回声。用左右键选音符，按确定键敲出同样的节奏。",
+    "micro-music-x2": "音符排队。按一到五让音符依次排队。用左右键选。按确定键排队。",
+    "micro-music-x3": "乐器记忆。翻牌配对，找到三对乐器。用方向键选。按确定键翻牌。",
+    "micro-music-x4": "指挥棒。看准绿色拍点按确定键，连打三拍。",
+    "micro-music-x5": "音高滑梯。上下移动音高，停到目标音符。按确定键定音。",
+    "micro-music-x6": "泡泡节拍。看准泡泡到节拍线时按确定键。",
+    "micro-music-x7": "鼓点连击。跟着鼓点节奏按确定键连击四次。",
+    "micro-music-x8": "音乐迷宫。五乘五迷宫按一到五走到舞台。用方向键选。",
+    "micro-music-x9": "合唱顺序。交换小歌手，按 1、2、3 站好。用左右键选。按确定键交换。",
+    "micro-music-x10": "舞台终章。用方向键按舞台提示完成四步演出。",
+    "micro-donut-x1": "甜甜圈装盒。用方向键选格子，按确定键放一个或取一个，正好装满。",
+    "micro-donut-x2": "传送带接糖。左右移动盒子，接住落下的甜甜圈。",
+    "micro-donut-x3": "糖霜图案。按糖霜颜色顺序复现图案。用左右键选。按确定键挤糖霜。",
+    "micro-donut-x4": "平分甜甜圈。左右把甜甜圈分到两个盘子，让两边一样多。",
+    "micro-donut-x5": "烤箱计时。看准绿色时间按确定键出炉，一共烤两盘。",
+    "micro-donut-x6": "甜甜圈堆叠。看准位置按确定键叠甜甜圈，叠五层。",
+    "micro-donut-x7": "配料分拣。按配料数量把甜甜圈放进对应筐。用左右键选。按确定键拿起或放下。",
+    "micro-donut-x8": "甜甜圈迷宫。五乘五迷宫按一到五 送到柜台。用方向键选。",
+    "micro-donut-x9": "订单匹配。找到和订单数字对应的盒子。用左右键选。按确定键交付。",
+    "micro-donut-x10": "工厂夜班。用方向键选机器，按确定键按夜班流程操作四台机器。",
+    "micro-magic-x1": "魔法药水。用左右键选药水，按确定键按配方颜色顺序倒四格。",
+    "micro-magic-x2": "变形咒。用左右键选形状，按确定键把花园变成目标图案。",
+    "micro-magic-x3": "镜像花。用方向键选花镜，按确定键翻转，拼出目标图案。",
+    "micro-magic-x4": "魔法阵。用左右键选圈，按确定键转一下，把三个标记对齐。",
+    "micro-magic-x5": "飞天扫帚。左右飞，接住掉落的星星。",
+    "micro-magic-x6": "魔法生物。翻牌配对三只魔法生物。用方向键选。按确定键翻牌。",
+    "micro-magic-x7": "花园迷宫。五乘五花园迷宫按一到五走到喷泉。用方向键选。",
+    "micro-magic-x8": "星星采集。在花圃里收集正好数量的星星。用方向键选。按确定键采集。",
+    "micro-magic-x9": "魔法天平。左右加魔法花，让两边一样重。",
+    "micro-magic-x10": "花园庆典。用方向键按庆典顺序完成四步魔法。"
+  }
+}

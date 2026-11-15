@@ -1,0 +1,2773 @@
+{
+  "generatedAt": "2026-11-14T20:10:09.973Z",
+  "levels": 100,
+  "passed": 100,
+  "failed": 0,
+  "failures": [],
+  "rows": [
+    {
+      "id": "forest-1",
+      "title": "播种",
+      "verb": "按 OK 把种子一颗颗种进花圃",
+      "game": "seed",
+      "controls": [
+        {
+          "key": "left",
+          "label": "换花圃"
+        },
+        {
+          "key": "right",
+          "label": "换花圃"
+        },
+        {
+          "key": "ok",
+          "label": "放种子"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "播种。用左右键换花圃，按确定键把种子一颗颗种进花圃。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-2",
+      "title": "浇水",
+      "verb": "按住 OK 蓄水，到刻度松手",
+      "game": "water",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "按住蓄水"
+        },
+        {
+          "key": "up",
+          "label": "松手停止"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "浇水。按住确定键蓄水，到刻度松手。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-3",
+      "title": "数字石桥",
+      "verb": "左右选石头，按 OK 踩上去",
+      "game": "bridge",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选石头"
+        },
+        {
+          "key": "right",
+          "label": "选石头"
+        },
+        {
+          "key": "ok",
+          "label": "踩上去"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "数字石桥。左右选石头，按确定键踩上去。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-x4",
+      "title": "萤火虫网",
+      "verb": "左右移动网兜，按 OK 捕捉萤火虫",
+      "game": "firefly",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移网兜"
+        },
+        {
+          "key": "right",
+          "label": "移网兜"
+        },
+        {
+          "key": "ok",
+          "label": "网住"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "萤火虫网。左右移动网兜，按确定键捕捉萤火虫。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-x5",
+      "title": "落叶分拣",
+      "verb": "先选叶子，再选数字筐",
+      "game": "sort",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选叶子/筐"
+        },
+        {
+          "key": "right",
+          "label": "选叶子/筐"
+        },
+        {
+          "key": "ok",
+          "label": "拿起/放下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "落叶分拣。先选叶子，再选数字筐。用左右键选。按确定键拿起或放下。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-x6",
+      "title": "爬树",
+      "verb": "上下移动，找到第 N 根树枝",
+      "game": "climb",
+      "controls": [
+        {
+          "key": "up",
+          "label": "往上爬"
+        },
+        {
+          "key": "down",
+          "label": "往下爬"
+        },
+        {
+          "key": "ok",
+          "label": "停这里"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "爬树。用上下键移动，找到木牌上说的那根树枝，按确定键停在那里。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-x7",
+      "title": "蘑菇记忆",
+      "verb": "翻牌配对，记住每张牌的位置",
+      "game": "memory",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选牌"
+        },
+        {
+          "key": "right",
+          "label": "选牌"
+        },
+        {
+          "key": "up",
+          "label": "选牌"
+        },
+        {
+          "key": "down",
+          "label": "选牌"
+        },
+        {
+          "key": "ok",
+          "label": "翻牌"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "蘑菇记忆。翻牌配对，记住每张牌的位置。用方向键选。按确定键翻牌。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-x8",
+      "title": "接雨",
+      "verb": "左右移动木桶，接住落下的雨滴",
+      "game": "rain",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移木桶"
+        },
+        {
+          "key": "right",
+          "label": "移木桶"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "接雨。左右移动木桶，接住落下的雨滴。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-x9",
+      "title": "蜜蜂授粉",
+      "verb": "在花田里移动小蜜蜂，给花朵授粉",
+      "game": "pollinate",
+      "controls": [
+        {
+          "key": "left",
+          "label": "飞"
+        },
+        {
+          "key": "right",
+          "label": "飞"
+        },
+        {
+          "key": "up",
+          "label": "飞"
+        },
+        {
+          "key": "down",
+          "label": "飞"
+        },
+        {
+          "key": "ok",
+          "label": "授粉"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "蜜蜂授粉。用方向键在花田里飞，按确定键停在花上授粉，一共五朵。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "forest-x10",
+      "title": "树根迷宫",
+      "verb": "在树根迷宫里按数字顺序走到出口",
+      "game": "maze",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "树根迷宫。在树根迷宫里按数字顺序走到出口。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-1",
+      "title": "糖果传送带",
+      "verb": "看准订单数字，在糖果经过扫描口时按 OK",
+      "game": "conveyor",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "停传送带"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果传送带。看准订单数字，在糖果经过扫描口时按确定键。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-2",
+      "title": "糖果天平",
+      "verb": "用左右键往两边加糖，让天平一样重",
+      "game": "balance",
+      "controls": [
+        {
+          "key": "left",
+          "label": "左边加糖"
+        },
+        {
+          "key": "right",
+          "label": "右边加糖"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果天平。用左右键往两边加糖，让天平一样重。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-3",
+      "title": "糖纸包装",
+      "verb": "记住糖纸顺序，按颜色一格一格包好",
+      "game": "wrap",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选颜色"
+        },
+        {
+          "key": "right",
+          "label": "选颜色"
+        },
+        {
+          "key": "ok",
+          "label": "包一格"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖纸包装。记住糖纸顺序，按颜色一格一格包好。用左右键选。按确定键包一格。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-x4",
+      "title": "夹糖机",
+      "verb": "左右移动夹爪，按 OK 放下夹糖",
+      "game": "claw",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移夹爪"
+        },
+        {
+          "key": "right",
+          "label": "移夹爪"
+        },
+        {
+          "key": "ok",
+          "label": "放下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "夹糖机。左右移动夹爪，按确定键放下夹糖。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-x5",
+      "title": "糖果电梯",
+      "verb": "上下开电梯，停在正确的楼层",
+      "game": "elevator",
+      "controls": [
+        {
+          "key": "up",
+          "label": "上一层"
+        },
+        {
+          "key": "down",
+          "label": "下一层"
+        },
+        {
+          "key": "ok",
+          "label": "停这里"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果电梯。用上下键选楼层，按确定键停在正确的楼层。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-x6",
+      "title": "糖果托盘",
+      "verb": "在托盘格子里放糖或取糖，正好凑够数量",
+      "game": "tray",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选格子"
+        },
+        {
+          "key": "right",
+          "label": "选格子"
+        },
+        {
+          "key": "up",
+          "label": "选格子"
+        },
+        {
+          "key": "down",
+          "label": "选格子"
+        },
+        {
+          "key": "ok",
+          "label": "放/取"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果托盘。用方向键选格子，按确定键放糖或取糖。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-x7",
+      "title": "糖果罐",
+      "verb": "按住 OK 装糖，到目标数量松手",
+      "game": "jar",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "按住装糖"
+        },
+        {
+          "key": "up",
+          "label": "松手"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果罐。按住确定键装糖，到目标数量松手。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-x8",
+      "title": "糖果管道",
+      "verb": "转动手里的管道，把三节接成直线",
+      "game": "pipe",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选管道"
+        },
+        {
+          "key": "right",
+          "label": "选管道"
+        },
+        {
+          "key": "ok",
+          "label": "转一下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果管道。用左右键选管道，按确定键转一下，把三节接成直线。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-x9",
+      "title": "糖果拉霸",
+      "verb": "按 OK 依次停住三个转轮，停出三颗一样的糖",
+      "game": "slot",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "停转轮"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果拉霸。按确定键依次停住三个转轮，停出三颗一样的糖。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "candy-x10",
+      "title": "糖果弹珠",
+      "verb": "左右移动投糖口，把糖弹进目标数字杯",
+      "game": "pachinko",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移投口"
+        },
+        {
+          "key": "right",
+          "label": "移投口"
+        },
+        {
+          "key": "ok",
+          "label": "投糖"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖果弹珠。用左右键移动投糖口，按确定键把糖弹进目标数字杯。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-x1",
+      "title": "镜面点灯",
+      "verb": "翻转镜子，让左右灯光和图案一样",
+      "game": "mirror",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选镜子"
+        },
+        {
+          "key": "right",
+          "label": "选镜子"
+        },
+        {
+          "key": "up",
+          "label": "选镜子"
+        },
+        {
+          "key": "down",
+          "label": "选镜子"
+        },
+        {
+          "key": "ok",
+          "label": "翻转"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "镜面点灯。用方向键选镜子，按确定键翻转，让灯光和图案一样。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-x2",
+      "title": "星座连线",
+      "verb": "按数字顺序连接星星",
+      "game": "stars",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选星星"
+        },
+        {
+          "key": "right",
+          "label": "选星星"
+        },
+        {
+          "key": "ok",
+          "label": "连接"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "星座连线。按数字顺序连接星星。用左右键选。按确定键连接。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-x3",
+      "title": "烛台计数",
+      "verb": "点亮正好目标数量的蜡烛",
+      "game": "candles",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选蜡烛"
+        },
+        {
+          "key": "right",
+          "label": "选蜡烛"
+        },
+        {
+          "key": "ok",
+          "label": "点亮/熄灭"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "烛台计数。用左右键选蜡烛，按确定键点亮或熄灭。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-1",
+      "title": "钟楼指针",
+      "verb": "转动指针，停到目标钟点",
+      "game": "clock",
+      "controls": [
+        {
+          "key": "left",
+          "label": "往前转"
+        },
+        {
+          "key": "right",
+          "label": "往后转"
+        },
+        {
+          "key": "ok",
+          "label": "对时"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "钟楼指针。转动指针，停到目标钟点。用左右键选。按确定键对时。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-2",
+      "title": "吊桥蓄力",
+      "verb": "按住 OK 放下吊桥，到标记松手",
+      "game": "drawbridge",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "按住放桥"
+        },
+        {
+          "key": "up",
+          "label": "松手"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "吊桥蓄力。按住确定键放下吊桥，到标记松手。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-3",
+      "title": "城门齿轮",
+      "verb": "转动三个齿轮，把标记都转到上方",
+      "game": "gears",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选齿轮"
+        },
+        {
+          "key": "right",
+          "label": "选齿轮"
+        },
+        {
+          "key": "ok",
+          "label": "转一下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "城门齿轮。转动三个齿轮，把标记都转到上方。用左右键选。按确定键转一下。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-x7",
+      "title": "骑士巡城",
+      "verb": "在城墙迷宫里按 1→5 走到塔楼",
+      "game": "knight",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "骑士巡城。在城墙迷宫里按一到五走到塔楼。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-x8",
+      "title": "塔楼寻窗",
+      "verb": "移动望远镜，找到亮灯数量正确的窗户",
+      "game": "windows",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移望远镜"
+        },
+        {
+          "key": "right",
+          "label": "移望远镜"
+        },
+        {
+          "key": "up",
+          "label": "移望远镜"
+        },
+        {
+          "key": "down",
+          "label": "移望远镜"
+        },
+        {
+          "key": "ok",
+          "label": "查看"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "塔楼寻窗。用方向键移动望远镜，按确定键查看亮灯数量。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-x9",
+      "title": "王座归位",
+      "verb": "交换王座，把 1、2、3 按顺序排好",
+      "game": "throne",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选王座"
+        },
+        {
+          "key": "right",
+          "label": "选王座"
+        },
+        {
+          "key": "ok",
+          "label": "交换"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "王座归位。用左右键选王座，按确定键交换，把 1、2、3 排好。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "castle-x10",
+      "title": "舞会舞步",
+      "verb": "记住四个舞步，按顺序复现",
+      "game": "dance",
+      "controls": [
+        {
+          "key": "left",
+          "label": "舞步"
+        },
+        {
+          "key": "right",
+          "label": "舞步"
+        },
+        {
+          "key": "up",
+          "label": "舞步"
+        },
+        {
+          "key": "down",
+          "label": "舞步"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "舞会舞步。记住四个舞步，用方向键按顺序跳一遍。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-x1",
+      "title": "飞机大战",
+      "verb": "左右瞄准，按 OK 击落正确数字的敌机",
+      "game": "plane",
+      "controls": [
+        {
+          "key": "left",
+          "label": "瞄准"
+        },
+        {
+          "key": "right",
+          "label": "瞄准"
+        },
+        {
+          "key": "ok",
+          "label": "开火"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "飞机大战。左右瞄准，按确定键击落正确数字的敌机。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-x2",
+      "title": "云门穿越",
+      "verb": "左右飞到写着目标数字的云门前，按 OK 穿过",
+      "game": "gate",
+      "controls": [
+        {
+          "key": "left",
+          "label": "飞"
+        },
+        {
+          "key": "right",
+          "label": "飞"
+        },
+        {
+          "key": "ok",
+          "label": "穿云门"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "云门穿越。左右飞到写着目标数字的云门前，按确定键穿过。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-x3",
+      "title": "热气球",
+      "verb": "按住 OK 升空，到目标高度松手",
+      "game": "balloon",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "按住升空"
+        },
+        {
+          "key": "up",
+          "label": "松手"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "热气球。按住确定键升空，到目标高度松手。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-x4",
+      "title": "空中接星",
+      "verb": "左右移动滑翔翼，接住落下的星星",
+      "game": "stars",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移滑翔翼"
+        },
+        {
+          "key": "right",
+          "label": "移滑翔翼"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "空中接星。左右移动滑翔翼，接住落下的星星。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-1",
+      "title": "云朵跳台",
+      "verb": "看准绿色云朵，按 OK 起跳",
+      "game": "hop",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "起跳"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "云朵跳台。看准绿色云朵，按确定键起跳。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-2",
+      "title": "雷暴闪避",
+      "verb": "左右躲开闪电，捡到三颗太阳",
+      "game": "storm",
+      "controls": [
+        {
+          "key": "left",
+          "label": "躲"
+        },
+        {
+          "key": "right",
+          "label": "躲"
+        },
+        {
+          "key": "ok",
+          "label": "捡太阳"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "雷暴闪避。左右躲开闪电，捡到三颗太阳。按确定键捡太阳。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-3",
+      "title": "风向标",
+      "verb": "按箭头方向吹风，让云飘到目标点",
+      "game": "wind",
+      "controls": [
+        {
+          "key": "left",
+          "label": "左风"
+        },
+        {
+          "key": "right",
+          "label": "右风"
+        },
+        {
+          "key": "up",
+          "label": "上风"
+        },
+        {
+          "key": "down",
+          "label": "下风"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "风向标。用方向键选风向，让云飘到目标点。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-4",
+      "title": "候鸟排队",
+      "verb": "按 1→5 让候鸟依次起飞",
+      "game": "birds",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选鸟"
+        },
+        {
+          "key": "right",
+          "label": "选鸟"
+        },
+        {
+          "key": "ok",
+          "label": "起飞"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "候鸟排队。用左右键选鸟，按确定键让候鸟按一到五起飞。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "sky-5",
+      "title": "彩虹涂色",
+      "verb": "按顺序涂出彩虹颜色",
+      "game": "rainbow",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选颜色"
+        },
+        {
+          "key": "right",
+          "label": "选颜色"
+        },
+        {
+          "key": "ok",
+          "label": "涂一格"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "彩虹涂色。用左右键选颜色，按确定键涂出彩虹。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "lighthouse-1",
+      "title": "云上灯塔",
+      "verb": "在云海迷宫按 1→5 走到灯塔",
+      "game": "maze",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "云上灯塔。在云海迷宫按一到五走到灯塔。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-1",
+      "title": "数字捕鱼",
+      "verb": "左右开船，按 OK 下网捕鱼",
+      "game": "fishing",
+      "controls": [
+        {
+          "key": "left",
+          "label": "开船"
+        },
+        {
+          "key": "right",
+          "label": "开船"
+        },
+        {
+          "key": "ok",
+          "label": "下网"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "数字捕鱼。左右开船，按确定键下网捕鱼。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-2",
+      "title": "海星采集",
+      "verb": "在礁石间移动，收集正好数量的海星",
+      "game": "starfish",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选礁石"
+        },
+        {
+          "key": "right",
+          "label": "选礁石"
+        },
+        {
+          "key": "up",
+          "label": "选礁石"
+        },
+        {
+          "key": "down",
+          "label": "选礁石"
+        },
+        {
+          "key": "ok",
+          "label": "采集"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "海星采集。用方向键在礁石间移动，按确定键采集正好数量的海星。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-3",
+      "title": "珍珠下潜",
+      "verb": "按住 OK 下潜，到目标深度松手",
+      "game": "pearl",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "按住下潜"
+        },
+        {
+          "key": "up",
+          "label": "松手"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "珍珠下潜。按住确定键下潜，到目标深度松手。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-4",
+      "title": "珊瑚种植",
+      "verb": "在海底花圃里种下目标数量的珊瑚",
+      "game": "coral",
+      "controls": [
+        {
+          "key": "left",
+          "label": "换位置"
+        },
+        {
+          "key": "right",
+          "label": "换位置"
+        },
+        {
+          "key": "ok",
+          "label": "种珊瑚"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "珊瑚种植。用左右键换位置，按确定键种下目标数量的珊瑚。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-5",
+      "title": "潜艇迷宫",
+      "verb": "开潜艇按 1→5 穿过海底峡谷",
+      "game": "submarine",
+      "controls": [
+        {
+          "key": "left",
+          "label": "开"
+        },
+        {
+          "key": "right",
+          "label": "开"
+        },
+        {
+          "key": "up",
+          "label": "开"
+        },
+        {
+          "key": "down",
+          "label": "开"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "潜艇迷宫。用方向键开潜艇，按一到五穿过海底峡谷。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-6",
+      "title": "水母灯",
+      "verb": "按亮灯顺序点亮水母",
+      "game": "jelly",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选水母"
+        },
+        {
+          "key": "right",
+          "label": "选水母"
+        },
+        {
+          "key": "ok",
+          "label": "点亮"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "水母灯。用左右键选水母，按确定键按顺序点亮。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-7",
+      "title": "螃蟹赛跑",
+      "verb": "左右交替横着走，走到目标步数",
+      "game": "crab",
+      "controls": [
+        {
+          "key": "left",
+          "label": "横走"
+        },
+        {
+          "key": "right",
+          "label": "横走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "螃蟹赛跑。左右交替横着走，走到目标步数。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-8",
+      "title": "数字泡泡",
+      "verb": "左右移动网兜，接住目标数量的泡泡",
+      "game": "bubble",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移网"
+        },
+        {
+          "key": "right",
+          "label": "移网"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "数字泡泡。左右移动网兜，接住目标数量的泡泡。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-9",
+      "title": "藏宝图",
+      "verb": "按行和列找到宝箱",
+      "game": "treasure",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移"
+        },
+        {
+          "key": "right",
+          "label": "移"
+        },
+        {
+          "key": "up",
+          "label": "移"
+        },
+        {
+          "key": "down",
+          "label": "移"
+        },
+        {
+          "key": "ok",
+          "label": "挖宝"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "藏宝图。用方向键移动铁锹，按确定键挖宝，按行和列找到宝箱。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "ocean-10",
+      "title": "珍珠宫",
+      "verb": "在珍珠宫迷宫按 1→4 走到王座",
+      "game": "palace",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "珍珠宫。在珍珠宫迷宫按一到四走到王座。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x1",
+      "title": "化石挖掘",
+      "verb": "刷开沙土，找齐 4 块化石",
+      "game": "brush",
+      "controls": [
+        {
+          "key": "left",
+          "label": "刷子"
+        },
+        {
+          "key": "right",
+          "label": "刷子"
+        },
+        {
+          "key": "up",
+          "label": "刷子"
+        },
+        {
+          "key": "down",
+          "label": "刷子"
+        },
+        {
+          "key": "ok",
+          "label": "刷一下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "化石挖掘。用方向键移动刷子，按确定键刷开沙土，找齐四块化石。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x2",
+      "title": "恐龙蛋配对",
+      "verb": "找到写着目标数字的恐龙蛋",
+      "game": "egg",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选蛋"
+        },
+        {
+          "key": "right",
+          "label": "选蛋"
+        },
+        {
+          "key": "ok",
+          "label": "打开"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "恐龙蛋配对。用左右键选蛋，按确定键打开，找到写着目标数字的恐龙蛋。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x3",
+      "title": "骨架拼接",
+      "verb": "按 1→5 把骨头接起来",
+      "game": "bone",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选骨头"
+        },
+        {
+          "key": "right",
+          "label": "选骨头"
+        },
+        {
+          "key": "ok",
+          "label": "拼接"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "骨架拼接。按一到五把骨头接起来。用左右键选。按确定键拼接。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x4",
+      "title": "火山跳石",
+      "verb": "按 1→5 踩石头过岩浆",
+      "game": "volcano",
+      "controls": [
+        {
+          "key": "left",
+          "label": "跳"
+        },
+        {
+          "key": "right",
+          "label": "跳"
+        },
+        {
+          "key": "up",
+          "label": "跳"
+        },
+        {
+          "key": "down",
+          "label": "跳"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "火山跳石。按一到五踩石头过岩浆。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x5",
+      "title": "脚印舞步",
+      "verb": "按脚印方向走完四步",
+      "game": "footprint",
+      "controls": [
+        {
+          "key": "left",
+          "label": "踩"
+        },
+        {
+          "key": "right",
+          "label": "踩"
+        },
+        {
+          "key": "up",
+          "label": "踩"
+        },
+        {
+          "key": "down",
+          "label": "踩"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "脚印舞步。按脚印方向走完四步。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x6",
+      "title": "孵化保温",
+      "verb": "按住 OK 给蛋保温到目标温度",
+      "game": "hatch",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "按住保温"
+        },
+        {
+          "key": "up",
+          "label": "松手"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "孵化保温。按住确定键给蛋保温，到目标温度松手。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x7",
+      "title": "喂小恐龙",
+      "verb": "左右移动，喂够目标数量的叶子",
+      "game": "feed",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移动"
+        },
+        {
+          "key": "right",
+          "label": "移动"
+        },
+        {
+          "key": "ok",
+          "label": "喂叶子"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "喂小恐龙。左右移动，喂够目标数量的叶子。按确定键喂叶子。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x8",
+      "title": "化石分拣",
+      "verb": "把化石按数量放进对应筐",
+      "game": "sort",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选化石/筐"
+        },
+        {
+          "key": "right",
+          "label": "选化石/筐"
+        },
+        {
+          "key": "ok",
+          "label": "拿起/放下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "化石分拣。把化石按数量放进对应筐。用左右键选。按确定键拿起或放下。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x9",
+      "title": "恐龙迷宫",
+      "verb": "在 5×5 迷宫里按 1→5 走到巢穴",
+      "game": "maze",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "恐龙迷宫。在 五乘五迷宫里按一到五走到巢穴。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "dino-x10",
+      "title": "博物馆之夜",
+      "verb": "交换展品，把 1、2、3 排好",
+      "game": "museum",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选展品"
+        },
+        {
+          "key": "right",
+          "label": "选展品"
+        },
+        {
+          "key": "ok",
+          "label": "交换"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "博物馆之夜。用左右键选展品，按确定键交换，把 1、2、3 排好。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x1",
+      "title": "轨道对接",
+      "verb": "等火箭转到绿色接口时按 OK 对接",
+      "game": "orbit",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "对接"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "轨道对接。等火箭转到绿色接口时按确定键对接。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x2",
+      "title": "陨石闪避",
+      "verb": "左右移动飞船，躲陨石捡三颗星",
+      "game": "asteroid",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移动"
+        },
+        {
+          "key": "right",
+          "label": "移动"
+        },
+        {
+          "key": "ok",
+          "label": "捡星"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "陨石闪避。左右移动飞船，躲陨石捡三颗星。按确定键捡星。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x3",
+      "title": "星图坐标",
+      "verb": "按行和列找到目标星球",
+      "game": "starmap",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移"
+        },
+        {
+          "key": "right",
+          "label": "移"
+        },
+        {
+          "key": "up",
+          "label": "移"
+        },
+        {
+          "key": "down",
+          "label": "移"
+        },
+        {
+          "key": "ok",
+          "label": "定位"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "星图坐标。用方向键按行和列找目标星球，按确定键定位。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x4",
+      "title": "舱门密码",
+      "verb": "按顺序输入四向密码",
+      "game": "hatch",
+      "controls": [
+        {
+          "key": "left",
+          "label": "输入"
+        },
+        {
+          "key": "right",
+          "label": "输入"
+        },
+        {
+          "key": "up",
+          "label": "输入"
+        },
+        {
+          "key": "down",
+          "label": "输入"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "舱门密码。用方向键按顺序输入四向密码。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x5",
+      "title": "卫星维修",
+      "verb": "转动三块太阳能板，让标记朝上",
+      "game": "satellite",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选面板"
+        },
+        {
+          "key": "right",
+          "label": "选面板"
+        },
+        {
+          "key": "ok",
+          "label": "转一下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "卫星维修。用方向键选太阳能板，按确定键转一下，让标记朝上。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x6",
+      "title": "重力选择",
+      "verb": "选一个重力方向，把星球吸到目标轨道",
+      "game": "gravity",
+      "controls": [
+        {
+          "key": "left",
+          "label": "左"
+        },
+        {
+          "key": "right",
+          "label": "右"
+        },
+        {
+          "key": "up",
+          "label": "上"
+        },
+        {
+          "key": "down",
+          "label": "下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "重力选择。选一个重力方向，把星球吸到目标轨道。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x7",
+      "title": "外星记忆",
+      "verb": "翻牌配对，找到三对星球朋友",
+      "game": "alien",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选牌"
+        },
+        {
+          "key": "right",
+          "label": "选牌"
+        },
+        {
+          "key": "up",
+          "label": "选牌"
+        },
+        {
+          "key": "down",
+          "label": "选牌"
+        },
+        {
+          "key": "ok",
+          "label": "翻牌"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "外星记忆。用方向键选牌，按确定键翻牌，找到三对星球朋友。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x8",
+      "title": "燃料加注",
+      "verb": "按住 OK 加燃料，到目标刻度松手",
+      "game": "fuel",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "按住加注"
+        },
+        {
+          "key": "up",
+          "label": "松手"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "燃料加注。按住确定键加燃料，到目标刻度松手。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x9",
+      "title": "星门迷宫",
+      "verb": "5×5 星门迷宫按 1→5 走到出口",
+      "game": "warp",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "星门迷宫。五乘五星门迷宫按一到五走到出口。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "space-x10",
+      "title": "最终发射",
+      "verb": "按发射序列依次按下四个按钮",
+      "game": "launch",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选按钮"
+        },
+        {
+          "key": "right",
+          "label": "选按钮"
+        },
+        {
+          "key": "up",
+          "label": "选按钮"
+        },
+        {
+          "key": "down",
+          "label": "选按钮"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "最终发射。用方向键选按钮，按确定键按下四个发射按钮。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x1",
+      "title": "节奏回声",
+      "verb": "听/看四个音符，按颜色复现",
+      "game": "echo",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选音符"
+        },
+        {
+          "key": "right",
+          "label": "选音符"
+        },
+        {
+          "key": "ok",
+          "label": "敲一下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "节奏回声。用左右键选音符，按确定键敲出同样的节奏。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x2",
+      "title": "音符排队",
+      "verb": "按 1→5 让音符依次排队",
+      "game": "queue",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选音符"
+        },
+        {
+          "key": "right",
+          "label": "选音符"
+        },
+        {
+          "key": "ok",
+          "label": "排队"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "音符排队。按一到五让音符依次排队。用左右键选。按确定键排队。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x3",
+      "title": "乐器记忆",
+      "verb": "翻牌配对，找到三对乐器",
+      "game": "memory",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选牌"
+        },
+        {
+          "key": "right",
+          "label": "选牌"
+        },
+        {
+          "key": "up",
+          "label": "选牌"
+        },
+        {
+          "key": "down",
+          "label": "选牌"
+        },
+        {
+          "key": "ok",
+          "label": "翻牌"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "乐器记忆。翻牌配对，找到三对乐器。用方向键选。按确定键翻牌。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x4",
+      "title": "指挥棒",
+      "verb": "看准绿色拍点按 OK，连打三拍",
+      "game": "baton",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "打拍"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "指挥棒。看准绿色拍点按确定键，连打三拍。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x5",
+      "title": "音高滑梯",
+      "verb": "上下移动音高，停到目标音符",
+      "game": "pitch",
+      "controls": [
+        {
+          "key": "up",
+          "label": "升高"
+        },
+        {
+          "key": "down",
+          "label": "降低"
+        },
+        {
+          "key": "ok",
+          "label": "定音"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "音高滑梯。上下移动音高，停到目标音符。按确定键定音。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x6",
+      "title": "泡泡节拍",
+      "verb": "看准泡泡到节拍线时按 OK",
+      "game": "bubble",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "拍泡泡"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "泡泡节拍。看准泡泡到节拍线时按确定键。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x7",
+      "title": "鼓点连击",
+      "verb": "跟着鼓点节奏按 OK 连击四次",
+      "game": "drum",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "敲鼓"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "鼓点连击。跟着鼓点节奏按确定键连击四次。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x8",
+      "title": "音乐迷宫",
+      "verb": "5×5 迷宫按 1→5 走到舞台",
+      "game": "maze",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "音乐迷宫。五乘五迷宫按一到五走到舞台。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x9",
+      "title": "合唱顺序",
+      "verb": "交换小歌手，按 1、2、3 站好",
+      "game": "choir",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选歌手"
+        },
+        {
+          "key": "right",
+          "label": "选歌手"
+        },
+        {
+          "key": "ok",
+          "label": "交换"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "合唱顺序。交换小歌手，按 1、2、3 站好。用左右键选。按确定键交换。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "music-x10",
+      "title": "舞台终章",
+      "verb": "按舞台提示完成四步演出",
+      "game": "stage",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选"
+        },
+        {
+          "key": "right",
+          "label": "选"
+        },
+        {
+          "key": "up",
+          "label": "选"
+        },
+        {
+          "key": "down",
+          "label": "选"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "舞台终章。用方向键按舞台提示完成四步演出。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x1",
+      "title": "甜甜圈装盒",
+      "verb": "在盒格里放/取甜甜圈，正好装满目标数量",
+      "game": "box",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选格"
+        },
+        {
+          "key": "right",
+          "label": "选格"
+        },
+        {
+          "key": "up",
+          "label": "选格"
+        },
+        {
+          "key": "down",
+          "label": "选格"
+        },
+        {
+          "key": "ok",
+          "label": "放/取"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "甜甜圈装盒。用方向键选格子，按确定键放一个或取一个，正好装满。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x2",
+      "title": "传送带接糖",
+      "verb": "左右移动盒子，接住落下的甜甜圈",
+      "game": "catch",
+      "controls": [
+        {
+          "key": "left",
+          "label": "移盒"
+        },
+        {
+          "key": "right",
+          "label": "移盒"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "传送带接糖。左右移动盒子，接住落下的甜甜圈。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x3",
+      "title": "糖霜图案",
+      "verb": "按糖霜颜色顺序复现图案",
+      "game": "icing",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选色"
+        },
+        {
+          "key": "right",
+          "label": "选色"
+        },
+        {
+          "key": "ok",
+          "label": "挤糖霜"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "糖霜图案。按糖霜颜色顺序复现图案。用左右键选。按确定键挤糖霜。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x4",
+      "title": "平分甜甜圈",
+      "verb": "左右把甜甜圈分到两个盘子，让两边一样多",
+      "game": "split",
+      "controls": [
+        {
+          "key": "left",
+          "label": "放左盘"
+        },
+        {
+          "key": "right",
+          "label": "放右盘"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "平分甜甜圈。左右把甜甜圈分到两个盘子，让两边一样多。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x5",
+      "title": "烤箱计时",
+      "verb": "看准时间按 OK 出炉，烤两盘",
+      "game": "oven",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "出炉"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "烤箱计时。看准绿色时间按确定键出炉，一共烤两盘。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x6",
+      "title": "甜甜圈堆叠",
+      "verb": "看准位置按 OK 叠甜甜圈，叠五层",
+      "game": "stack",
+      "controls": [
+        {
+          "key": "ok",
+          "label": "叠一个"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "甜甜圈堆叠。看准位置按确定键叠甜甜圈，叠五层。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x7",
+      "title": "配料分拣",
+      "verb": "按配料数量把甜甜圈放进对应筐",
+      "game": "sort",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选"
+        },
+        {
+          "key": "right",
+          "label": "选"
+        },
+        {
+          "key": "ok",
+          "label": "拿起/放下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "配料分拣。按配料数量把甜甜圈放进对应筐。用左右键选。按确定键拿起或放下。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x8",
+      "title": "甜甜圈迷宫",
+      "verb": "5×5 迷宫按 1→5 送到柜台",
+      "game": "maze",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "甜甜圈迷宫。五乘五迷宫按一到五 送到柜台。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x9",
+      "title": "订单匹配",
+      "verb": "找到和订单数字对应的盒子",
+      "game": "order",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选盒"
+        },
+        {
+          "key": "right",
+          "label": "选盒"
+        },
+        {
+          "key": "ok",
+          "label": "交付"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "订单匹配。找到和订单数字对应的盒子。用左右键选。按确定键交付。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "donut-x10",
+      "title": "工厂夜班",
+      "verb": "按夜班流程操作四台机器",
+      "game": "night",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选"
+        },
+        {
+          "key": "right",
+          "label": "选"
+        },
+        {
+          "key": "up",
+          "label": "选"
+        },
+        {
+          "key": "down",
+          "label": "选"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "工厂夜班。用方向键选机器，按确定键按夜班流程操作四台机器。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x1",
+      "title": "魔法药水",
+      "verb": "按配方颜色顺序倒药水",
+      "game": "potion",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选药水"
+        },
+        {
+          "key": "right",
+          "label": "选药水"
+        },
+        {
+          "key": "ok",
+          "label": "倒一格"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "魔法药水。用左右键选药水，按确定键按配方颜色顺序倒四格。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x2",
+      "title": "变形咒",
+      "verb": "左右选形状，把花园变成目标图案",
+      "game": "transform",
+      "controls": [
+        {
+          "key": "left",
+          "label": "变"
+        },
+        {
+          "key": "right",
+          "label": "变"
+        },
+        {
+          "key": "ok",
+          "label": "定形"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "变形咒。用左右键选形状，按确定键把花园变成目标图案。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x3",
+      "title": "镜像花",
+      "verb": "翻转花镜，拼出目标亮花图案",
+      "game": "mirror",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选镜"
+        },
+        {
+          "key": "right",
+          "label": "选镜"
+        },
+        {
+          "key": "up",
+          "label": "选镜"
+        },
+        {
+          "key": "down",
+          "label": "选镜"
+        },
+        {
+          "key": "ok",
+          "label": "翻转"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "镜像花。用方向键选花镜，按确定键翻转，拼出目标图案。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x4",
+      "title": "魔法阵",
+      "verb": "转动三圈符文，把标记对齐",
+      "game": "spell",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选圈"
+        },
+        {
+          "key": "right",
+          "label": "选圈"
+        },
+        {
+          "key": "ok",
+          "label": "转一下"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "魔法阵。用左右键选圈，按确定键转一下，把三个标记对齐。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x5",
+      "title": "飞天扫帚",
+      "verb": "左右飞，接住掉落的星星",
+      "game": "broom",
+      "controls": [
+        {
+          "key": "left",
+          "label": "飞"
+        },
+        {
+          "key": "right",
+          "label": "飞"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "飞天扫帚。左右飞，接住掉落的星星。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x6",
+      "title": "魔法生物",
+      "verb": "翻牌配对三只魔法生物",
+      "game": "creature",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选牌"
+        },
+        {
+          "key": "right",
+          "label": "选牌"
+        },
+        {
+          "key": "up",
+          "label": "选牌"
+        },
+        {
+          "key": "down",
+          "label": "选牌"
+        },
+        {
+          "key": "ok",
+          "label": "翻牌"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "魔法生物。翻牌配对三只魔法生物。用方向键选。按确定键翻牌。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x7",
+      "title": "花园迷宫",
+      "verb": "5×5 花园迷宫按 1→5 走到喷泉",
+      "game": "maze",
+      "controls": [
+        {
+          "key": "left",
+          "label": "走"
+        },
+        {
+          "key": "right",
+          "label": "走"
+        },
+        {
+          "key": "up",
+          "label": "走"
+        },
+        {
+          "key": "down",
+          "label": "走"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "花园迷宫。五乘五花园迷宫按一到五走到喷泉。用方向键选。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x8",
+      "title": "星星采集",
+      "verb": "在花圃里收集正好数量的星星",
+      "game": "stars",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选"
+        },
+        {
+          "key": "right",
+          "label": "选"
+        },
+        {
+          "key": "up",
+          "label": "选"
+        },
+        {
+          "key": "down",
+          "label": "选"
+        },
+        {
+          "key": "ok",
+          "label": "采集"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "星星采集。在花圃里收集正好数量的星星。用方向键选。按确定键采集。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x9",
+      "title": "魔法天平",
+      "verb": "左右加魔法花，让两边一样重",
+      "game": "balance",
+      "controls": [
+        {
+          "key": "left",
+          "label": "左"
+        },
+        {
+          "key": "right",
+          "label": "右"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "魔法天平。左右加魔法花，让两边一样重。",
+      "status": "PASS",
+      "checks": []
+    },
+    {
+      "id": "magic-x10",
+      "title": "花园庆典",
+      "verb": "按庆典顺序完成四步魔法",
+      "game": "finale",
+      "controls": [
+        {
+          "key": "left",
+          "label": "选"
+        },
+        {
+          "key": "right",
+          "label": "选"
+        },
+        {
+          "key": "up",
+          "label": "选"
+        },
+        {
+          "key": "down",
+          "label": "选"
+        },
+        {
+          "key": "back",
+          "label": "回地图"
+        }
+      ],
+      "voice": "花园庆典。用方向键按庆典顺序完成四步魔法。",
+      "status": "PASS",
+      "checks": []
+    }
+  ]
+}

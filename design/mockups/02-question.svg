@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="数字岛大冒险答题页设计稿">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C7EEF2"/>
+      <stop offset="0.66" stop-color="#EAF6DE"/>
+      <stop offset="1" stop-color="#FFF2D8"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94CF72"/>
+      <stop offset="1" stop-color="#67A94F"/>
+    </linearGradient>
+    <linearGradient id="bed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B18A64"/>
+      <stop offset="1" stop-color="#8B5E3C"/>
+    </linearGradient>
+    <pattern id="grain" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="8" r="1.4" fill="#23313F" opacity="0.04"/>
+      <circle cx="23" cy="25" r="1" fill="#23313F" opacity="0.035"/>
+      <path d="M12 30 q5 -4 10 0" fill="none" stroke="#23313F" stroke-width="1" opacity="0.03"/>
+    </pattern>
+    <style>
+      .body { font-family: 'PingFang SC', 'Hiragino Sans GB', sans-serif; }
+      .title-cn { font-family: 'Hannotate SC', 'Yuanti TC', 'PingFang SC', sans-serif; font-weight: 700; }
+      .num { font-family: 'Arial Rounded MT Bold', 'Chalkboard SE', sans-serif; font-weight: 700; }
+    </style>
+
+    <g id="firefly">
+      <circle r="62" fill="#FFE7A0" opacity="0.13"/>
+      <circle r="43" fill="#FFE7A0" opacity="0.2"/>
+      <ellipse cx="-22" cy="-24" rx="27" ry="14" transform="rotate(-30 -22 -24)" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.9"/>
+      <ellipse cx="22" cy="-24" rx="27" ry="14" transform="rotate(30 22 -24)" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.9"/>
+      <circle r="24" fill="#FFD86B" stroke="#23313F" stroke-width="5"/>
+      <circle cx="12" cy="-4" r="8" fill="#FFEEC0" opacity="0.9"/>
+      <circle cx="-7" cy="-4" r="3.2" fill="#23313F"/>
+      <circle cx="7" cy="-4" r="3.2" fill="#23313F"/>
+      <circle cx="-6" cy="-5" r="1" fill="#FFFDF7"/>
+      <circle cx="8" cy="-5" r="1" fill="#FFFDF7"/>
+      <path d="M-6 7 q6 5 13 0" fill="none" stroke="#23313F" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M-7 -22 q-6 -13 -14 -17" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M7 -22 q6 -13 14 -17" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-21" cy="-40" r="3" fill="#23313F"/>
+      <circle cx="21" cy="-40" r="3" fill="#23313F"/>
+    </g>
+
+    <g id="fox">
+      <ellipse cx="152" cy="405" rx="110" ry="16" fill="#23313F" opacity="0.12"/>
+      <path d="M94 304 C35 322 -15 269 2 216 C17 168 73 158 108 189 C134 212 136 252 120 279 C112 293 104 301 94 304 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M34 240 C20 221 21 201 34 190 C56 198 70 214 73 235 C62 247 47 250 34 240 Z" fill="#FFF1D8" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M118 330 C112 366 112 389 122 400 L158 400 L158 330 Z" fill="#D97345" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M202 330 C202 366 205 389 216 400 L250 400 L244 326 Z" fill="#D97345" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M124 393 q20 14 42 0 q18 12 40 0 l4 10 L114 403 Z" fill="#FFF1D8" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M104 240 C81 277 82 350 105 388 C136 404 214 404 245 386 C268 346 267 277 239 239 C209 211 133 209 104 240 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <ellipse cx="175" cy="334" rx="54" ry="62" fill="#FFF1D8" stroke="#23313F" stroke-width="4"/>
+      <path d="M116 282 C87 251 71 203 72 152 C72 72 116 30 166 30 C222 30 270 78 270 151 C270 219 234 270 166 270 C147 270 130 268 116 262 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M88 91 L58 10 C54 2 63 -1 70 5 L135 57 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M97 72 L78 28 L113 56 Z" fill="#F6C7B9"/>
+      <path d="M224 62 L270 8 C276 3 283 10 280 19 L263 85 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M236 68 L265 33 L257 72 Z" fill="#F6C7B9"/>
+      <path d="M74 172 C69 139 84 107 112 91 C124 84 137 81 151 81 C162 81 170 84 174 90 C160 96 150 110 146 130 C140 158 149 186 170 202 C134 218 96 207 74 172 Z" fill="#F4A46F"/>
+      <ellipse cx="165" cy="210" rx="82" ry="54" fill="#FFF1D8" stroke="#23313F" stroke-width="4"/>
+      <ellipse cx="122" cy="157" rx="12" ry="17" fill="#23313F"/>
+      <ellipse cx="208" cy="157" rx="12" ry="17" fill="#23313F"/>
+      <circle cx="118" cy="151" r="4" fill="#FFFDF7"/>
+      <circle cx="204" cy="151" r="4" fill="#FFFDF7"/>
+      <path d="M153 199 q12 -9 24 0 q-11 14 -24 0 Z" fill="#23313F"/>
+      <path d="M165 213 v7 M165 220 q-11 12 -23 2 M165 220 q11 12 23 2" fill="none" stroke="#23313F" stroke-width="3.4" stroke-linecap="round"/>
+      <ellipse cx="96" cy="210" rx="17" ry="9" fill="#F6A696" opacity="0.75"/>
+      <ellipse cx="234" cy="210" rx="17" ry="9" fill="#F6A696" opacity="0.75"/>
+      <path d="M247 280 C281 257 302 225 290 198 C284 184 270 183 259 191 C243 203 238 232 228 251 Z" fill="#E88755" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="291" cy="194" r="19" fill="#FFF1D8" stroke="#23313F" stroke-width="5"/>
+      <path d="M105 244 C127 267 208 267 236 242 L244 267 C211 292 125 291 94 265 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M108 265 C95 292 96 320 112 340 L141 332 C127 312 129 290 141 273 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M154 265 L217 380" stroke="#8B5E3C" stroke-width="12" stroke-linecap="round"/>
+      <path d="M154 265 L217 380" stroke="#C9956B" stroke-width="4" stroke-linecap="round"/>
+      <path d="M205 340 L256 351 C262 376 250 398 226 402 L199 394 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M226 369 l5 10 11 1 -8 8 2 11 -10 -5 -10 5 2 -11 -8 -8 11 -1 Z" fill="#FFC94A" stroke="#23313F" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+
+    <g id="squirrel">
+      <ellipse cx="157" cy="278" rx="104" ry="14" fill="#23313F" opacity="0.12"/>
+      <path d="M212 244 C288 244 312 174 286 128 C266 92 219 95 203 130 C189 162 198 204 186 230 C180 243 189 254 212 244 Z" fill="#C9854E" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M256 210 C282 192 290 160 274 138 C260 120 236 124 228 145" fill="none" stroke="#E7B481" stroke-width="11" stroke-linecap="round"/>
+      <path d="M104 172 C85 202 85 244 106 268 C137 282 195 282 224 266 C244 241 242 202 222 173 C192 149 131 149 104 172 Z" fill="#C9854E" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <ellipse cx="168" cy="226" rx="38" ry="42" fill="#F8D9B3" stroke="#23313F" stroke-width="4"/>
+      <path d="M87 114 L69 45 C66 36 76 31 82 38 L131 89 Z" fill="#C9854E" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M98 93 L84 60 L111 85 Z" fill="#F6C7B9"/>
+      <path d="M200 84 L236 35 C241 28 250 33 248 41 L236 107 Z" fill="#C9854E" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M211 88 L235 55 L231 94 Z" fill="#F6C7B9"/>
+      <path d="M87 148 C83 94 118 64 164 64 C206 64 235 94 231 146 C228 190 201 211 160 211 C117 211 91 190 87 148 Z" fill="#C9854E" stroke="#23313F" stroke-width="6"/>
+      <ellipse cx="162" cy="130" rx="52" ry="43" fill="#F8D9B3" stroke="#23313F" stroke-width="4"/>
+      <ellipse cx="133" cy="124" rx="9" ry="12" fill="#23313F"/>
+      <ellipse cx="188" cy="124" rx="9" ry="12" fill="#23313F"/>
+      <circle cx="130" cy="120" r="3.2" fill="#FFFDF7"/>
+      <circle cx="185" cy="120" r="3.2" fill="#FFFDF7"/>
+      <path d="M157 139 q7 -6 14 0 q-7 9 -14 0 Z" fill="#23313F"/>
+      <path d="M161 149 v5 M161 154 q-7 8 -15 1 M161 154 q7 8 15 1" fill="none" stroke="#23313F" stroke-width="2.8" stroke-linecap="round"/>
+      <ellipse cx="115" cy="148" rx="12" ry="6" fill="#F1A28E" opacity="0.75"/>
+      <ellipse cx="204" cy="148" rx="12" ry="6" fill="#F1A28E" opacity="0.75"/>
+      <path d="M102 190 C76 204 77 238 103 253 C130 267 185 263 207 247" fill="none" stroke="#2A9D8F" stroke-width="12" stroke-linecap="round"/>
+      <path d="M100 192 C91 216 96 239 112 252" fill="none" stroke="#23313F" stroke-width="3" opacity="0.25"/>
+      <g transform="translate(218 224)">
+        <path d="M0 14 C0 2 12 -3 24 1 L45 10 L45 40 L22 46 C8 46 0 36 0 24 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M45 15 L72 6 C79 3 84 10 79 16 L56 30" fill="#2A9D8F" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M12 21 C24 19 34 24 38 34" fill="none" stroke="#CDEFF3" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+        <path d="M20 46 q0 13 13 13" fill="none" stroke="#23313F" stroke-width="4" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <g id="flower">
+      <path d="M0 6 C-3 34 -5 62 0 92" fill="none" stroke="#4D8A43" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-2 48 C-31 40 -45 21 -40 7 C-17 7 -3 22 3 38 Z" fill="#79B85A" stroke="#23313F" stroke-width="4"/>
+      <path d="M2 66 C28 55 43 39 39 23 C16 21 1 36 -3 52 Z" fill="#79B85A" stroke="#23313F" stroke-width="4"/>
+      <g transform="translate(0 0)">
+        <circle cx="0" cy="-26" r="22" fill="#F27059" stroke="#23313F" stroke-width="4"/>
+        <circle cx="25" cy="-8" r="22" fill="#F27059" stroke="#23313F" stroke-width="4"/>
+        <circle cx="15" cy="21" r="22" fill="#F27059" stroke="#23313F" stroke-width="4"/>
+        <circle cx="-15" cy="21" r="22" fill="#F27059" stroke="#23313F" stroke-width="4"/>
+        <circle cx="-25" cy="-8" r="22" fill="#F27059" stroke="#23313F" stroke-width="4"/>
+        <circle r="18" fill="#FFC94A" stroke="#23313F" stroke-width="4"/>
+        <circle cx="-6" cy="-6" r="6" fill="#FFE49B"/>
+      </g>
+    </g>
+
+    <g id="tree">
+      <path d="M76 206 C69 181 70 150 78 124 L111 124 C118 151 118 180 112 206 Z" fill="#9A6845" stroke="#23313F" stroke-width="5"/>
+      <path d="M96 131 C60 131 31 111 25 82 C57 78 83 86 99 102 C103 111 101 122 96 131 Z" fill="#4D8A43" stroke="#23313F" stroke-width="5"/>
+      <path d="M97 134 C132 131 157 111 164 82 C132 78 108 86 94 102 C90 111 92 124 97 134 Z" fill="#79B85A" stroke="#23313F" stroke-width="5"/>
+      <circle cx="53" cy="70" r="42" fill="#6FB358" stroke="#23313F" stroke-width="5"/>
+      <circle cx="104" cy="48" r="52" fill="#79B85A" stroke="#23313F" stroke-width="5"/>
+      <circle cx="153" cy="78" r="38" fill="#8BC76D" stroke="#23313F" stroke-width="5"/>
+      <circle cx="87" cy="88" r="36" fill="#8BC76D" stroke="#23313F" stroke-width="4"/>
+    </g>
+
+    <g id="cloud">
+      <path d="M14 74 C-2 49 13 18 47 16 C56 -12 104 -16 121 10 C151 -5 186 16 185 49 C213 52 222 82 201 96 L33 96 C19 94 12 86 14 74 Z" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.96"/>
+    </g>
+
+    <g id="star">
+      <path d="M0 -22 L6.7 -6.8 L23 -5 L11 6 L14.5 22 L0 13 L-14.5 22 L-11 6 L-23 -5 L-6.7 -6.8 Z" fill="#FFC94A" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#FFF6E6"/>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#grain)"/>
+
+  <!-- sky -->
+  <g transform="translate(1660 140)">
+    <circle r="112" fill="#FFE7A0" opacity="0.3"/>
+    <circle r="84" fill="#FFD86B" stroke="#E39A25" stroke-width="4"/>
+    <circle cx="-24" cy="-22" r="21" fill="#FFF3C7" opacity="0.65"/>
+  </g>
+  <use href="#cloud" transform="translate(1130 95) scale(0.9)"/>
+  <use href="#cloud" transform="translate(520 70) scale(0.56)" opacity="0.9"/>
+  <use href="#cloud" transform="translate(1560 280) scale(0.48)" opacity="0.65"/>
+  <path d="M760 230 q16 -12 32 0 q16 -12 32 0" fill="none" stroke="#4E7C82" stroke-width="3.5" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- distant hills -->
+  <path d="M0 460 C170 360 330 380 490 448 C650 390 810 382 980 454 C1140 372 1300 386 1460 452 C1630 372 1780 388 1920 442 L1920 660 L0 660 Z" fill="#A8D786" opacity="0.72"/>
+  <path d="M0 512 C210 432 402 454 600 512 C785 452 1020 448 1210 514 C1410 442 1658 454 1920 514 L1920 700 L0 700 Z" fill="#7FBE63"/>
+
+  <!-- garden background -->
+  <path d="M0 640 C256 604 464 620 682 646 C912 674 1130 620 1350 628 C1560 636 1768 674 1920 646 L1920 1080 L0 1080 Z" fill="#6FB358"/>
+  <path d="M0 640 C256 604 464 620 682 646 C912 674 1130 620 1350 628 C1560 636 1768 674 1920 646" fill="none" stroke="#23313F" stroke-width="5"/>
+  <path d="M0 732 C252 696 462 720 676 744 C914 770 1120 706 1346 722 C1561 738 1776 772 1920 738" fill="none" stroke="#B9E393" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- trees and shrubs -->
+  <g transform="translate(40 306) scale(1.04)"><use href="#tree"/></g>
+  <g transform="translate(1710 326) scale(1.1)"><use href="#tree"/></g>
+  <g transform="translate(1192 386) scale(0.46)"><use href="#tree"/></g>
+  <g transform="translate(300 400) scale(0.54)" opacity="0.85"><use href="#tree"/></g>
+  <path d="M0 628 C60 578 136 576 190 624 C242 570 332 572 386 626 L386 690 L0 690 Z" fill="#4D8A43" stroke="#23313F" stroke-width="4" opacity="0.9"/>
+  <path d="M1540 646 C1590 600 1660 602 1706 646 C1744 608 1822 610 1868 654 L1868 710 L1540 710 Z" fill="#4D8A43" stroke="#23313F" stroke-width="4" opacity="0.9"/>
+
+  <!-- little garden details, far from countable flowers -->
+  <g fill="#FFF6E6" opacity="0.9">
+    <circle cx="410" cy="610" r="5"/>
+    <circle cx="438" cy="626" r="4"/>
+    <circle cx="1540" cy="616" r="5"/>
+    <circle cx="1566" cy="632" r="4"/>
+  </g>
+  <path d="M368 674 q10 -26 20 0 M392 676 q8 -20 16 0" fill="none" stroke="#3B7538" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1622 666 q10 -24 20 0 M1646 668 q8 -18 16 0" fill="none" stroke="#3B7538" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- flower bed -->
+  <ellipse cx="960" cy="610" rx="372" ry="45" fill="#23313F" opacity="0.12"/>
+  <path d="M604 586 C688 554 1232 554 1316 586 C1350 612 1296 632 1210 640 C1056 652 864 652 714 640 C630 632 584 610 604 586 Z" fill="url(#bed)" stroke="#23313F" stroke-width="5"/>
+  <path d="M622 586 C724 562 1198 562 1298 586" fill="none" stroke="#C79B73" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <g transform="translate(760 474) scale(1.22)"><use href="#flower"/></g>
+  <g transform="translate(952 456) scale(1.28)"><use href="#flower"/></g>
+  <g transform="translate(1144 476) scale(1.18)"><use href="#flower"/></g>
+  <path d="M686 598 q34 -20 64 2 M1200 596 q30 -20 62 0" fill="none" stroke="#4D8A43" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <g fill="#FFC94A" opacity="0.9">
+    <circle cx="714" cy="580" r="4"/>
+    <circle cx="1214" cy="576" r="4"/>
+    <circle cx="1232" cy="590" r="3"/>
+  </g>
+
+  <!-- characters -->
+  <use href="#fox" transform="translate(1392 346) scale(0.7)"/>
+  <use href="#firefly" transform="translate(506 208) scale(0.9)"/>
+
+  <!-- HUD -->
+  <g transform="translate(96 42)">
+    <rect x="0" y="0" width="466" height="76" rx="38" fill="#FFFDF7" stroke="#23313F" stroke-width="5"/>
+    <circle cx="44" cy="38" r="22" fill="#79B85A" stroke="#23313F" stroke-width="3.5"/>
+    <path d="M44 24 C54 28 62 38 62 50 C52 52 44 44 44 34 C44 44 36 52 26 50 C26 38 34 28 44 24 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="2.5"/>
+    <text x="82" y="50" class="title-cn" font-size="32" fill="#23313F">青芽森林 · 第 1 关</text>
+  </g>
+  <g transform="translate(846 40)">
+    <rect x="0" y="0" width="228" height="82" rx="41" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.96"/>
+    <g transform="translate(48 41)">
+      <circle r="24" fill="#FFC94A" stroke="#23313F" stroke-width="4"/>
+      <text x="0" y="10" text-anchor="middle" class="num" font-size="26" fill="#23313F">1</text>
+    </g>
+    <g transform="translate(114 41)">
+      <circle r="22" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.7"/>
+      <text x="0" y="9" text-anchor="middle" class="num" font-size="23" fill="#23313F" opacity="0.55">2</text>
+    </g>
+    <g transform="translate(178 41)">
+      <circle r="22" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.7"/>
+      <text x="0" y="9" text-anchor="middle" class="num" font-size="23" fill="#23313F" opacity="0.55">3</text>
+    </g>
+  </g>
+  <!-- question bubble -->
+  <g>
+    <rect x="366" y="132" width="1188" height="158" rx="58" fill="#23313F" opacity="0.13" transform="translate(0 10)"/>
+    <rect x="366" y="132" width="1188" height="158" rx="58" fill="#FFFDF7" stroke="#23313F" stroke-width="5"/>
+    <path d="M852 288 L902 288 L862 326 Z" fill="#FFFDF7" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M862 286 L862 290 L902 290" fill="none" stroke="#FFFDF7" stroke-width="6"/>
+    <use href="#firefly" transform="translate(466 211) scale(0.92)"/>
+    <text x="548" y="222" class="title-cn" font-size="58" fill="#23313F">数一数，有几朵花？</text>
+    <g transform="translate(1450 211)">
+      <circle r="36" fill="#FFC94A" stroke="#23313F" stroke-width="4"/>
+      <path d="M-15 -6 L-15 6 L-4 6 L-4 18 L10 18 L10 -18 L-4 -18 L-4 -6 Z" fill="#23313F"/>
+      <path d="M-18 -18 q-12 18 0 36 M-27 -26 q-18 26 0 52" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+      <text x="0" y="58" text-anchor="middle" class="body" font-size="24" fill="#23313F" opacity="0.7">↑ 再听</text>
+    </g>
+  </g>
+
+  <!-- answer cards -->
+  <g>
+    <!-- card 2 -->
+    <g transform="translate(240 682)">
+      <rect x="7" y="11" width="432" height="270" rx="42" fill="#23313F" opacity="0.12"/>
+      <rect x="0" y="0" width="432" height="270" rx="42" fill="#FFFDF7" stroke="#23313F" stroke-width="5"/>
+      <path d="M52 0 C98 16 118 16 168 0" fill="none" stroke="#CDEFF3" stroke-width="3"/>
+      <text x="216" y="192" text-anchor="middle" class="num" font-size="146" fill="#23313F">2</text>
+      <path d="M170 220 q46 14 92 0" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+    </g>
+    <!-- card 4 -->
+    <g transform="translate(1248 682)">
+      <rect x="7" y="11" width="432" height="270" rx="42" fill="#23313F" opacity="0.12"/>
+      <rect x="0" y="0" width="432" height="270" rx="42" fill="#FFFDF7" stroke="#23313F" stroke-width="5"/>
+      <path d="M52 0 C98 16 118 16 168 0" fill="none" stroke="#CDEFF3" stroke-width="3"/>
+      <text x="216" y="192" text-anchor="middle" class="num" font-size="146" fill="#23313F">4</text>
+      <path d="M170 220 q46 14 92 0" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+    </g>
+    <!-- focused card 3 -->
+    <g transform="translate(744 660)">
+      <rect x="-8" y="8" width="448" height="290" rx="48" fill="#23313F" opacity="0.14"/>
+      <rect x="-22" y="-22" width="476" height="314" rx="54" fill="#FFC94A" stroke="#23313F" stroke-width="5"/>
+      <rect x="0" y="0" width="432" height="270" rx="42" fill="#FFFDF7" stroke="#23313F" stroke-width="5"/>
+      <path d="M52 0 C98 16 118 16 168 0" fill="none" stroke="#CDEFF3" stroke-width="3"/>
+      <text x="216" y="192" text-anchor="middle" class="num" font-size="146" fill="#23313F">3</text>
+      <path d="M170 220 q46 14 92 0" fill="none" stroke="#2A9D8F" stroke-width="4" stroke-linecap="round" opacity="0.35"/>
+      <g transform="translate(216 298)">
+        <path d="M-28 0 L0 18 L28 0" fill="none" stroke="#FFF6E6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M-28 0 L0 18 L28 0" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- control legend -->
+  <g transform="translate(682 990)" opacity="0.9">
+    <rect x="0" y="0" width="48" height="40" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+    <path d="M28 20 L18 20 M22 14 L16 20 L22 26" fill="none" stroke="#23313F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="56" y="0" width="48" height="40" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+    <path d="M76 20 L86 20 M82 14 L88 20 L82 26" fill="none" stroke="#23313F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="120" y="28" class="body" font-size="28" fill="#23313F">选择</text>
+    <rect x="236" y="0" width="58" height="40" rx="20" fill="#FFC94A" stroke="#23313F" stroke-width="3"/>
+    <text x="265" y="27" text-anchor="middle" class="num" font-size="20" fill="#23313F">OK</text>
+    <text x="310" y="28" class="body" font-size="28" fill="#23313F">确定</text>
+    <rect x="422" y="0" width="48" height="40" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+    <text x="446" y="28" text-anchor="middle" class="num" font-size="20" fill="#23313F">↑</text>
+    <text x="486" y="28" class="body" font-size="28" fill="#23313F">再听</text>
+  </g>
+
+  <rect width="1920" height="1080" fill="url(#grain)" opacity="0.7"/>
+</svg>

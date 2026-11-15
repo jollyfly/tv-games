@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="数字岛大冒险首页设计稿">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BDEAF1"/>
+      <stop offset="0.65" stop-color="#E4F4E8"/>
+      <stop offset="1" stop-color="#FFF3DA"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9DCDA"/>
+      <stop offset="1" stop-color="#7FC7C6"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94CF72"/>
+      <stop offset="1" stop-color="#6FB358"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE08B"/>
+      <stop offset="1" stop-color="#FFC94A"/>
+    </linearGradient>
+    <pattern id="grain" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="8" r="1.4" fill="#23313F" opacity="0.045"/>
+      <circle cx="23" cy="25" r="1" fill="#23313F" opacity="0.04"/>
+      <path d="M12 30 q5 -4 10 0" fill="none" stroke="#23313F" stroke-width="1" opacity="0.035"/>
+      <path d="M28 7 l4 0" stroke="#23313F" stroke-width="1" opacity="0.04"/>
+    </pattern>
+    <style>
+      .ink { fill: #23313F; }
+      .title-cn { font-family: 'Hannotate SC', 'Yuanti TC', 'PingFang SC', sans-serif; font-weight: 700; paint-order: stroke; }
+      .body { font-family: 'PingFang SC', 'Hiragino Sans GB', sans-serif; }
+      .num { font-family: 'Arial Rounded MT Bold', 'Chalkboard SE', sans-serif; font-weight: 700; }
+      .outline { stroke: #23313F; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+
+    <g id="firefly">
+      <circle r="70" fill="#FFE7A0" opacity="0.13"/>
+      <circle r="48" fill="#FFE7A0" opacity="0.18"/>
+      <ellipse cx="-22" cy="-26" rx="28" ry="15" transform="rotate(-30 -22 -26)" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.88"/>
+      <ellipse cx="23" cy="-26" rx="28" ry="15" transform="rotate(30 23 -26)" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.88"/>
+      <circle r="26" fill="#FFD86B" stroke="#23313F" stroke-width="5"/>
+      <circle cx="13" cy="-4" r="9" fill="#FFEEC0" opacity="0.9"/>
+      <circle cx="-8" cy="-4" r="3.4" fill="#23313F"/>
+      <circle cx="7" cy="-4" r="3.4" fill="#23313F"/>
+      <circle cx="-7" cy="-5.5" r="1.1" fill="#FFFDF7"/>
+      <circle cx="8" cy="-5.5" r="1.1" fill="#FFFDF7"/>
+      <path d="M-7 8 q7 6 14 0" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-8 -24 q-6 -14 -15 -18" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M8 -24 q6 -14 15 -18" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-23" cy="-43" r="3.2" fill="#23313F"/>
+      <circle cx="23" cy="-43" r="3.2" fill="#23313F"/>
+    </g>
+
+    <g id="fox">
+      <ellipse cx="152" cy="405" rx="112" ry="16" fill="#23313F" opacity="0.13"/>
+      <path d="M94 304 C35 322 -15 269 2 216 C17 168 73 158 108 189 C134 212 136 252 120 279 C112 293 104 301 94 304 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M34 240 C20 221 21 201 34 190 C56 198 70 214 73 235 C62 247 47 250 34 240 Z" fill="#FFF1D8" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M118 330 C112 366 112 389 122 400 L158 400 L158 330 Z" fill="#D97345" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M202 330 C202 366 205 389 216 400 L250 400 L244 326 Z" fill="#D97345" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M124 393 q20 14 42 0 q18 12 40 0 l4 10 L114 403 Z" fill="#FFF1D8" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M104 240 C81 277 82 350 105 388 C136 404 214 404 245 386 C268 346 267 277 239 239 C209 211 133 209 104 240 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <ellipse cx="175" cy="334" rx="54" ry="62" fill="#FFF1D8" stroke="#23313F" stroke-width="4"/>
+      <path d="M116 282 C87 251 71 203 72 152 C72 72 116 30 166 30 C222 30 270 78 270 151 C270 219 234 270 166 270 C147 270 130 268 116 262 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M88 91 L58 10 C54 2 63 -1 70 5 L135 57 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M97 72 L78 28 L113 56 Z" fill="#F6C7B9"/>
+      <path d="M224 62 L270 8 C276 3 283 10 280 19 L263 85 Z" fill="#E88755" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M236 68 L265 33 L257 72 Z" fill="#F6C7B9"/>
+      <path d="M74 172 C69 139 84 107 112 91 C124 84 137 81 151 81 C162 81 170 84 174 90 C160 96 150 110 146 130 C140 158 149 186 170 202 C134 218 96 207 74 172 Z" fill="#F4A46F"/>
+      <ellipse cx="165" cy="210" rx="82" ry="54" fill="#FFF1D8" stroke="#23313F" stroke-width="4"/>
+      <ellipse cx="122" cy="157" rx="12" ry="17" fill="#23313F"/>
+      <ellipse cx="208" cy="157" rx="12" ry="17" fill="#23313F"/>
+      <circle cx="118" cy="151" r="4" fill="#FFFDF7"/>
+      <circle cx="204" cy="151" r="4" fill="#FFFDF7"/>
+      <path d="M153 199 q12 -9 24 0 q-11 14 -24 0 Z" fill="#23313F"/>
+      <path d="M165 213 v7 M165 220 q-11 12 -23 2 M165 220 q11 12 23 2" fill="none" stroke="#23313F" stroke-width="3.4" stroke-linecap="round"/>
+      <ellipse cx="96" cy="210" rx="17" ry="9" fill="#F6A696" opacity="0.75"/>
+      <ellipse cx="234" cy="210" rx="17" ry="9" fill="#F6A696" opacity="0.75"/>
+      <path d="M247 280 C281 257 302 225 290 198 C284 184 270 183 259 191 C243 203 238 232 228 251 Z" fill="#E88755" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="291" cy="194" r="19" fill="#FFF1D8" stroke="#23313F" stroke-width="5"/>
+      <path d="M282 186 q10 -8 20 0" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+      <path d="M105 244 C127 267 208 267 236 242 L244 267 C211 292 125 291 94 265 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M108 265 C95 292 96 320 112 340 L141 332 C127 312 129 290 141 273 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M154 265 L217 380" stroke="#8B5E3C" stroke-width="12" stroke-linecap="round"/>
+      <path d="M154 265 L217 380" stroke="#C9956B" stroke-width="4" stroke-linecap="round"/>
+      <path d="M205 340 L256 351 C262 376 250 398 226 402 L199 394 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M226 369 l5 10 11 1 -8 8 2 11 -10 -5 -10 5 2 -11 -8 -8 11 -1 Z" fill="#FFC94A" stroke="#23313F" stroke-width="2.5" stroke-linejoin="round"/>
+    </g>
+
+    <g id="tree">
+      <path d="M76 206 C69 181 70 150 78 124 L111 124 C118 151 118 180 112 206 Z" fill="#9A6845" stroke="#23313F" stroke-width="5"/>
+      <path d="M96 131 C60 131 31 111 25 82 C57 78 83 86 99 102 C103 111 101 122 96 131 Z" fill="#4D8A43" stroke="#23313F" stroke-width="5"/>
+      <path d="M97 134 C132 131 157 111 164 82 C132 78 108 86 94 102 C90 111 92 124 97 134 Z" fill="#79B85A" stroke="#23313F" stroke-width="5"/>
+      <circle cx="53" cy="70" r="42" fill="#6FB358" stroke="#23313F" stroke-width="5"/>
+      <circle cx="104" cy="48" r="52" fill="#79B85A" stroke="#23313F" stroke-width="5"/>
+      <circle cx="153" cy="78" r="38" fill="#8BC76D" stroke="#23313F" stroke-width="5"/>
+      <circle cx="87" cy="88" r="36" fill="#8BC76D" stroke="#23313F" stroke-width="4"/>
+      <path d="M69 42 q17 -14 34 2" fill="none" stroke="#CDEFF3" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    </g>
+
+    <g id="cloud">
+      <path d="M14 74 C-2 49 13 18 47 16 C56 -12 104 -16 121 10 C151 -5 186 16 185 49 C213 52 222 82 201 96 L33 96 C19 94 12 86 14 74 Z" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.96"/>
+      <path d="M46 70 C57 48 92 49 102 68" fill="none" stroke="#CDEFF3" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    </g>
+
+    <g id="flower">
+      <path d="M0 6 C-3 30 -5 50 0 68" fill="none" stroke="#4D8A43" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-2 37 C-25 31 -35 17 -31 7 C-14 7 -3 17 2 29 Z" fill="#79B85A" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M2 48 C22 40 34 27 31 16 C14 15 2 27 -2 38 Z" fill="#79B85A" stroke="#23313F" stroke-width="3.5"/>
+      <g transform="translate(0 2)">
+        <circle cx="0" cy="-22" r="18" fill="#F27059" stroke="#23313F" stroke-width="3.5"/>
+        <circle cx="21" cy="-7" r="18" fill="#F27059" stroke="#23313F" stroke-width="3.5"/>
+        <circle cx="13" cy="18" r="18" fill="#F27059" stroke="#23313F" stroke-width="3.5"/>
+        <circle cx="-13" cy="18" r="18" fill="#F27059" stroke="#23313F" stroke-width="3.5"/>
+        <circle cx="-21" cy="-7" r="18" fill="#F27059" stroke="#23313F" stroke-width="3.5"/>
+        <circle r="15" fill="#FFC94A" stroke="#23313F" stroke-width="3.5"/>
+        <circle cx="-5" cy="-5" r="5" fill="#FFE49B"/>
+      </g>
+    </g>
+
+    <g id="star">
+      <path d="M0 -22 L6.7 -6.8 L23 -5 L11 6 L14.5 22 L0 13 L-14.5 22 L-11 6 L-23 -5 L-6.7 -6.8 Z" fill="#FFC94A" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+
+    <g id="lighthouse">
+      <path d="M62 420 C50 410 52 394 70 386 L210 386 C230 395 230 411 218 420 Z" fill="#6F8D9B" stroke="#23313F" stroke-width="5"/>
+      <path d="M28 390 C38 349 88 326 145 326 C198 326 235 353 244 390 C218 407 55 407 28 390 Z" fill="#8B5E3C" stroke="#23313F" stroke-width="5"/>
+      <path d="M56 329 C76 317 102 311 133 311 C174 311 204 322 218 337 L206 390 C179 402 88 402 64 390 Z" fill="#9A6845" stroke="#23313F" stroke-width="5"/>
+      <path d="M82 320 L106 110 L168 110 L194 320 C158 333 118 333 82 320 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M91 270 L185 270 L190 306 C156 316 120 316 87 306 Z" fill="#F27059" opacity="0.92"/>
+      <path d="M99 207 L177 207 L181 240 C150 248 124 248 96 240 Z" fill="#F27059" opacity="0.92"/>
+      <path d="M106 147 L171 147 L174 177 C146 184 127 184 102 177 Z" fill="#F27059" opacity="0.92"/>
+      <path d="M72 111 L98 111 L94 94 L176 94 L172 111 L196 111 L184 78 L84 78 Z" fill="#23313F" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <rect x="102" y="50" width="64" height="48" rx="8" fill="#FFE9A8" stroke="#23313F" stroke-width="5"/>
+      <path d="M96 50 L134 14 L172 50 Z" fill="#F27059" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="134" cy="74" r="17" fill="#FFC94A" stroke="#23313F" stroke-width="4"/>
+      <circle cx="134" cy="74" r="7" fill="#FFFDF7"/>
+      <path d="M102 58 L28 16 L22 38 L98 80 Z" fill="#FFE7A0" opacity="0.28"/>
+      <path d="M166 58 L228 20 L236 42 L170 82 Z" fill="#FFE7A0" opacity="0.22"/>
+      <path d="M84 52 L65 52 L65 42 L84 42 Z" fill="#23313F"/>
+      <path d="M181 52 L201 52 L201 42 L181 42 Z" fill="#23313F"/>
+      <path d="M110 388 C112 365 120 350 136 350 C151 350 160 366 162 388" fill="#8B5E3C" stroke="#23313F" stroke-width="5"/>
+      <path d="M74 372 C80 354 101 346 119 355" fill="none" stroke="#FFF6E6" stroke-width="4" opacity="0.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect width="1920" height="1080" fill="#FFF6E6"/>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#grain)"/>
+
+  <!-- sun and sky -->
+  <g transform="translate(1640 168)">
+    <circle r="126" fill="#FFE7A0" opacity="0.22"/>
+    <circle r="96" fill="url(#sunGrad)" stroke="#E39A25" stroke-width="5"/>
+    <circle cx="-25" cy="-28" r="24" fill="#FFF3C7" opacity="0.65"/>
+    <g fill="#FFC94A" stroke="#E39A25" stroke-width="4" stroke-linecap="round">
+      <path d="M0 -128 L0 -156"/>
+      <path d="M91 -91 L110 -111"/>
+      <path d="M128 0 L156 0"/>
+      <path d="M90 91 L110 111"/>
+      <path d="M-91 -91 L-110 -111"/>
+      <path d="M-128 0 L-156 0"/>
+    </g>
+  </g>
+  <use href="#cloud" transform="translate(650 130) scale(1.15)"/>
+  <use href="#cloud" transform="translate(1090 220) scale(0.8)"/>
+  <use href="#cloud" transform="translate(1010 72) scale(0.52)" opacity="0.8"/>
+  <path d="M360 260 q18 -14 36 0 q18 -14 36 0" fill="none" stroke="#4E7C82" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <path d="M760 340 q14 -11 28 0 q14 -11 28 0" fill="none" stroke="#4E7C82" stroke-width="3.5" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- sea and distant shore -->
+  <path d="M0 610 C260 592 474 618 714 604 C983 588 1212 614 1460 594 C1662 578 1806 596 1920 575 L1920 1080 L0 1080 Z" fill="url(#sea)"/>
+  <path d="M0 676 C250 658 430 686 658 670 C943 650 1170 682 1432 666 C1638 652 1776 664 1920 650" fill="none" stroke="#E9FBF7" stroke-width="9" stroke-linecap="round" opacity="0.52"/>
+  <path d="M0 820 C236 800 430 830 634 814 C918 792 1120 824 1382 802 C1624 782 1780 804 1920 786" fill="none" stroke="#E9FBF7" stroke-width="6" stroke-linecap="round" opacity="0.38"/>
+  <g transform="translate(760 705)" opacity="0.95">
+    <path d="M0 22 L62 22 L48 47 L20 47 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M28 20 L28 -22 L66 12 L28 12" fill="#F27059" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M0 47 q15 9 30 0 q15 9 30 0" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- lighthouse island -->
+  <g transform="translate(1520 240) scale(1.08)">
+    <use href="#lighthouse"/>
+    <path d="M-80 424 C10 405 68 410 144 405 C220 400 280 415 330 427 C292 457 30 468 -82 442 Z" fill="#5D9C5C" stroke="#23313F" stroke-width="5"/>
+  </g>
+
+  <!-- main island -->
+  <path d="M0 780 C180 745 355 762 535 790 C750 823 927 765 1116 744 C1317 722 1512 758 1680 724 C1776 704 1858 714 1920 700 L1920 1080 L0 1080 Z" fill="#6FB358"/>
+  <path d="M0 780 C180 745 355 762 535 790 C750 823 927 765 1116 744 C1317 722 1512 758 1680 724 C1776 704 1858 714 1920 700" fill="none" stroke="#23313F" stroke-width="6"/>
+  <path d="M0 850 C220 816 423 834 620 866 C858 905 1040 835 1236 826 C1452 816 1690 862 1920 812 L1920 1080 L0 1080 Z" fill="url(#grass)"/>
+  <path d="M0 850 C220 816 423 834 620 866 C858 905 1040 835 1236 826 C1452 816 1690 862 1920 812" fill="none" stroke="#23313F" stroke-width="5" opacity="0.7"/>
+  <path d="M0 930 C240 896 434 930 636 944 C870 960 1062 902 1260 916 C1480 932 1724 954 1920 900" fill="none" stroke="#D7F0BF" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- background plants -->
+  <g transform="translate(860 666) scale(0.66)"><use href="#tree"/></g>
+  <g transform="translate(995 704) scale(0.45)"><use href="#tree"/></g>
+  <g transform="translate(1758 620) scale(0.78)"><use href="#tree"/></g>
+  <g transform="translate(1468 694) scale(0.48)"><use href="#tree"/></g>
+
+  <!-- foreground flora -->
+  <g transform="translate(1120 910) scale(1.05)"><use href="#flower"/></g>
+  <g transform="translate(1192 926) scale(0.72)"><use href="#flower"/></g>
+  <g transform="translate(735 906) scale(0.8)"><use href="#flower"/></g>
+  <g transform="translate(1692 934) scale(0.92)"><use href="#flower"/></g>
+  <g transform="translate(1776 920) scale(0.58)"><use href="#flower"/></g>
+  <g transform="translate(148 936) scale(0.62)" opacity="0.7"><use href="#flower"/></g>
+
+  <!-- brand -->
+  <g>
+    <path d="M116 210 q-22 -36 -58 -38" fill="none" stroke="#E39A25" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <text x="142" y="264" class="title-cn" font-size="150" fill="#FFF6E6" stroke="#23313F" stroke-width="18" stroke-linejoin="round">数字岛</text>
+    <text x="142" y="264" class="title-cn" font-size="150" fill="#FFF6E6">数字岛</text>
+    <text x="142" y="430" class="title-cn" font-size="150" fill="#FFC94A" stroke="#23313F" stroke-width="18" stroke-linejoin="round">大冒险</text>
+    <text x="142" y="430" class="title-cn" font-size="150" fill="#FFC94A">大冒险</text>
+    <text x="148" y="518" class="body" font-size="34" fill="#23313F" letter-spacing="2">和点点一起，点亮数字岛</text>
+    <path d="M148 545 q120 -13 240 0" fill="none" stroke="#F27059" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- fox and firefly -->
+  <use href="#fox" transform="translate(1240 470) scale(1.02)"/>
+  <use href="#firefly" transform="translate(1114 546) scale(0.92)"/>
+  <g transform="translate(1090 464) scale(0.9)">
+    <path d="M0 0 q22 -16 44 0" fill="none" stroke="#FFE7A0" stroke-width="4" stroke-dasharray="2 12" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- primary button (focused) -->
+  <g>
+    <rect x="128" y="614" width="574" height="164" rx="80" fill="#FFF6E6" stroke="#23313F" stroke-width="5"/>
+    <path d="M144 646 C214 610 590 610 676 644 L686 752 C570 784 240 786 144 750 Z" fill="#E39A25" opacity="0.24"/>
+    <rect x="142" y="620" width="546" height="142" rx="70" fill="#FFD76E" stroke="#23313F" stroke-width="6"/>
+    <circle cx="226" cy="691" r="42" fill="#FFF6E6" stroke="#23313F" stroke-width="5"/>
+    <path d="M216 670 L242 691 L216 712 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    <text x="294" y="684" class="title-cn" font-size="58" fill="#23313F">继续冒险</text>
+    <text x="296" y="726" class="body" font-size="28" fill="#23313F" opacity="0.72">第 5 关 · 装糖果</text>
+    <g transform="translate(402 776)">
+      <path d="M-26 0 L0 18 L26 0" fill="none" stroke="#FFF6E6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-26 0 L0 18 L26 0" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- secondary button -->
+  <g>
+    <rect x="142" y="804" width="466" height="118" rx="59" fill="#FFFDF7" stroke="#23313F" stroke-width="5"/>
+    <path d="M142 849 C244 862 430 862 608 846" fill="none" stroke="#2A9D8F" stroke-width="3" opacity="0.35"/>
+    <g transform="translate(208 864)">
+      <path d="M-34 -18 L-10 -26 L-10 20 L-34 28 Z" fill="#CDEFF3" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-10 -26 L14 -18 L14 28 L-10 20 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M14 -18 L38 -26 L38 20 L14 28 Z" fill="#FFC94A" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M-25 1 C-8 -8 8 12 29 -4" fill="none" stroke="#F27059" stroke-width="3.5" stroke-dasharray="4 7" stroke-linecap="round"/>
+      <circle cx="2" cy="3" r="6" fill="#F27059" stroke="#23313F" stroke-width="2.5"/>
+    </g>
+    <text x="288" y="876" class="title-cn" font-size="44" fill="#23313F">关卡地图</text>
+  </g>
+
+  <!-- footer keys -->
+  <g opacity="0.92">
+    <g transform="translate(150 962)">
+      <rect x="0" y="0" width="50" height="42" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+      <path d="M30 21 L20 21 M24 15 L18 21 L24 27" fill="none" stroke="#23313F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="58" y="0" width="50" height="42" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+      <path d="M76 21 L86 21 M82 15 L88 21 L82 27" fill="none" stroke="#23313F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="124" y="30" class="body" font-size="30" fill="#23313F">选择</text>
+      <g transform="translate(252 0)">
+        <rect width="62" height="42" rx="21" fill="#FFC94A" stroke="#23313F" stroke-width="3.5"/>
+        <text x="31" y="29" text-anchor="middle" class="num" font-size="22" fill="#23313F">OK</text>
+      </g>
+      <text x="332" y="30" class="body" font-size="30" fill="#23313F">确定</text>
+      <g transform="translate(444 0)">
+        <rect width="50" height="42" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+        <text x="25" y="29" text-anchor="middle" class="num" font-size="20" fill="#23313F">↩</text>
+      </g>
+      <text x="512" y="30" class="body" font-size="30" fill="#23313F">返回</text>
+    </g>
+  </g>
+
+  <!-- parent hint -->
+  <g transform="translate(1528 962)" opacity="0.82">
+    <path d="M22 6 C8 6 0 18 0 31 L0 47 L12 47 L12 57 L23 47 L34 47 L34 33 L44 33 L44 20 C44 11 35 6 22 6 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.7"/>
+    <circle cx="22" cy="24" r="3" fill="#23313F"/>
+    <path d="M22 28 L22 36" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+    <text x="58" y="38" class="body" font-size="24" fill="#23313F">家长：长按返回键</text>
+  </g>
+
+  <!-- paper grain over whole scene -->
+  <rect width="1920" height="1080" fill="url(#grain)" opacity="0.7"/>
+</svg>

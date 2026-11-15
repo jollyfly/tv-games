@@ -1,0 +1,34 @@
+# web
+web/node_modules/
+web/dist/
+app/src/main/assets/www/
+
+# android
+.gradle/
+app/build/
+build/
+local.properties
+*.keystore
+*.jks
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+
+# local reports
+/dist/*.sha256.tmp
+
+# local TTS model/runtime (not part of the app)
+tools/tts/.venv/
+tools/tts/.hf-cache/
+tools/tts/audition/samples/*.wav
+tools/tts/audition/samples/*.m4a
+tools/tts/kokoro-lines.json
+
+# CosyVoice local inference environment
+tools/tts/.venv-cosy/
+tools/tts/cosy-lines.json
+
+# local APK build output; the current release is copied to /release
+/dist/

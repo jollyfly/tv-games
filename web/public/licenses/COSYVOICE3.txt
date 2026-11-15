@@ -1,0 +1,15 @@
+CosyVoice3 / Fun-CosyVoice3-0.5B-2512
+==================================
+
+Project: https://github.com/FunAudioLLM/CosyVoice
+Model:   https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+License: Apache License 2.0
+
+This application uses audio generated offline with CosyVoice3 (warm/gentle
+speaking style) from a reference voice shipped with the CosyVoice repository
+(asset/zero_shot_prompt.wav). Model weights are not bundled in the APK; only the
+generated narration is included.
+
+The reference voice is used for the family prototype. Confirm voice likeness
+rights before any public/commercial distribution, or replace it with a licensed
+voice actor / voice model.

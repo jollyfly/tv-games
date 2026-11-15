@@ -1,0 +1,452 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="数字岛大冒险关卡地图设计稿">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CBEFF0"/>
+      <stop offset="0.6" stop-color="#A8DDDA"/>
+      <stop offset="1" stop-color="#8ECFC9"/>
+    </linearGradient>
+    <linearGradient id="forest" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A6DA7D"/>
+      <stop offset="1" stop-color="#6FB358"/>
+    </linearGradient>
+    <linearGradient id="candy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBD8C9"/>
+      <stop offset="1" stop-color="#F3B6A4"/>
+    </linearGradient>
+    <linearGradient id="castle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B9B0DB"/>
+      <stop offset="1" stop-color="#8E7CC3"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B4AFA0"/>
+      <stop offset="1" stop-color="#847E70"/>
+    </linearGradient>
+    <pattern id="waves" width="64" height="42" patternUnits="userSpaceOnUse">
+      <path d="M6 24 q10 -9 20 0 t20 0" fill="none" stroke="#FFFDF7" stroke-width="2.5" stroke-linecap="round" opacity="0.3"/>
+      <circle cx="54" cy="12" r="2" fill="#FFFDF7" opacity="0.25"/>
+    </pattern>
+    <pattern id="grain" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="8" r="1.4" fill="#23313F" opacity="0.04"/>
+      <circle cx="23" cy="25" r="1" fill="#23313F" opacity="0.035"/>
+      <path d="M12 30 q5 -4 10 0" fill="none" stroke="#23313F" stroke-width="1" opacity="0.03"/>
+    </pattern>
+    <style>
+      .body { font-family: 'PingFang SC', 'Hiragino Sans GB', sans-serif; }
+      .title-cn { font-family: 'Hannotate SC', 'Yuanti TC', 'PingFang SC', sans-serif; font-weight: 700; }
+      .num { font-family: 'Arial Rounded MT Bold', 'Chalkboard SE', sans-serif; font-weight: 700; }
+    </style>
+
+    <g id="star">
+      <path d="M0 -22 L6.7 -6.8 L23 -5 L11 6 L14.5 22 L0 13 L-14.5 22 L-11 6 L-23 -5 L-6.7 -6.8 Z" fill="#FFC94A" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    </g>
+    <g id="tiny-star">
+      <path d="M0 -10 L3 -3 L10 -2 L5 3 L6.5 10 L0 6 L-6.5 10 L-5 3 L-10 -2 L-3 -3 Z" fill="#FFC94A" stroke="#23313F" stroke-width="2.2" stroke-linejoin="round"/>
+    </g>
+    <g id="cloud">
+      <path d="M14 74 C-2 49 13 18 47 16 C56 -12 104 -16 121 10 C151 -5 186 16 185 49 C213 52 222 82 201 96 L33 96 C19 94 12 86 14 74 Z" fill="#FFFDF7" stroke="#23313F" stroke-width="4" opacity="0.95"/>
+    </g>
+    <g id="lighthouse">
+      <path d="M62 420 C50 410 52 394 70 386 L210 386 C230 395 230 411 218 420 Z" fill="#6F8D9B" stroke="#23313F" stroke-width="5"/>
+      <path d="M28 390 C38 349 88 326 145 326 C198 326 235 353 244 390 C218 407 55 407 28 390 Z" fill="#8B5E3C" stroke="#23313F" stroke-width="5"/>
+      <path d="M56 329 C76 317 102 311 133 311 C174 311 204 322 218 337 L206 390 C179 402 88 402 64 390 Z" fill="#9A6845" stroke="#23313F" stroke-width="5"/>
+      <path d="M82 320 L106 110 L168 110 L194 320 C158 333 118 333 82 320 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="6" stroke-linejoin="round"/>
+      <path d="M91 270 L185 270 L190 306 C156 316 120 316 87 306 Z" fill="#F27059" opacity="0.95"/>
+      <path d="M99 207 L177 207 L181 240 C150 248 124 248 96 240 Z" fill="#F27059" opacity="0.95"/>
+      <path d="M106 147 L171 147 L174 177 C146 184 127 184 102 177 Z" fill="#F27059" opacity="0.95"/>
+      <path d="M72 111 L98 111 L94 94 L176 94 L172 111 L196 111 L184 78 L84 78 Z" fill="#23313F" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+      <rect x="102" y="50" width="64" height="48" rx="8" fill="#FFE9A8" stroke="#23313F" stroke-width="5"/>
+      <path d="M96 50 L134 14 L172 50 Z" fill="#F27059" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <circle cx="134" cy="74" r="17" fill="#FFC94A" stroke="#23313F" stroke-width="4"/>
+      <circle cx="134" cy="74" r="7" fill="#FFFDF7"/>
+      <path d="M102 58 L28 16 L22 38 L98 80 Z" fill="#FFE7A0" opacity="0.3"/>
+      <path d="M110 388 C112 365 120 350 136 350 C151 350 160 366 162 388" fill="#8B5E3C" stroke="#23313F" stroke-width="5"/>
+    </g>
+    <g id="tree">
+      <path d="M76 206 C69 181 70 150 78 124 L111 124 C118 151 118 180 112 206 Z" fill="#9A6845" stroke="#23313F" stroke-width="5"/>
+      <path d="M96 131 C60 131 31 111 25 82 C57 78 83 86 99 102 C103 111 101 122 96 131 Z" fill="#4D8A43" stroke="#23313F" stroke-width="5"/>
+      <path d="M97 134 C132 131 157 111 164 82 C132 78 108 86 94 102 C90 111 92 124 97 134 Z" fill="#79B85A" stroke="#23313F" stroke-width="5"/>
+      <circle cx="53" cy="70" r="42" fill="#6FB358" stroke="#23313F" stroke-width="5"/>
+      <circle cx="104" cy="48" r="52" fill="#79B85A" stroke="#23313F" stroke-width="5"/>
+      <circle cx="153" cy="78" r="38" fill="#8BC76D" stroke="#23313F" stroke-width="5"/>
+      <circle cx="87" cy="88" r="36" fill="#8BC76D" stroke="#23313F" stroke-width="4"/>
+    </g>
+    <g id="candy-cane">
+      <path d="M32 230 L32 82 C32 30 86 12 116 44 C138 68 136 102 112 118" fill="none" stroke="#FFF6E6" stroke-width="34" stroke-linecap="round"/>
+      <path d="M32 230 L32 82 C32 30 86 12 116 44 C138 68 136 102 112 118" fill="none" stroke="#F27059" stroke-width="16" stroke-dasharray="22 18" stroke-linecap="round"/>
+      <path d="M32 230 L32 82 C32 30 86 12 116 44 C138 68 136 102 112 118" fill="none" stroke="#23313F" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    </g>
+    <g id="flower">
+      <path d="M0 6 C-3 28 -4 48 0 68" fill="none" stroke="#4D8A43" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-2 36 C-24 30 -34 17 -30 7 C-14 7 -4 17 2 28 Z" fill="#79B85A" stroke="#23313F" stroke-width="3.5"/>
+      <g>
+        <circle cx="0" cy="-18" r="15" fill="#FFF6E6" stroke="#23313F" stroke-width="3"/>
+        <circle cx="17" cy="-6" r="15" fill="#FFF6E6" stroke="#23313F" stroke-width="3"/>
+        <circle cx="11" cy="15" r="15" fill="#FFF6E6" stroke="#23313F" stroke-width="3"/>
+        <circle cx="-11" cy="15" r="15" fill="#FFF6E6" stroke="#23313F" stroke-width="3"/>
+        <circle cx="-17" cy="-6" r="15" fill="#FFF6E6" stroke="#23313F" stroke-width="3"/>
+        <circle r="11" fill="#FFC94A" stroke="#23313F" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="lock">
+      <rect x="-15" y="-2" width="30" height="24" rx="6" fill="#FFF6E6" stroke="#23313F" stroke-width="3"/>
+      <path d="M-9 -2 V-9 C-9 -20 9 -20 9 -9 V-2" fill="none" stroke="#23313F" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="0" cy="9" r="3" fill="#23313F"/>
+    </g>
+    <g id="wood-sign">
+      <path d="M22 80 L22 330" stroke="#8B5E3C" stroke-width="16" stroke-linecap="round"/>
+      <path d="M22 80 L22 330" stroke="#B9875B" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-10 36 C-2 8 10 0 30 0 L260 0 C294 0 306 18 306 48 C306 78 292 94 260 94 L30 94 C8 94 -6 82 2 62 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="5"/>
+      <path d="M8 16 C88 8 220 8 288 16" fill="none" stroke="#FFC94A" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+    </g>
+
+    <g id="fox-map">
+      <ellipse cx="130" cy="338" rx="92" ry="13" fill="#23313F" opacity="0.14"/>
+      <path d="M82 250 C28 262 -10 217 4 174 C16 136 62 128 92 153 C116 173 116 215 101 240 C96 248 90 252 82 250 Z" fill="#E88755" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M29 196 C18 181 20 165 31 157 C48 164 60 178 63 194 C54 204 41 205 29 196 Z" fill="#FFF1D8" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M92 270 C88 296 92 312 103 320 L130 320 L130 270 Z" fill="#D97345" stroke="#23313F" stroke-width="4"/>
+      <path d="M170 270 C172 296 176 312 186 320 L211 320 L206 268 Z" fill="#D97345" stroke="#23313F" stroke-width="4"/>
+      <path d="M96 316 q18 11 38 0 q14 8 30 0 l3 8 L94 324 Z" fill="#FFF1D8" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M89 198 C73 230 75 294 94 319 C121 331 185 330 207 316 C222 283 220 231 199 200 C174 178 113 178 89 198 Z" fill="#E88755" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <ellipse cx="148" cy="272" rx="43" ry="44" fill="#FFF1D8" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M95 168 C90 106 125 76 160 76 C197 76 224 107 220 164 C216 211 190 234 158 234 C124 234 100 211 95 168 Z" fill="#E88755" stroke="#23313F" stroke-width="5"/>
+      <path d="M105 116 L84 45 C81 37 90 33 96 40 L139 89 Z" fill="#E88755" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M113 99 L99 66 L124 89 Z" fill="#F6C7B9"/>
+      <path d="M203 90 L232 47 C236 40 245 45 243 53 L233 112 Z" fill="#E88755" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M213 96 L233 68 L229 103 Z" fill="#F6C7B9"/>
+      <ellipse cx="158" cy="176" rx="57" ry="40" fill="#FFF1D8" stroke="#23313F" stroke-width="3.5"/>
+      <ellipse cx="133" cy="148" rx="9" ry="12" fill="#23313F"/>
+      <ellipse cx="185" cy="148" rx="9" ry="12" fill="#23313F"/>
+      <circle cx="130" cy="143" r="3" fill="#FFFDF7"/>
+      <circle cx="182" cy="143" r="3" fill="#FFFDF7"/>
+      <path d="M150 172 q8 -6 16 0 q-8 10 -16 0 Z" fill="#23313F"/>
+      <path d="M158 181 v4 M158 185 q-7 7 -15 1 M158 185 q7 7 15 1" fill="none" stroke="#23313F" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M91 205 C108 222 190 222 212 202 L218 224 C190 245 111 245 85 222 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="4"/>
+      <path d="M92 223 C82 245 84 266 96 281 L119 274 C108 257 110 240 120 227 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M125 224 L178 312" stroke="#8B5E3C" stroke-width="9" stroke-linecap="round"/>
+      <path d="M185 292 L225 301 C230 319 220 334 202 336 L181 329 Z" fill="#2A9D8F" stroke="#23313F" stroke-width="4"/>
+      <path d="M204 310 l4 8 9 1 -7 6 2 9 -8 -4 -8 4 2 -9 -7 -6 9 -1 Z" fill="#FFC94A" stroke="#23313F" stroke-width="2"/>
+    </g>
+    <g id="firefly-map">
+      <circle r="48" fill="#FFE7A0" opacity="0.14"/>
+      <circle r="32" fill="#FFE7A0" opacity="0.22"/>
+      <ellipse cx="-17" cy="-19" rx="20" ry="10" transform="rotate(-30 -17 -19)" fill="#FFFDF7" stroke="#23313F" stroke-width="3.5"/>
+      <ellipse cx="17" cy="-19" rx="20" ry="10" transform="rotate(30 17 -19)" fill="#FFFDF7" stroke="#23313F" stroke-width="3.5"/>
+      <circle r="20" fill="#FFD86B" stroke="#23313F" stroke-width="4"/>
+      <circle cx="-6" cy="-3" r="2.6" fill="#23313F"/>
+      <circle cx="7" cy="-3" r="2.6" fill="#23313F"/>
+      <path d="M-5 6 q6 5 12 0" fill="none" stroke="#23313F" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#sea)"/>
+  <rect width="1920" height="1080" fill="url(#waves)"/>
+  <rect width="1920" height="1080" fill="url(#grain)"/>
+
+  <!-- faint nautical lines -->
+  <g fill="none" stroke="#FFFDF7" stroke-width="2" opacity="0.22">
+    <path d="M0 250 C420 180 700 260 1010 210 C1300 165 1600 220 1920 160"/>
+    <path d="M0 470 C340 420 600 490 880 430 C1190 365 1500 430 1920 370"/>
+    <path d="M0 900 C350 850 700 920 1050 865 C1390 810 1680 860 1920 810"/>
+    <path d="M410 0 C400 220 450 430 420 660 C390 850 430 980 410 1080"/>
+    <path d="M1420 0 C1380 200 1450 350 1420 560 C1390 770 1440 930 1410 1080"/>
+  </g>
+
+  <!-- clouds -->
+  <use href="#cloud" transform="translate(680 60) scale(0.7)" opacity="0.9"/>
+  <use href="#cloud" transform="translate(1160 110) scale(0.52)" opacity="0.8"/>
+  <use href="#cloud" transform="translate(90 270) scale(0.48)" opacity="0.55"/>
+  <use href="#cloud" transform="translate(1460 245) scale(0.43)" opacity="0.5"/>
+
+  <!-- sea life and boats -->
+  <g transform="translate(1010 930) rotate(-8)">
+    <path d="M0 22 L70 22 L52 50 L18 50 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M32 20 L32 -30 L78 12 L32 12" fill="#F27059" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M0 50 q18 10 36 0 q18 10 36 0" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+  </g>
+  <g transform="translate(790 900) scale(0.9)" opacity="0.7">
+    <path d="M0 0 q22 -20 44 0 q-22 20 -44 0 Z" fill="#FFC94A" stroke="#23313F" stroke-width="3.5"/>
+    <circle cx="30" cy="-5" r="3" fill="#23313F"/>
+    <path d="M-8 -4 L-22 -18 M-8 4 L-22 18" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- FOREST ISLAND -->
+  <g>
+    <path d="M80 785 C60 720 120 670 200 660 C254 615 334 630 374 660 C434 615 520 635 552 685 C620 700 654 760 615 805 C568 858 430 880 300 868 C180 858 98 838 80 785 Z" fill="#23313F" opacity="0.14" transform="translate(8 14)"/>
+    <path d="M80 785 C60 720 120 670 200 660 C254 615 334 630 374 660 C434 615 520 635 552 685 C620 700 654 760 615 805 C568 858 430 880 300 868 C180 858 98 838 80 785 Z" fill="url(#forest)" stroke="#23313F" stroke-width="5"/>
+    <path d="M120 744 C180 705 260 718 310 735 C372 708 470 716 540 748 C578 760 600 782 600 802 C542 842 410 854 290 844 C190 836 130 812 120 744 Z" fill="#8BC76D" opacity="0.65"/>
+    <path d="M150 760 C250 738 420 744 550 774" fill="none" stroke="#CDEFF3" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+    <g transform="translate(476 620) scale(0.62)"><use href="#tree"/></g>
+    <g transform="translate(160 698) scale(0.52)"><use href="#tree"/></g>
+    <g transform="translate(356 690) scale(0.4)" opacity="0.9"><use href="#tree"/></g>
+    <g transform="translate(125 790) scale(0.55)"><use href="#flower"/></g>
+    <g transform="translate(556 792) scale(0.62)"><use href="#flower"/></g>
+    <g transform="translate(338 800) scale(0.48)"><use href="#flower"/></g>
+    <path d="M215 800 q12 -24 24 0 q-12 8 -24 0 Z" fill="#F6C7B9" stroke="#23313F" stroke-width="3"/>
+    <path d="M227 800 L227 816" stroke="#23313F" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(490 812)">
+      <path d="M0 0 C10 -24 46 -24 54 2 C32 18 14 18 0 0 Z" fill="#F27059" stroke="#23313F" stroke-width="3"/>
+      <circle cx="22" cy="-3" r="3" fill="#FFF6E6"/>
+      <circle cx="38" cy="-1" r="2.5" fill="#FFF6E6"/>
+    </g>
+  </g>
+
+  <!-- CANDY ISLAND -->
+  <g>
+    <path d="M686 588 C664 520 724 466 800 458 C852 420 928 430 970 466 C1040 432 1120 462 1142 528 C1170 585 1138 648 1058 674 C976 710 818 704 748 664 C700 634 678 616 686 588 Z" fill="#23313F" opacity="0.14" transform="translate(8 14)"/>
+    <path d="M686 588 C664 520 724 466 800 458 C852 420 928 430 970 466 C1040 432 1120 462 1142 528 C1170 585 1138 648 1058 674 C976 710 818 704 748 664 C700 634 678 616 686 588 Z" fill="url(#candy)" stroke="#23313F" stroke-width="5"/>
+    <path d="M730 552 C788 510 886 508 960 530 C1038 500 1104 526 1112 568 C1086 608 1004 622 930 612 C846 600 772 590 730 552 Z" fill="#FBE8D9" opacity="0.7"/>
+    <path d="M756 516 C764 490 790 474 820 478 C842 480 856 494 860 514 C846 534 816 546 786 540 C766 536 756 528 756 516 Z" fill="#F27059" stroke="#23313F" stroke-width="4"/>
+    <path d="M958 500 C974 476 1002 470 1024 482 C1048 494 1054 518 1042 538 C1022 556 986 556 966 538 C954 528 952 512 958 500 Z" fill="#8E7CC3" stroke="#23313F" stroke-width="4"/>
+    <path d="M1018 582 C1028 558 1056 550 1078 562 C1098 574 1104 598 1090 618 C1070 634 1038 630 1022 612 C1012 602 1012 592 1018 582 Z" fill="#FFC94A" stroke="#23313F" stroke-width="4"/>
+    <g transform="translate(742 430) scale(0.7)"><use href="#candy-cane"/></g>
+    <g transform="translate(1100 470) scale(0.52)"><use href="#candy-cane"/></g>
+    <g transform="translate(936 540) scale(0.7)">
+      <path d="M0 0 L0 58" stroke="#FFF6E6" stroke-width="9"/>
+      <circle cx="0" cy="-20" r="40" fill="#FFF6E6" stroke="#23313F" stroke-width="4"/>
+      <path d="M0 -20 m-29 0 a29 29 0 1 1 58 0 a29 29 0 1 1 -58 0" fill="none" stroke="#F27059" stroke-width="11" stroke-dasharray="16 13"/>
+      <path d="M-29 -20 C-14 -38 14 -38 29 -20" fill="none" stroke="#8E7CC3" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(786 625) scale(0.5)"><use href="#flower"/></g>
+    <g transform="translate(1090 630) scale(0.44)"><use href="#flower"/></g>
+  </g>
+
+  <!-- CASTLE ISLAND -->
+  <g>
+    <path d="M1228 790 C1206 720 1248 664 1318 646 C1368 610 1434 625 1468 652 C1524 616 1600 632 1632 684 C1680 710 1692 770 1658 814 C1608 864 1500 890 1400 878 C1300 868 1248 842 1228 790 Z" fill="#23313F" opacity="0.14" transform="translate(8 14)"/>
+    <path d="M1228 790 C1206 720 1248 664 1318 646 C1368 610 1434 625 1468 652 C1524 616 1600 632 1632 684 C1680 710 1692 770 1658 814 C1608 864 1500 890 1400 878 C1300 868 1248 842 1228 790 Z" fill="url(#castle)" stroke="#23313F" stroke-width="5"/>
+    <path d="M1264 770 C1300 714 1380 698 1440 716 C1504 686 1580 706 1618 744 C1642 770 1642 800 1620 824 C1564 852 1460 860 1370 850 C1300 840 1264 810 1264 770 Z" fill="#A89BD3" opacity="0.6"/>
+    <!-- castle towers -->
+    <g transform="translate(1378 566)">
+      <path d="M0 155 L0 60 L112 60 L112 155 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="5"/>
+      <path d="M-10 64 L0 10 L112 10 L122 64 Z" fill="#8E7CC3" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M0 10 L56 -32 L112 10 Z" fill="#F27059" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <rect x="38" y="94" width="36" height="61" rx="18" fill="#8E7CC3" stroke="#23313F" stroke-width="4"/>
+      <path d="M20 82 L30 82 L30 58 L42 58 L42 82 L54 82 L54 58 L66 58 L66 82 L78 82 L78 58 L90 58 L90 82 L102 82" fill="none" stroke="#23313F" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="56" cy="52" r="12" fill="#FFC94A" stroke="#23313F" stroke-width="3"/>
+    </g>
+    <g transform="translate(1514 612) scale(0.76)">
+      <path d="M0 180 L0 74 L88 74 L88 180 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="5"/>
+      <path d="M-9 78 L0 20 L88 20 L98 78 Z" fill="#8E7CC3" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M0 20 L44 -20 L88 20 Z" fill="#FFC94A" stroke="#23313F" stroke-width="5" stroke-linejoin="round"/>
+      <rect x="30" y="108" width="28" height="50" rx="14" fill="#6E5CA6" stroke="#23313F" stroke-width="4"/>
+      <path d="M18 98 L70 98" stroke="#23313F" stroke-width="3"/>
+      <circle cx="44" cy="53" r="10" fill="#FFC94A" stroke="#23313F" stroke-width="3"/>
+    </g>
+    <g transform="translate(1294 638) scale(0.5)">
+      <path d="M0 150 L0 60 L70 60 L70 150 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="5"/>
+      <path d="M-8 64 L0 16 L70 16 L78 64 Z" fill="#8E7CC3" stroke="#23313F" stroke-width="5"/>
+      <path d="M0 16 L35 -18 L70 16 Z" fill="#F27059" stroke="#23313F" stroke-width="5"/>
+      <circle cx="35" cy="42" r="9" fill="#FFC94A" stroke="#23313F" stroke-width="3"/>
+    </g>
+    <g fill="#FFC94A" stroke="#23313F" stroke-width="2" opacity="0.9">
+      <path d="M1588 600 l4 12 13 1 -10 9 3 13 -11 -7 -11 7 3 -13 -10 -9 13 -1 Z"/>
+      <path d="M1330 710 l3 9 10 1 -8 7 2 10 -8 -5 -8 5 2 -10 -8 -7 10 -1 Z"/>
+    </g>
+  </g>
+
+  <!-- LIGHTHOUSE ISLAND -->
+  <g>
+    <path d="M1650 452 C1636 396 1678 350 1738 346 C1790 314 1852 340 1864 390 C1884 426 1860 474 1810 490 C1742 512 1666 500 1650 452 Z" fill="#23313F" opacity="0.14" transform="translate(8 12)"/>
+    <path d="M1650 452 C1636 396 1678 350 1738 346 C1790 314 1852 340 1864 390 C1884 426 1860 474 1810 490 C1742 512 1666 500 1650 452 Z" fill="url(#rock)" stroke="#23313F" stroke-width="5"/>
+    <path d="M1680 432 C1710 402 1766 398 1810 414 C1834 422 1844 438 1838 452 C1800 470 1744 474 1704 462 C1682 456 1672 446 1680 432 Z" fill="#A6C96D" opacity="0.8"/>
+    <g transform="translate(1699 174) scale(0.82)"><use href="#lighthouse"/></g>
+    <g transform="translate(1662 470) scale(0.56)"><use href="#flower"/></g>
+    <g transform="translate(1850 450) scale(0.4)"><use href="#flower"/></g>
+  </g>
+
+  <!-- world signs -->
+  <g transform="translate(132 520)">
+    <use href="#wood-sign"/>
+    <g transform="translate(48 48)">
+      <circle r="22" fill="#79B85A" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M0 -12 C10 -8 18 2 18 14 C8 16 0 8 0 -2 C0 8 -8 16 -18 14 C-18 2 -10 -8 0 -12 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="2.5"/>
+    </g>
+    <text x="82" y="46" class="title-cn" font-size="42" fill="#23313F">青芽森林</text>
+    <text x="82" y="76" class="body" font-size="24" fill="#23313F" opacity="0.65">第 1–3 关 · 数一数</text>
+  </g>
+
+  <g transform="translate(772 308)">
+    <use href="#wood-sign"/>
+    <g transform="translate(48 48)">
+      <circle r="22" fill="#F27059" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M-12 -8 L8 -16 C18 -19 22 -8 14 -3 L-4 6 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="2.5"/>
+      <path d="M-16 2 L4 12 L24 4" fill="none" stroke="#FFF6E6" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="82" y="46" class="title-cn" font-size="42" fill="#23313F">糖果镇</text>
+    <text x="82" y="76" class="body" font-size="24" fill="#23313F" opacity="0.65">第 4–6 关 · 数字与数量</text>
+  </g>
+
+  <g transform="translate(1298 500)">
+    <use href="#wood-sign"/>
+    <g transform="translate(48 48)">
+      <circle r="22" fill="#8E7CC3" stroke="#23313F" stroke-width="3.5"/>
+      <path d="M-14 10 C-10 -8 8 -16 16 -2 C20 6 12 16 0 17 C-4 17 -10 15 -14 10 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="2.5"/>
+      <circle cx="-2" cy="4" r="3" fill="#23313F"/>
+      <circle cx="8" cy="4" r="3" fill="#23313F"/>
+      <path d="M0 9 q5 4 10 0" fill="none" stroke="#23313F" stroke-width="2"/>
+    </g>
+    <text x="82" y="46" class="title-cn" font-size="42" fill="#23313F">星光城堡</text>
+    <text x="82" y="76" class="body" font-size="24" fill="#23313F" opacity="0.65">第 7–9 关 · 逻辑与顺序</text>
+  </g>
+
+  <g transform="translate(1618 146)">
+    <path d="M20 42 L20 140" stroke="#8B5E3C" stroke-width="10" stroke-linecap="round"/>
+    <rect x="-8" y="0" width="220" height="70" rx="22" fill="#FFF6E6" stroke="#23313F" stroke-width="4"/>
+    <text x="26" y="43" class="title-cn" font-size="32" fill="#23313F">星光灯塔</text>
+    
+  </g>
+
+  <!-- trail -->
+  <path d="M250 800 C300 760 350 728 415 712 C470 698 540 740 575 790 C628 802 694 682 755 602 C804 552 850 618 930 668 C1000 710 1058 600 1120 548 C1180 610 1218 730 1270 790 C1338 804 1380 742 1430 706 C1492 678 1542 730 1592 790 C1634 696 1674 568 1690 478" fill="none" stroke="#FFF6E6" stroke-width="20" stroke-linecap="round" opacity="0.92"/>
+  <path d="M250 800 C300 760 350 728 415 712 C470 698 540 740 575 790 C628 802 694 682 755 602 C804 552 850 618 930 668 C1000 710 1058 600 1120 548 C1180 610 1218 730 1270 790 C1338 804 1380 742 1430 706 C1492 678 1542 730 1592 790 C1634 696 1674 568 1690 478" fill="none" stroke="#8B5E3C" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 18"/>
+
+  <!-- completed level nodes 1-4 -->
+  <g transform="translate(250 800)">
+    <circle r="69" fill="#23313F" opacity="0.16" transform="translate(7 10)"/>
+    <circle r="67" fill="#FFD76E" stroke="#23313F" stroke-width="6"/>
+    <circle r="51" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.75"/>
+    <text x="0" y="17" text-anchor="middle" class="num" font-size="46" fill="#23313F">1</text>
+    <g transform="translate(0 90)"><use href="#tiny-star" transform="scale(1.25)"/></g>
+  </g>
+  <g transform="translate(415 712)">
+    <circle r="69" fill="#23313F" opacity="0.16" transform="translate(7 10)"/>
+    <circle r="67" fill="#FFD76E" stroke="#23313F" stroke-width="6"/>
+    <circle r="51" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.75"/>
+    <text x="0" y="17" text-anchor="middle" class="num" font-size="46" fill="#23313F">2</text>
+    <g transform="translate(0 90)"><use href="#tiny-star" transform="scale(1.25)"/></g>
+  </g>
+  <g transform="translate(575 790)">
+    <circle r="69" fill="#23313F" opacity="0.16" transform="translate(7 10)"/>
+    <circle r="67" fill="#FFD76E" stroke="#23313F" stroke-width="6"/>
+    <circle r="51" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.75"/>
+    <text x="0" y="17" text-anchor="middle" class="num" font-size="46" fill="#23313F">3</text>
+    <g transform="translate(0 90)"><use href="#tiny-star" transform="scale(1.25)"/></g>
+  </g>
+  <g transform="translate(755 602)">
+    <circle r="69" fill="#23313F" opacity="0.16" transform="translate(7 10)"/>
+    <circle r="67" fill="#FFD76E" stroke="#23313F" stroke-width="6"/>
+    <circle r="51" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.75"/>
+    <text x="0" y="17" text-anchor="middle" class="num" font-size="46" fill="#23313F">4</text>
+    <g transform="translate(0 90)"><use href="#tiny-star" transform="scale(1.25)"/></g>
+  </g>
+
+  <!-- current node 5 -->
+  <g transform="translate(930 668)">
+    <circle r="100" fill="#FFF6E6" opacity="0.62"/>
+    <circle r="92" fill="#FFC94A" stroke="#23313F" stroke-width="6"/>
+    <circle r="72" fill="#FFFDF7" stroke="#23313F" stroke-width="5"/>
+    <circle r="56" fill="#FFD76E" stroke="#23313F" stroke-width="3"/>
+    <text x="0" y="21" text-anchor="middle" class="num" font-size="62" fill="#23313F">5</text>
+    <g transform="translate(0 130)">
+      <path d="M-22 0 L0 16 L22 0" fill="none" stroke="#FFF6E6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-22 0 L0 16 L22 0" fill="none" stroke="#23313F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(0 -114)">
+      <rect x="-54" y="-20" width="108" height="40" rx="20" fill="#F27059" stroke="#23313F" stroke-width="4"/>
+      <text x="0" y="9" text-anchor="middle" class="body" font-size="24" fill="#FFF6E6">继续</text>
+    </g>
+  </g>
+
+  <!-- current characters -->
+  <g transform="translate(1004 586) scale(0.62)"><use href="#fox-map"/></g>
+  <g transform="translate(1098 590)"><use href="#firefly-map"/></g>
+
+  <!-- current label -->
+  <g transform="translate(700 808)">
+    <path d="M228 -14 L250 8 L206 8 Z" fill="#FFFDF7" stroke="#23313F" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="7" y="9" width="476" height="88" rx="26" fill="#23313F" opacity="0.14"/>
+    <rect x="0" y="0" width="476" height="88" rx="26" fill="#FFFDF7" stroke="#23313F" stroke-width="4"/>
+    <text x="30" y="38" class="title-cn" font-size="32" fill="#23313F">第 5 关 · 装糖果</text>
+    <text x="30" y="68" class="body" font-size="22" fill="#23313F" opacity="0.68">按 OK，帮糖糖装糖果</text>
+  </g>
+
+  <!-- locked nodes 6-10 -->
+  <g transform="translate(1120 548)">
+    <circle r="66" fill="#23313F" opacity="0.12" transform="translate(7 10)"/>
+    <circle r="64" fill="#D8D8CB" stroke="#23313F" stroke-width="4" opacity="0.92"/>
+    <text x="0" y="-7" text-anchor="middle" class="num" font-size="42" fill="#23313F" opacity="0.5">6</text>
+    <g transform="translate(0 27) scale(0.72)" opacity="0.72"><use href="#lock"/></g>
+  </g>
+  <g transform="translate(1270 790)">
+    <circle r="66" fill="#23313F" opacity="0.12" transform="translate(7 10)"/>
+    <circle r="64" fill="#D8D8CB" stroke="#23313F" stroke-width="4" opacity="0.92"/>
+    <text x="0" y="-7" text-anchor="middle" class="num" font-size="42" fill="#23313F" opacity="0.5">7</text>
+    <g transform="translate(0 27) scale(0.72)" opacity="0.72"><use href="#lock"/></g>
+  </g>
+  <g transform="translate(1430 706)">
+    <circle r="66" fill="#23313F" opacity="0.12" transform="translate(7 10)"/>
+    <circle r="64" fill="#D8D8CB" stroke="#23313F" stroke-width="4" opacity="0.92"/>
+    <text x="0" y="-7" text-anchor="middle" class="num" font-size="42" fill="#23313F" opacity="0.5">8</text>
+    <g transform="translate(0 27) scale(0.72)" opacity="0.72"><use href="#lock"/></g>
+  </g>
+  <g transform="translate(1592 790)">
+    <circle r="66" fill="#23313F" opacity="0.12" transform="translate(7 10)"/>
+    <circle r="64" fill="#D8D8CB" stroke="#23313F" stroke-width="4" opacity="0.92"/>
+    <text x="0" y="-7" text-anchor="middle" class="num" font-size="42" fill="#23313F" opacity="0.5">9</text>
+    <g transform="translate(0 27) scale(0.72)" opacity="0.72"><use href="#lock"/></g>
+  </g>
+  <g transform="translate(1690 478)">
+    <circle r="54" fill="#23313F" opacity="0.14" transform="translate(7 10)"/>
+    <circle r="52" fill="#D8D8CB" stroke="#23313F" stroke-width="4" opacity="0.94"/>
+    <text x="0" y="-7" text-anchor="middle" class="num" font-size="31" fill="#23313F" opacity="0.5">10</text>
+    <g transform="translate(0 22) scale(0.58)" opacity="0.72"><use href="#lock"/></g>
+  </g>
+
+  <!-- tiny trail stars -->
+  <g opacity="0.9">
+    <g transform="translate(345 758) scale(0.55)"><use href="#star"/></g>
+    <g transform="translate(505 786) scale(0.45)"><use href="#star"/></g>
+    <g transform="translate(690 750) scale(0.5)"><use href="#star"/></g>
+    <g transform="translate(1014 650) scale(0.42)"><use href="#star"/></g>
+    <g transform="translate(1190 674) scale(0.42)"><use href="#star"/></g>
+    <g transform="translate(1384 792) scale(0.42)"><use href="#star"/></g>
+    <g transform="translate(1540 794) scale(0.42)"><use href="#star"/></g>
+  </g>
+
+  <!-- compass -->
+  <g transform="translate(148 924)" opacity="0.9">
+    <circle r="54" fill="#FFF6E6" stroke="#23313F" stroke-width="4" opacity="0.85"/>
+    <circle r="42" fill="none" stroke="#23313F" stroke-width="2" opacity="0.4"/>
+    <path d="M0 -38 L10 -6 L38 0 L10 6 L0 38 L-10 6 L-38 0 L-10 -6 Z" fill="#F27059" stroke="#23313F" stroke-width="3"/>
+    <path d="M0 -38 L0 38 M-38 0 L38 0" stroke="#23313F" stroke-width="2" opacity="0.35"/>
+    <text x="0" y="-62" text-anchor="middle" class="body" font-size="22" fill="#23313F" opacity="0.65">北</text>
+  </g>
+
+  <!-- HUD title -->
+  <g>
+    <text x="96" y="130" class="title-cn" font-size="72" fill="#FFF6E6" stroke="#23313F" stroke-width="12" paint-order="stroke" stroke-linejoin="round">星光航线</text>
+    <text x="96" y="130" class="title-cn" font-size="72" fill="#FFF6E6">星光航线</text>
+    <text x="102" y="176" class="body" font-size="28" fill="#23313F" opacity="0.7">和点点一起，收集 10 颗数字星</text>
+    <path d="M100 194 q140 -10 280 0" fill="none" stroke="#F27059" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- star counter -->
+  <g transform="translate(1510 40)">
+    <rect x="0" y="0" width="306" height="84" rx="42" fill="#FFFDF7" stroke="#23313F" stroke-width="4"/>
+    <g transform="translate(52 42) scale(1.1)"><use href="#star"/></g>
+    <text x="92" y="56" class="num" font-size="40" fill="#23313F">4 / 10</text>
+  </g>
+
+  <!-- footer -->
+  <g transform="translate(280 1002)" opacity="0.9">
+    <rect x="0" y="0" width="48" height="40" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+    <path d="M28 20 L18 20 M22 14 L16 20 L22 26" fill="none" stroke="#23313F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="56" y="0" width="48" height="40" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+    <path d="M76 20 L86 20 M82 14 L88 20 L82 26" fill="none" stroke="#23313F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="120" y="28" class="body" font-size="28" fill="#23313F">选择</text>
+    <rect x="236" y="0" width="58" height="40" rx="20" fill="#FFC94A" stroke="#23313F" stroke-width="3"/>
+    <text x="265" y="27" text-anchor="middle" class="num" font-size="20" fill="#23313F">OK</text>
+    <text x="310" y="28" class="body" font-size="28" fill="#23313F">开始</text>
+    <rect x="440" y="0" width="48" height="40" rx="10" fill="#FFFDF7" stroke="#23313F" stroke-width="3"/>
+    <text x="464" y="28" text-anchor="middle" class="num" font-size="20" fill="#23313F">↩</text>
+    <text x="506" y="28" class="body" font-size="28" fill="#23313F">回首页</text>
+  </g>
+  <g transform="translate(1540 1000)" opacity="0.8">
+    <path d="M22 6 C8 6 0 18 0 31 L0 47 L12 47 L12 57 L23 47 L34 47 L34 33 L44 33 L44 20 C44 11 35 6 22 6 Z" fill="#FFF6E6" stroke="#23313F" stroke-width="3" opacity="0.7"/>
+    <circle cx="22" cy="24" r="3" fill="#23313F"/>
+    <path d="M22 28 L22 36" stroke="#23313F" stroke-width="3" stroke-linecap="round"/>
+    <text x="58" y="38" class="body" font-size="24" fill="#23313F">家长：长按返回键</text>
+  </g>
+
+  <rect width="1920" height="1080" fill="url(#grain)" opacity="0.6"/>
+</svg>
